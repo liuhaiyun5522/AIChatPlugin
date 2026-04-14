@@ -1,0 +1,862 @@
+2026-04-14 15:23:53,604 [      2]   INFO - #c.i.p.i.b.AppStarter - ------------------------------------------------------ IDE STARTED ------------------------------------------------------
+2026-04-14 15:23:53,619 [     17]   INFO - #c.i.i.p.PluginManager - Using broken plugins file from IDE distribution
+2026-04-14 15:23:53,647 [     45]   INFO - #c.i.u.i.PageCacheUtils - File page caching params:
+2026-04-14 15:23:53,648 [     46]   INFO - #c.i.u.i.PageCacheUtils - 	DEFAULT_PAGE_SIZE: 10485760
+2026-04-14 15:23:53,649 [     47]   INFO - #c.i.u.i.PageCacheUtils - 	Direct memory to use, max: 1556086784
+2026-04-14 15:23:53,649 [     47]   INFO - #c.i.u.i.PageCacheUtils - 	FilePageCache: regular + lock-free (LOCK_FREE_PAGE_CACHE_ENABLED:true)
+2026-04-14 15:23:53,649 [     47]   INFO - #c.i.u.EnvironmentUtil - loading shell env: /bin/zsh -l -i -c '/Users/liuhaiyun/.gradle/caches/9.2.1/transforms/5e460e4a8b53d653d356ce22ebd9f343/transformed/pycharm-community-2024.1-aarch64/bin/printenv' > '/var/folders/7k/sfyc7__d5h55m12y8279fqrw0000gn/T/ij-env-tmp-dir4166387544084365298/ij-shell-env-data.tmp'
+2026-04-14 15:23:53,650 [     48]   INFO - #c.i.u.i.PageCacheUtils - 	NEW_PAGE_CACHE_MEMORY_FRACTION: 0.20000000298023224
+2026-04-14 15:23:53,650 [     48]   INFO - #c.i.u.i.PageCacheUtils - 	Regular FilePageCache: 503316478 bytes
+2026-04-14 15:23:53,650 [     48]   INFO - #c.i.u.i.PageCacheUtils - 	New     FilePageCache: 125829122 bytes (+ up to 10.0% overflow)
+2026-04-14 15:23:53,650 [     48]   INFO - #c.i.u.i.PageCacheUtils - 	DirectByteBuffers pool: 104857600 bytes
+2026-04-14 15:23:53,721 [    119]   INFO - #c.i.p.i.b.AppStarter - JNA library (64-bit) loaded in 84 ms
+2026-04-14 15:23:53,723 [    121]   INFO - #c.i.p.i.b.AppStarter - IDE: PyCharm (build #PC-241.14494.241, Thu, 28 Mar 2024 10:10:00 GMT)
+2026-04-14 15:23:53,723 [    121]   INFO - #c.i.p.i.b.AppStarter - OS: Mac OS X (15.5)
+2026-04-14 15:23:53,724 [    122]   INFO - #c.i.p.i.b.AppStarter - JRE: 17.0.10+8-b1207.12, aarch64 (JetBrains s.r.o.)
+2026-04-14 15:23:53,724 [    122]   INFO - #c.i.p.i.b.AppStarter - JVM: 17.0.10+8-b1207.12 (OpenJDK 64-Bit Server VM)
+2026-04-14 15:23:53,725 [    123]   INFO - #c.i.p.i.b.AppStarter - PID: 20435
+2026-04-14 15:23:53,746 [    144]   INFO - #c.i.i.p.PluginManager - PluginDescriptor(name=AI Chat Assistant, id=com.ji.aichat, descriptorPath=plugin.xml, path=~/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/plugins/AIChatPlugin, version=1.0.0, package=null, isBundled=false) overrides PluginDescriptor(name=AI Chat Assistant, id=com.ji.aichat, descriptorPath=plugin.xml, path=~/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/plugins/AIChatPlugin, version=1.0.0, package=null, isBundled=false)
+2026-04-14 15:23:53,759 [    157]   INFO - #c.i.p.i.b.AppStarter - JVM options: [-Daether.connector.resumeDownloads=false, -Dapple.awt.application.appearance=system, -Dapple.awt.fileDialogForDirectories=true, -Dapple.laf.useScreenMenuBar=true, -Dide.native.launcher=false, -Dide.no.platform.update=false, -Dide.show.tips.on.startup.default.value=false, -Didea.auto.reload.plugins=true, -Didea.classpath.index.enabled=false, -Didea.config.path=/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/config, -Didea.is.internal=true, -Didea.log.path=/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/log, -Didea.paths.selector=PyCharmCE2024.1, -Didea.platform.prefix=PyCharmCore, -Didea.plugin.in.sandbox.mode=true, -Didea.plugins.path=/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/plugins, -Didea.required.plugins.id=com.ji.aichat, -Didea.smooth.progress=false, -Didea.system.path=/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system, -Didea.vendor.name=JetBrains, -Dintellij.platform.runtime.repository.path=/Users/liuhaiyun/.gradle/caches/9.2.1/transforms/5e460e4a8b53d653d356ce22ebd9f343/transformed/pycharm-community-2024.1-aarch64/modules/module-descriptors.jar, -Djava.system.class.loader=com.intellij.util.lang.PathClassLoader, -Djbr.catch.SIGABRT=true, -Djdk.attach.allowAttachSelf=true, -Djdk.http.auth.tunneling.disabledSchemes="", -Djdk.module.illegalAccess.silent=true, -Djna.boot.library.path=/Users/liuhaiyun/.gradle/caches/9.2.1/transforms/5e460e4a8b53d653d356ce22ebd9f343/transformed/pycharm-community-2024.1-aarch64/lib/jna/aarch64, -Djna.noclasspath=true, -Djna.nosys=true, -Dplugin.path=/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/plugins/AIChatPlugin, -Dpty4j.preferred.native.folder=/Users/liuhaiyun/.gradle/caches/9.2.1/transforms/5e460e4a8b53d653d356ce22ebd9f343/transformed/pycharm-community-2024.1-aarch64/lib/pty4j, -Dsplash=true, -Dsun.io.useCanonCaches=false, -Dsun.java2d.metal=true, -XX:+HeapDumpOnOutOfMemoryError, -XX:-OmitStackTraceInFastThrow, -XX:+IgnoreUnrecognizedVMOptions, -XX:CICompilerCount=2, -XX:ReservedCodeCacheSize=512m, -XX:CompileCommand=exclude,com/intellij/openapi/vfs/impl/FilePartNodeRoot,trieDescend, -XX:SoftRefLRUPolicyMSPerMB=50, --add-opens=java.base/java.io=ALL-UNNAMED, --add-opens=java.base/java.lang=ALL-UNNAMED, --add-opens=java.base/java.lang.ref=ALL-UNNAMED, --add-opens=java.base/java.lang.reflect=ALL-UNNAMED, --add-opens=java.base/java.net=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.base/java.nio.charset=ALL-UNNAMED, --add-opens=java.base/java.text=ALL-UNNAMED, --add-opens=java.base/java.time=ALL-UNNAMED, --add-opens=java.base/java.util=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent.locks=ALL-UNNAMED, --add-opens=java.base/jdk.internal.vm=ALL-UNNAMED, --add-opens=java.base/sun.nio.ch=ALL-UNNAMED, --add-opens=java.base/sun.nio.fs=ALL-UNNAMED, --add-opens=java.base/sun.security.ssl=ALL-UNNAMED, --add-opens=java.base/sun.security.util=ALL-UNNAMED, --add-opens=java.base/sun.net.dns=ALL-UNNAMED, --add-opens=java.desktop/com.apple.eawt=ALL-UNNAMED, --add-opens=java.desktop/com.apple.eawt.event=ALL-UNNAMED, --add-opens=java.desktop/com.apple.laf=ALL-UNNAMED, --add-opens=java.desktop/java.awt=ALL-UNNAMED, --add-opens=java.desktop/java.awt.dnd.peer=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-opens=java.desktop/java.awt.image=ALL-UNNAMED, --add-opens=java.desktop/java.awt.peer=ALL-UNNAMED, --add-opens=java.desktop/java.awt.font=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.text=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.text.html=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.datatransfer=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.image=ALL-UNNAMED, --add-opens=java.desktop/sun.awt=ALL-UNNAMED, --add-opens=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.java2d=ALL-UNNAMED, --add-opens=java.desktop/sun.lwawt=ALL-UNNAMED, --add-opens=java.desktop/sun.lwawt.macosx=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/com.sun.java.swing=ALL-UNNAMED, --add-opens=jdk.attach/sun.tools.attach=ALL-UNNAMED, --add-opens=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED, --add-opens=jdk.internal.jvmstat/sun.jvmstat.monitor=ALL-UNNAMED, --add-opens=jdk.jdi/com.sun.tools.jdi=ALL-UNNAMED, -Xms256m, -Xmx1500m, -Dfile.encoding=UTF-8, -Duser.country=CN, -Duser.language=zh, -Duser.variant, -ea]
+2026-04-14 15:23:53,760 [    158]   INFO - #c.i.p.i.b.AppStarter - args: 
+2026-04-14 15:23:53,760 [    158]   INFO - #c.i.p.i.b.AppStarter - library path: /Users/liuhaiyun/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+2026-04-14 15:23:53,760 [    158]   INFO - #c.i.p.i.b.AppStarter - boot library path: /Users/liuhaiyun/.gradle/caches/9.2.1/transforms/5e460e4a8b53d653d356ce22ebd9f343/transformed/pycharm-community-2024.1-aarch64/jbr/Contents/Home/lib
+2026-04-14 15:23:53,762 [    160]   INFO - #c.i.i.p.PluginManager - Module intellij.searchEverywhereMl.semantics.kotlin is not enabled because dependency org.jetbrains.kotlin is not available
+Module intellij.searchEverywhereMl.semantics.java is not enabled because dependency com.intellij.java is not available
+Module intellij.qt.clion is not enabled because dependency com.intellij.clion is not available
+Module intellij.grazie.java is not enabled because dependency com.intellij.java is not available
+Module intellij.python.community.plugin.impl is not enabled because dependency com.intellij.modules.python-in-non-pycharm-ide-capable is not available
+Module intellij.python.community.plugin.minor.rider is not enabled because dependency intellij.python.community.plugin.impl is not available
+Module intellij.python.community.plugin.minor is not enabled because dependency intellij.python.community.plugin.impl is not available
+Module intellij.python.community.plugin.java is not enabled because dependency intellij.python.community.plugin.impl is not available
+Module intellij.groovy.dev is not enabled because dependency org.intellij.groovy is not available
+Module intellij.kotlin.dev is not enabled because dependency org.jetbrains.kotlin is not available
+Module intellij.java.dev is not enabled because dependency com.intellij.java is not available
+Module intellij.qodana.jvm.coverage is not enabled because dependency com.intellij.java is not available
+Module intellij.qodana.jvm.swagger is not enabled because dependency com.intellij.swagger is not available
+Module intellij.qodana.jvm.maven is not enabled because dependency org.jetbrains.idea.maven is not available
+Module intellij.qodana.jvm.java is not enabled because dependency com.intellij.java is not available
+Module intellij.qodana.jvm.kotlin is not enabled because dependency org.jetbrains.kotlin is not available
+Module intellij.qodana.jvm.groovy is not enabled because dependency org.intellij.groovy is not available
+Module intellij.qodana.jvm.gradle is not enabled because dependency com.intellij.gradle is not available
+Module intellij.qodana.jvm.dev is not enabled because dependency intellij.java.dev is not available
+Module intellij.qodana.python is not enabled because dependency intellij.python is not available
+Module intellij.qodana.php is not enabled because dependency com.jetbrains.php is not available
+Module intellij.qodana.js is not enabled because dependency JavaScript is not available
+Module intellij.qodana.inspectionKts.kotlin is not enabled because dependency org.jetbrains.kotlin is not available
+Module intellij.qodana.inspectionKts.js is not enabled because dependency JavaScript is not available
+Module intellij.qodana.go is not enabled because dependency intellij.go.coverage is not available
+Module intellij.packageChecker.php is not enabled because dependency com.jetbrains.php is not available
+Module intellij.packageChecker.javascript is not enabled because dependency JavaScript is not available
+Module intellij.packageChecker.java is not enabled because dependency com.intellij.java is not available
+Module intellij.packageChecker.maven is not enabled because dependency intellij.packageChecker.java is not available
+Module intellij.packageChecker.gradle is not enabled because dependency intellij.packageChecker.maven is not available
+Module intellij.packageChecker.go is not enabled because dependency org.jetbrains.plugins.go is not available
+Module intellij.cwm.plugin.elevation is not enabled because dependency intellij.execution.process.elevation is not available
+Module intellij.performanceTesting.async.core is not enabled because dependency intellij.profiler.asyncOne is not available
+2026-04-14 15:23:53,764 [    162]   INFO - #c.i.p.i.b.AppStarter - locale=zh_CN_#Hans JNU=UTF-8 file.encoding=UTF-8
+    idea.config.path=/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/config
+    idea.system.path=/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system
+    idea.plugins.path=/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/plugins
+    idea.log.path=/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/log
+2026-04-14 15:23:53,766 [    164]   INFO - #c.i.p.i.b.AppStarter - CPU cores: 8; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@6f9b6128[Running, parallelism = 7, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@57281b23
+2026-04-14 15:23:53,771 [    169]   INFO - #c.i.i.p.PluginManager - Loaded bundled plugins: IDEA CORE (241.14494.241), GitHub Color Scheme (241.14494.241), IntelliLang (241.14494.241), TextMate Bundles (241.14494.241), Images (241.14494.241), Copyright (241.14494.241), Machine Learning Code Completion (241.14494.241), Monokai Color Scheme (241.14494.241), EditorConfig (241.14494.241), IDE Services / Provisioner API (241.14494.241), Toml (241.14494.241), Machine Learning in Search Everywhere (241.14494.241), YAML (241.14494.241), Performance Testing (241.14494.241), Twilight Color Scheme (241.14494.241), Qt (241.14494.241), WarmNeon Color Scheme (241.14494.241), Markdown (241.14494.241), Terminal (241.14494.241), Task Management (241.14494.241), Mercurial (241.14494.241), Properties (241.14494.241), Grazie Lite (241.14494.241), Python Community Edition (241.14494.241), PyCharm Community Customization (241.14494.241), JetBrains Marketplace Licensing (241.14494.241), com.intellij.dev (241.14494.241), Settings Sync (241.14494.241), GitHub (241.14494.241), GitLab (241.14494.241), Git (241.14494.241), Qodana (241.14494.241), IDE Features Trainer (241.14494.241), Configuration Script (241.14494.241), Shared Indexes (241.14494.241), Shared Indexes for Python (241.14494.241), Subversion (241.14494.241), Package Checker (241.14494.241), Code With Me (241.14494.241), Shell Script (241.14494.241), Async Profiler for IDE Performance Testing (241.14494.241)
+2026-04-14 15:23:53,785 [    183]   INFO - #c.i.i.p.PluginManager - Loaded custom plugins: AI Chat Assistant (1.0.0)
+2026-04-14 15:23:54,989 [   1387]   INFO - c.i.p.i.IdeFingerprint - Calculated dependencies fingerprint in 7 ms (hash=oz5ly3asrznh, buildTime=1711620600, appVersion=PC-241.14494.241)
+2026-04-14 15:23:55,053 [   1451]   INFO - #c.i.a.o.PathMacrosImpl - Loaded path macros: {}
+2026-04-14 15:23:55,055 [   1453]   INFO - #c.i.o.v.n.p.FSRecords - VFS health-check enabled: first after 600000 ms, and each following 43200000 ms, wrap in RA: true
+2026-04-14 15:23:55,073 [   1471]   INFO - #c.i.o.v.n.p.PersistentFSLoader - VFS uses 'fast' names enumerator (over mmapped file)
+2026-04-14 15:23:55,073 [   1471]   INFO - #c.i.o.v.n.p.PersistentFSLoader - VFS uses streamlined attributes storage (over mmapped file)
+2026-04-14 15:23:55,079 [   1477]   INFO - #c.i.o.v.n.p.PersistentFSLoader - VFS uses content storage over memory-mapped file, with compression algo: LZ4[ > 8000b ]
+2026-04-14 15:23:55,125 [   1523]   INFO - #c.i.s.m.SettingsRepositoryToSettingsSyncMigration - No data from settingsRepository in 'settingsRepository' folder => no migration needed
+2026-04-14 15:23:55,329 [   1727]   WARN - #c.i.s.ComponentManagerImpl - com.intellij.sh.ShLanguage <clinit> requests com.intellij.notification.NotificationGroupManager instance. Class initialization must not depend on services. Consider using instance of the service on-demand instead.
+2026-04-14 15:23:55,762 [   2160]   INFO - #c.i.i.p.ExpiredPluginsState - Plugins to skip: []
+2026-04-14 15:23:55,792 [   2190]   INFO - #c.i.o.a.Experiments - Experimental feature 'terminal.shell.command.handling' is now turned OFF
+2026-04-14 15:23:55,904 [   2302]   INFO - #c.i.u.m.s.Menu - use new ScreenMenuBar implementation
+2026-04-14 15:23:55,935 [   2333]   WARN - #c.i.o.a.Application - No URL bundle (CFBundleURLTypes) is defined in the main bundle.
+To be able to open external links, specify protocols in the app layout section of the build file.
+Example: args.urlSchemes = ["your-protocol"] will handle following links: your-protocol://open?file=file&line=line
+2026-04-14 15:23:56,021 [   2419]   INFO - #o.j.i.BuiltInServerManager - built-in server started, port 63344
+2026-04-14 15:23:56,367 [   2765]   INFO - #c.i.u.n.s.CertificateManager - Default SSL context initialized
+2026-04-14 15:23:56,617 [   3015]   INFO - #c.i.o.v.n.p.PersistentFSLoader - VFS: impl (expected) version=846397, 0 file records, 0 content blobs
+2026-04-14 15:23:56,625 [   3023]   INFO - #c.i.o.v.n.p.FSRecordsImpl - VFS scanned: file-by-name index was populated
+2026-04-14 15:23:56,626 [   3024]   INFO - #c.i.o.v.n.p.FSRecordsImpl - VFS initialized: 1555 ms, 0 failed attempts, 0 error(s) were recovered
+2026-04-14 15:23:56,643 [   3041]   INFO - #c.i.o.v.i.l.NativeFileWatcherImpl - Starting file watcher: /Users/liuhaiyun/.gradle/caches/9.2.1/transforms/5e460e4a8b53d653d356ce22ebd9f343/transformed/pycharm-community-2024.1-aarch64/bin/fsnotifier
+2026-04-14 15:23:56,647 [   3045]   INFO - #c.i.h.u.LocalHistoryLog - local history version mismatch (was: 0, expected: 7), rebuilding...
+2026-04-14 15:23:56,647 [   3045]   INFO - #c.i.h.u.LocalHistoryLog - FS has been rebuild, rebuilding local history...
+2026-04-14 15:23:56,676 [   3074]   INFO - #c.i.o.v.i.l.NativeFileWatcherImpl - Native file watcher is operational.
+2026-04-14 15:23:56,716 [   3114]   INFO - #c.i.i.s.p.i.SharedIndexMainZipStorage - Shared Indexes Storage is opened and empty
+2026-04-14 15:23:57,068 [   3466]   WARN - #c.i.i.u.l.LafManagerImpl - VersionControl.Log.Commit.rowHeight = null in LookAndFeelThemeAdapter; it may lead to performance degradation
+2026-04-14 15:23:57,100 [   3498]   INFO - #c.i.o.f.i.FileTypeManagerImpl - File types changed: ignored files list updated: *.pyc;*.pyo;*.rbc;*.yarb;*~;.DS_Store;.git;.hg;.mypy_cache;.pytest_cache;.ruff_cache;.svn;CVS;__pycache__;_svn;vssver.scc;vssver2.scc;*$py.class. Caused by plugin 'com.jetbrains.pycharm.community.customization'.
+2026-04-14 15:23:57,105 [   3503]   INFO - #c.i.u.i.FileBasedIndexImpl - Indices to be built:xmlProperties(v = 2),html5.custom.attributes.index(v = 1),IdIndex(v = 22),editorconfig.index.name(v = 5),Stubs(v = 46),fileIncludes(v = 6),FilenameIndex(v = 258),Trigram.Index(v = 4),XmlTagNames(v = 1),XmlNamespaces(v = 8),SchemaTypeInheritance(v = 2),FrameworkDetectionIndex(v = 65536),TodoIndex(v = 13),RelaxSymbolIndex(v = 0),Py.module.name(v = 0),DomFileIndex(v = 0),Py.setuptools.namespace(v = 0),json.file.root.values(v = 5),yaml.keys.name(v = 1),filetypes(v = 4096)
+2026-04-14 15:23:57,109 [   3507]   INFO - #c.i.u.i.FileBasedIndexImpl - Using nice flusher for indexes
+2026-04-14 15:23:57,127 [   3525]   INFO - #c.i.u.i.IndexDataInitializer - Index data initialization done: 482 ms. Initialized indexes: [FilenameIndex, Trigram.Index, filetypes, TodoIndex, fileIncludes, DomFileIndex, IdIndex, FrameworkDetectionIndex, RelaxSymbolIndex, Stubs, json.file.root.values, XmlTagNames, XmlNamespaces, SchemaTypeInheritance, html5.custom.attributes.index, editorconfig.index.name, Py.module.name, yaml.keys.name, xmlProperties, Py.setuptools.namespace].
+2026-04-14 15:23:57,135 [   3533]   INFO - #c.i.u.i.d.AppIndexingDependenciesService - Invalidating all indexing flags. Reason: File type change: added - null, removed - null
+2026-04-14 15:23:57,173 [   3571]   INFO - #c.i.o.u.i.UpdateCheckerService - channel: release
+2026-04-14 15:23:57,181 [   3579]   INFO - #c.i.j.JdkEx - === TabbingMode: available ===
+2026-04-14 15:23:57,181 [   3579]   INFO - #c.i.u.m.MergeAllWindowsAction - === FullScreenTabSupport: frames: 0 ===
+2026-04-14 15:23:57,203 [   3601]   INFO - #c.i.p.s.StubIndexImpl - Following stub indices will be built:Py.class.attributes(v = 2),dom.elementClass(v = 0),markdown.header(v = 2),Py.variable.shortName(v = 3),Py.class.super(v = 2),Python.Decorator(v = 2),properties.index(v = 2),Py.module.attribute(v = 2),markdown.header.anchor(v = 2),dom.namespaceKey(v = 1),Py.class.shortNameInsensitive(v = 2),Py.class.shortName(v = 2),Py.function.shortName(v = 2)
+2026-04-14 15:23:57,204 [   3602]   INFO - #c.i.u.i.IndexDataInitializer - Index data initialization done: 72 ms. Initialized stub indexes: {properties.index, Py.function.shortName, Py.class.super, dom.namespaceKey, markdown.header.anchor, markdown.header, Py.class.attributes, Py.variable.shortName, Py.module.attribute, Python.Decorator, Py.class.shortName, Py.class.shortNameInsensitive, dom.elementClass}.
+2026-04-14 15:23:57,269 [   3667]   INFO - #c.i.u.m.t.TouchbarSupport - touchbar disabled: touchbar-server isn't running
+2026-04-14 15:23:57,530 [   3928]   WARN - #c.i.o.a.ActionStub - ActionGroup should be registered using <group> tag: id="WelcomeScreen.CreateDirectoryProject" class="com.intellij.pycharm.community.ide.impl.newProject.steps.PyCharmNewProjectStep"
+2026-04-14 15:23:57,609 [   4007]   INFO - #c.i.u.p.CommonProxy - <html>You have JVM property "https.proxyHost" set to "127.0.0.1".<br>This may lead to incorrect behaviour. Proxy should be set in Settings | HTTP Proxy<br>This JVM property is old and its usage is not recommended by Oracle.<br>(Note: It could have been assigned by some code dynamically.)</html>
+2026-04-14 15:23:57,650 [   4048]   INFO - #c.i.u.p.CommonProxy - <html>You have JVM property "https.proxyHost" set to "127.0.0.1".<br>This may lead to incorrect behaviour. Proxy should be set in Settings | HTTP Proxy<br>This JVM property is old and its usage is not recommended by Oracle.<br>(Note: It could have been assigned by some code dynamically.)</html>
+2026-04-14 15:23:57,975 [   4373]   INFO - #c.i.u.EnvironmentUtil - shell environment loaded (24 vars)
+2026-04-14 15:24:31,986 [  38384]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Loading global entities com.intellij.platform.workspace.jps.entities.SdkEntity from files
+2026-04-14 15:24:31,987 [  38385]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Loading global entities com.intellij.platform.workspace.jps.entities.LibraryEntity from files
+2026-04-14 15:24:31,993 [  38391]   WARN - #c.i.o.Disposable - use application as a parent disposable
+2026-04-14 15:24:33,071 [  39469]   INFO - #c.i.j.JdkEx - === TabbingMode: on ===
+2026-04-14 15:24:33,472 [  39870]   WARN - #c.i.u.x.Binding - No accessors for com.intellij.openapi.projectRoots.Sdk. This means that state class cannot be serialized properly. Please see https://jb.gg/ij-psoc
+2026-04-14 15:24:33,474 [  39872]   INFO - #c.i.c.ComponentStoreImpl - Saving default projectPyConsoleOptionsProvider took 11 ms
+2026-04-14 15:24:33,493 [  39891]   INFO - #c.i.w.i.i.l.m.ModuleBridgeLoaderService - Workspace model loaded without cache. Loading real project state into workspace model. Thread[DefaultDispatcher-worker-19 @ProjectManager.openAsync#8414,5,main]
+2026-04-14 15:24:33,518 [  39916]   INFO - #c.i.w.i.i.GlobalWorkspaceModel - Sync global entities with mutable entity storage
+2026-04-14 15:24:33,534 [  39932]   INFO - #c.i.w.i.i.j.s.JpsProjectModelSynchronizer - Attempt 1: Apply JPS storage (iml files)
+2026-04-14 15:24:33,553 [  39951]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2026-04-14 15:24:33,555 [  39953]   INFO - #c.i.w.i.i.j.s.JpsProjectModelSynchronizer - Attempt 1: Changes were successfully applied
+2026-04-14 15:24:33,578 [  39976]   INFO - #c.i.p.c.ProjectCodeStyleSettingsManager - Initialized from default code style settings.
+2026-04-14 15:24:33,602 [  40000]   INFO - #c.i.r.OsRegistryConfigProvider - Looking for 'enabled' value in [/Library/Application Support/JetBrains/portForwarding/enabled, /Library/Application Support/JetBrains/portForwarding/config.json, /Users/liuhaiyun/Library/Application Support/JetBrains/portForwarding/enabled, /Users/liuhaiyun/Library/Application Support/JetBrains/portForwarding/config.json]
+2026-04-14 15:24:33,603 [  40001]   INFO - #c.i.r.OsRegistryConfigProvider - OS provided value for 'enabled' is not found
+2026-04-14 15:24:33,670 [  40068]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2026-04-14 15:24:33,671 [  40069]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Project model updated to version 2 in 34 ms: Module model commit
+2026-04-14 15:24:33,702 [  40100]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2026-04-14 15:24:33,704 [  40102]   INFO - #c.i.o.a.i.NonBlockingReadActionImpl - OTel monitoring for NonBlockingReadAction is enabled
+2026-04-14 15:24:33,706 [  40104]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Project model updated to version 3 in 20 ms: Root model commit
+2026-04-14 15:24:33,778 [  40176]   INFO - PerformancePlugin - Performance Plugin is in silent mode
+2026-04-14 15:24:33,848 [  40246]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: (dumb mode task) com.intellij.openapi.project.InitialDumbTaskRequiredForSmartMode@76d01a5b
+2026-04-14 15:24:33,854 [  40252]   INFO - #c.i.o.p.DumbServiceMergingTaskQueue - Initializing DumbServiceMergingTaskQueue...
+2026-04-14 15:24:33,858 [  40256]   WARN - #c.i.o.w.i.ToolWindowImpl - ToolWindow icons should be 13x13, but got: 16x16. Please fix ToolWindow (ID:  AI Chat) or icon RasterizedImageDataLoader(classLoader=com.intellij.util.lang.PathClassLoader@2471cca7, path=actions/find.svg)
+2026-04-14 15:24:33,858 [  40256]   INFO - #c.i.o.p.DumbServiceMergingTaskQueue - Running initialization condition: com.intellij.indexing.shared.download.SharedIndexDownloadedCondition@32d2cc78
+2026-04-14 15:24:33,859 [  40257]   INFO - #c.i.o.p.DumbServiceMergingTaskQueue - Finished: com.intellij.indexing.shared.download.SharedIndexDownloadedCondition@32d2cc78
+2026-04-14 15:24:33,871 [  40269]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Running task required for smart mode: com.intellij.indexing.shared.platform.impl.OnDiskSharedIndexChunkLocator@50568b02
+2026-04-14 15:24:33,876 [  40274]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Finished task required for smart mode: com.intellij.indexing.shared.platform.impl.OnDiskSharedIndexChunkLocator@50568b02
+2026-04-14 15:24:33,876 [  40274]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Running task required for smart mode: com.intellij.util.indexing.ProjectFileBasedIndexStartupActivity@9612c2f
+2026-04-14 15:24:33,888 [  40286]   INFO - #c.i.u.i.p.IncrementalProjectIndexableFilesFilterHolder - IncrementalProjectIndexableFilesFilterFactory is chosen as indexable files filter factory for project: pythonProject
+2026-04-14 15:24:33,940 [  40338]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Finished task required for smart mode: com.intellij.util.indexing.ProjectFileBasedIndexStartupActivity@9612c2f
+2026-04-14 15:24:33,941 [  40339]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Running task required for smart mode: com.intellij.util.indexing.FileBasedIndexInfrastructureExtensionStartup@6c5bde76
+2026-04-14 15:24:33,945 [  40343]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Finished task required for smart mode: com.intellij.util.indexing.FileBasedIndexInfrastructureExtensionStartup@6c5bde76
+2026-04-14 15:24:33,946 [  40344]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Running task required for smart mode: com.intellij.externalDependencies.impl.CheckRequiredPluginsActivity@600da6bd
+2026-04-14 15:24:33,949 [  40347]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Finished task required for smart mode: com.intellij.externalDependencies.impl.CheckRequiredPluginsActivity@600da6bd
+2026-04-14 15:24:33,949 [  40347]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Running task required for smart mode: com.intellij.util.indexing.DumbModeWhileScanningSubscriber@62685148
+2026-04-14 15:24:33,955 [  40353]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Finished task required for smart mode: com.intellij.util.indexing.DumbModeWhileScanningSubscriber@62685148
+2026-04-14 15:24:33,956 [  40354]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: (dumb mode task) com.intellij.openapi.project.InitialDumbTaskRequiredForSmartMode@76d01a5b
+2026-04-14 15:24:34,067 [  40465]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: (dumb mode task) com.intellij.util.indexing.UnindexedFilesScanner$2@57cb0ee
+2026-04-14 15:24:34,069 [  40467]   INFO - #c.i.o.e.s.p.m.ExternalProjectsDataStorage - Load external projects data in 3 millis (read time: 2)
+2026-04-14 15:24:34,072 [  40470]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: (dumb mode task) com.intellij.util.indexing.UnindexedFilesScanner$2@57cb0ee
+2026-04-14 15:24:34,073 [  40471]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: UnindexedFilesScanner[pythonProject]
+2026-04-14 15:24:34,103 [  40501]   INFO - #c.i.u.i.UnindexedFilesScanner - Started scanning for indexing of pythonProject. Reason: On project open
+2026-04-14 15:24:34,113 [  40511]   INFO - #c.i.u.i.UnindexedFilesScanner - Performing delayed pushing properties tasks for pythonProject took 6ms; general responsiveness: ok; EDT responsiveness: ok
+2026-04-14 15:24:34,122 [  40520]   INFO - #c.i.o.p.SmartModeScheduler - Post-startup activity executed. Current mode: 7
+2026-04-14 15:24:34,133 [  40531]   INFO - #c.i.i.b.BookmarksManager - no state loaded for new bookmarks
+2026-04-14 15:24:34,134 [  40532]   INFO - #c.i.i.s.IdeStartupScripts - 0 startup script(s) found
+2026-04-14 15:24:34,139 [  40537]   INFO - #c.i.i.b.BookmarkManager - no state loaded for old bookmarks
+2026-04-14 15:24:34,145 [  40543]   INFO - #c.i.d.PerformanceWatcherImpl - Post-startup activities under progress took 158ms; general responsiveness: ok; EDT responsiveness: ok
+2026-04-14 15:24:34,155 [  40553]   INFO - #c.i.i.f.FavoritesManager - no state loaded for old favorites
+2026-04-14 15:24:34,265 [  40663]   INFO - #c.i.u.i.d.AppIndexingDependenciesService - Invalidating all indexing flags. Reason: App fingerprint changed: FingerprintImpl(fingerprint=0) to FingerprintImpl(fingerprint=3287456152272937277)
+2026-04-14 15:24:34,294 [  40692]   INFO - #c.i.u.i.UnindexedFilesScanner - Scanning of pythonProject uses 7 scanning threads
+2026-04-14 15:24:34,308 [  40706]   INFO - #c.i.i.s.p.i.SharedIndexChunkConfigurationImpl - Chunk bundled-python-sdk-0509580d9d50-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.14494.241 is registered for project 'pythonProject: matching: (fb=17, stub=13), incompatible: (fb=0, stub=0), unknown: (fb=9, stub=9), 
+2026-04-14 15:24:34,344 [  40742]   INFO - #c.i.i.s.p.i.BundledSharedIndexPostStartupActivity - Attached 1 pre-built shared indexes: bundled-python-sdk-0509580d9d50-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.14494.241
+2026-04-14 15:24:34,424 [  40822]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of xhtml11.dtd by request of indexes: [Trigram.Index->NOT_INDEXED,filetypes->NOT_INDEXED,IdIndex->NOT_INDEXED,]. Scanner has updated file xhtml11.dtd with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=70, fileInfo='xhtml11.dtd(id=70)'}] and removers: []; 
+2026-04-14 15:24:34,424 [  40822]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of xhtml-lat1.ent by request of indexes: [Trigram.Index->NOT_INDEXED,filetypes->NOT_INDEXED,IdIndex->NOT_INDEXED,]. Scanner has updated file xhtml-lat1.ent with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=60, fileInfo='xhtml-lat1.ent(id=60)'}] and removers: []; 
+2026-04-14 15:24:34,425 [  40823]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of xhtml-base-1.mod by request of indexes: [Trigram.Index->NOT_INDEXED,filetypes->NOT_INDEXED,IdIndex->NOT_INDEXED,]. Scanner has updated file xhtml-base-1.mod with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=90, fileInfo='xhtml-base-1.mod(id=90)'}] and removers: []; 
+2026-04-14 15:24:34,425 [  40823]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of xhtml-edit-1.mod by request of indexes: [Trigram.Index->NOT_INDEXED,filetypes->NOT_INDEXED,IdIndex->NOT_INDEXED,]. Scanner has updated file xhtml-edit-1.mod with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=56, fileInfo='xhtml-edit-1.mod(id=56)'}] and removers: []; 
+2026-04-14 15:24:34,425 [  40823]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of xhtml-form-1.mod by request of indexes: [Trigram.Index->NOT_INDEXED,filetypes->NOT_INDEXED,IdIndex->NOT_INDEXED,]. Scanner has updated file xhtml-form-1.mod with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=78, fileInfo='xhtml-form-1.mod(id=78)'}] and removers: []; 
+2026-04-14 15:24:34,425 [  40823]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of xhtml-link-1.mod by request of indexes: [Trigram.Index->NOT_INDEXED,filetypes->NOT_INDEXED,IdIndex->NOT_INDEXED,]. Scanner has updated file xhtml-link-1.mod with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=63, fileInfo='xhtml-link-1.mod(id=63)'}] and removers: []; 
+2026-04-14 15:24:34,425 [  40823]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of xhtml-list-1.mod by request of indexes: [Trigram.Index->NOT_INDEXED,filetypes->NOT_INDEXED,IdIndex->NOT_INDEXED,]. Scanner has updated file xhtml-list-1.mod with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=55, fileInfo='xhtml-list-1.mod(id=55)'}] and removers: []; 
+2026-04-14 15:24:34,425 [  40823]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of xhtml-meta-1.mod by request of indexes: [Trigram.Index->NOT_INDEXED,filetypes->NOT_INDEXED,IdIndex->NOT_INDEXED,]. Scanner has updated file xhtml-meta-1.mod with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=81, fileInfo='xhtml-meta-1.mod(id=81)'}] and removers: []; 
+2026-04-14 15:24:34,426 [  40824]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of xhtml-pres-1.mod by request of indexes: [Trigram.Index->NOT_INDEXED,filetypes->NOT_INDEXED,IdIndex->NOT_INDEXED,]. Scanner has updated file xhtml-pres-1.mod with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=83, fileInfo='xhtml-pres-1.mod(id=83)'}] and removers: []; 
+2026-04-14 15:24:34,426 [  40824]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of xhtml-ruby-1.mod by request of indexes: [Trigram.Index->NOT_INDEXED,filetypes->NOT_INDEXED,IdIndex->NOT_INDEXED,]. Scanner has updated file xhtml-ruby-1.mod with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=86, fileInfo='xhtml-ruby-1.mod(id=86)'}] and removers: []; 
+2026-04-14 15:24:34,738 [  41136]   INFO - #c.i.u.i.UnindexedFilesScanner - Scanning completed for pythonProject. Number of scanned files: 209; number of files for indexing: 209 took 625ms; general responsiveness: ok; EDT responsiveness: ok
+2026-04-14 15:24:34,740 [  41138]   INFO - #c.i.o.p.InitialVfsRefreshService - 2c2b7f4b: marking roots for initial VFS refresh
+2026-04-14 15:24:34,741 [  41139]   INFO - #c.i.o.p.InitialVfsRefreshService - 2c2b7f4b: starting initial VFS refresh of 1 roots
+2026-04-14 15:24:34,747 [  41145]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: UnindexedFilesScanner[pythonProject]
+2026-04-14 15:24:35,491 [  41889]   INFO - #c.j.p.p.PyTargetEnvironmentPackageManager - Running packaging tool
+2026-04-14 15:24:39,169 [  45567]   WARN - #c.i.d.MemorySizeConfigurator - The IDE is not configured for using custom VM options (jb.vmOptionsFile=null)
+java.io.IOException: The IDE is not configured for using custom VM options (jb.vmOptionsFile=null)
+	at com.intellij.diagnostic.VMOptions.setOptions(VMOptions.java:202)
+	at com.intellij.diagnostic.VMOptions.setOption(VMOptions.java:193)
+	at com.intellij.diagnostic.VMOptions.setOption(VMOptions.java:175)
+	at com.intellij.diagnostic.MemorySizeConfigurator.execute(MemorySizeConfigurator.kt:54)
+	at com.intellij.ide.startup.impl.StartupManagerImplKt$launchActivity$1.invokeSuspend(StartupManagerImpl.kt:473)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:793)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:697)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:684)
+2026-04-14 15:24:48,188 [  54586]   INFO - #c.i.i.p.m.MarketplaceRequests - Cannot load data from https://plugins.jetbrains.com/api/icon?pluginId=com.intellij.zh&theme=DARCULA (statusCode=403)
+2026-04-14 15:24:55,500 [  61898]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2026-04-14 15:24:55,510 [  61908]   INFO - #c.j.p.packaging - Using /Users/liuhaiyun/miniconda3/bin/conda as a conda executable (found in PATH)
+2026-04-14 15:24:55,525 [  61923]   INFO - #c.j.p.s.PythonSdkUpdater - Updating sys.path took 60 ms
+2026-04-14 15:24:55,527 [  61925]   INFO - #c.j.p.s.PythonSdkUpdater - Bogus sys.path entry /Library/Frameworks/Python.framework/Versions/3.12/lib/python312.zip
+2026-04-14 15:24:55,531 [  61929]   INFO - #c.j.p.s.PythonSdkUpdater - Binary skeletons directory for SDK Python 3.12 (pythonProject) (/Users/liuhaiyun/PycharmProjects/pythonProject/.venv/bin/python)): /Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/-175649902
+2026-04-14 15:24:55,535 [  61933]   INFO - #c.j.p.s.PythonSdkUpdater - User skeletons directory for SDK Python 3.12 (pythonProject) (/Users/liuhaiyun/PycharmProjects/pythonProject/.venv/bin/python)): /Users/liuhaiyun/.gradle/caches/9.2.1/transforms/5e460e4a8b53d653d356ce22ebd9f343/transformed/pycharm-community-2024.1-aarch64/plugins/python-ce/helpers/python-skeletons
+2026-04-14 15:24:55,540 [  61938]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2026-04-14 15:24:55,540 [  61938]   INFO - #c.j.p.packaging - Using /Users/liuhaiyun/miniconda3/bin/conda as a conda executable (found in PATH)
+2026-04-14 15:24:55,545 [  61943]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2026-04-14 15:24:55,545 [  61943]   INFO - #c.j.p.packaging - Using /Users/liuhaiyun/miniconda3/bin/conda as a conda executable (found in PATH)
+2026-04-14 15:24:55,591 [  61989]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2026-04-14 15:24:55,592 [  61990]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Project model updated to version 4 in 10 ms: Root model commit
+2026-04-14 15:24:55,609 [  62007]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2026-04-14 15:24:55,609 [  62007]   INFO - #c.j.p.packaging - Using /Users/liuhaiyun/miniconda3/bin/conda as a conda executable (found in PATH)
+2026-04-14 15:24:55,610 [  62008]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2026-04-14 15:24:55,610 [  62008]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Project model updated to version 5 in 4 ms: Sync global entities with project: pythonProject
+2026-04-14 15:24:55,610 [  62008]   INFO - #c.i.w.i.i.GlobalWorkspaceModel - Global model updated to version 2 in 14 ms: Adding SDK: Python 3.12 (pythonProject) Python SDK
+2026-04-14 15:24:55,626 [  62024]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2026-04-14 15:24:55,626 [  62024]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Project model updated to version 6 in 11 ms: Root model commit
+2026-04-14 15:24:55,673 [  62071]   INFO - #c.i.o.p.DumbServiceImpl - cancel com.jetbrains.python.psi.impl.PythonLanguageLevelPusher$MyDumbModeTask@18e92366 [pythonProject]
+2026-04-14 15:24:55,673 [  62071]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2026-04-14 15:24:55,673 [  62071]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Project model updated to version 7 in 5 ms: Root model commit
+2026-04-14 15:24:55,700 [  62098]   INFO - #c.j.r.f.FollowMeManager - Register new user (name: 'liuhaiyun', client id: Host)
+2026-04-14 15:24:55,891 [  62289]   INFO - #c.i.o.p.DumbServiceImpl - cancel com.jetbrains.python.psi.impl.PythonLanguageLevelPusher$MyDumbModeTask@1f3f9851 [pythonProject]
+2026-04-14 15:24:55,891 [  62289]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2026-04-14 15:24:55,892 [  62290]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Project model updated to version 8 in 3 ms: ConstantEntitiesCheckActivity
+2026-04-14 15:24:56,071 [  62469]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: (dumb mode task) com.intellij.openapi.roots.impl.PushedFilePropertiesUpdaterImpl$MyDumbModeTask@422da69f (reason: Push on VFS changes)
+2026-04-14 15:24:56,075 [  62473]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: (dumb mode task) com.intellij.openapi.roots.impl.PushedFilePropertiesUpdaterImpl$MyDumbModeTask@422da69f (reason: Push on VFS changes)
+2026-04-14 15:24:56,076 [  62474]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: (dumb mode task) com.jetbrains.python.psi.impl.PythonLanguageLevelPusher$MyDumbModeTask@1f74726
+2026-04-14 15:24:56,081 [  62479]   INFO - #c.i.u.EnvironmentUtil - loading shell env: /bin/bash -c . '/Users/liuhaiyun/PycharmProjects/pythonProject/.venv/bin/activate';'/Users/liuhaiyun/.gradle/caches/9.2.1/transforms/5e460e4a8b53d653d356ce22ebd9f343/transformed/pycharm-community-2024.1-aarch64/bin/printenv' > '/var/folders/7k/sfyc7__d5h55m12y8279fqrw0000gn/T/ij-env-tmp-dir15628115729665056828/ij-shell-env-data.tmp'
+2026-04-14 15:24:56,154 [  62552]   INFO - #c.i.u.EnvironmentUtil - shell environment loaded (26 vars)
+2026-04-14 15:24:56,176 [  62574]   INFO - #c.i.o.p.InitialVfsRefreshService - 2c2b7f4b: initial VFS refresh finished in 21430 ms
+2026-04-14 15:24:56,224 [  62622]   INFO - #c.j.p.s.PythonSdkUpdater - Bogus sys.path entry /Library/Frameworks/Python.framework/Versions/3.12/lib/python312.zip
+2026-04-14 15:24:56,227 [  62625]   INFO - #c.j.p.s.PythonSdkUpdater - Binary skeletons directory for SDK Python 3.12 (pythonProject) (/Users/liuhaiyun/PycharmProjects/pythonProject/.venv/bin/python)): /Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/-175649902
+2026-04-14 15:24:56,227 [  62625]   INFO - #c.j.p.s.PythonSdkUpdater - User skeletons directory for SDK Python 3.12 (pythonProject) (/Users/liuhaiyun/PycharmProjects/pythonProject/.venv/bin/python)): /Users/liuhaiyun/.gradle/caches/9.2.1/transforms/5e460e4a8b53d653d356ce22ebd9f343/transformed/pycharm-community-2024.1-aarch64/plugins/python-ce/helpers/python-skeletons
+2026-04-14 15:24:56,228 [  62626]   INFO - #c.j.p.s.PythonSdkUpdater - Performing background update of skeletons for SDK Python 3.12 (pythonProject) (/Users/liuhaiyun/PycharmProjects/pythonProject/.venv/bin/python)
+2026-04-14 15:24:56,230 [  62628]   INFO - #c.j.p.s.s.PySkeletonRefresher - Refreshing skeletons for /Users/liuhaiyun/PycharmProjects/pythonProject/.venv/bin/python
+2026-04-14 15:24:56,234 [  62632]   INFO - #c.j.p.s.s.DefaultPregeneratedSkeletonsProvider - Home path is /Users/liuhaiyun/.gradle/caches/9.2.1/transforms/5e460e4a8b53d653d356ce22ebd9f343/transformed/pycharm-community-2024.1-aarch64
+2026-04-14 15:24:56,234 [  62632]   INFO - #c.j.p.s.s.DefaultPregeneratedSkeletonsProvider - Pregenerated skeletons root is /Users/liuhaiyun/.gradle/caches/9.2.1/transforms/5e460e4a8b53d653d356ce22ebd9f343/transformed/pycharm-community-2024.1-aarch64/skeletons
+2026-04-14 15:24:56,235 [  62633]   INFO - #c.j.p.s.s.DefaultPregeneratedSkeletonsProvider - Not found pre-generated skeletons at /Users/liuhaiyun/.gradle/caches/9.2.1/transforms/5e460e4a8b53d653d356ce22ebd9f343/transformed/pycharm-community-2024.1-aarch64/skeletons
+2026-04-14 15:24:56,271 [  62669]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - /Users/liuhaiyun/PycharmProjects/pythonProject/.venv/bin/python /Users/liuhaiyun/.gradle/caches/9.2.1/transforms/5e460e4a8b53d653d356ce22ebd9f343/transformed/pycharm-community-2024.1-aarch64/plugins/python-ce/helpers/generator3/__main__.py -d /Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/-175649902 -s /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12:/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload:/Users/liuhaiyun/PycharmProjects/pythonProject/.venv/lib/python3.12/site-packages
+2026-04-14 15:24:56,528 [  62926]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: (dumb mode task) com.jetbrains.python.psi.impl.PythonLanguageLevelPusher$MyDumbModeTask@1f74726
+2026-04-14 15:24:56,529 [  62927]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: (dumb mode task) com.intellij.util.indexing.DumbModeWhileScanningTrigger$DumbModeWhileScanning@6bcef31b
+2026-04-14 15:24:56,530 [  62928]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: (dumb mode task) com.intellij.util.indexing.DumbModeWhileScanningTrigger$DumbModeWhileScanning@6bcef31b
+2026-04-14 15:24:56,530 [  62928]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: (dumb mode task) com.intellij.util.indexing.UnindexedFilesScanner$2@cbdf28d
+2026-04-14 15:24:56,532 [  62930]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: (dumb mode task) com.intellij.util.indexing.UnindexedFilesScanner$2@cbdf28d
+2026-04-14 15:24:56,532 [  62930]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: (dumb mode task) com.intellij.util.indexing.UnindexedFilesScanner$2@5d63245d
+2026-04-14 15:24:56,532 [  62930]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: UnindexedFilesScanner[pythonProject, 1 iterators]
+2026-04-14 15:24:56,533 [  62931]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: (dumb mode task) com.intellij.util.indexing.UnindexedFilesScanner$2@5d63245d
+2026-04-14 15:24:56,533 [  62931]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: (dumb mode task) com.intellij.openapi.roots.impl.PushedFilePropertiesUpdaterImpl$MyDumbModeTask@330e5e8b (reason: Push on VFS changes)
+2026-04-14 15:24:56,536 [  62934]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: (dumb mode task) com.intellij.openapi.roots.impl.PushedFilePropertiesUpdaterImpl$MyDumbModeTask@330e5e8b (reason: Push on VFS changes)
+2026-04-14 15:24:56,536 [  62934]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: (dumb mode task) UnindexedFilesIndexer[pythonProject, 1 iterators, reason: Merged On refresh of files in pythonProject with On refresh of files in pythonProject with On refresh of files in pythonProject with On project open]
+2026-04-14 15:24:56,549 [  62947]   INFO - #c.i.u.i.c.IndexUpdateRunner - Using 3 indexing and 4 writing threads for indexing
+2026-04-14 15:24:56,554 [  62952]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _abc ('built-in')
+2026-04-14 15:24:56,578 [  62976]   INFO - #c.i.u.i.UnindexedFilesScanner - Started scanning for indexing of pythonProject. Reason: changes in: "Python SDK Python 3.12 (pythonProject) /Users/liuhaiyun/PycharmProjects/pythonProject/.venv/bin/python"
+2026-04-14 15:24:56,578 [  62976]   INFO - #c.i.u.i.UnindexedFilesScanner - Performing delayed pushing properties tasks for pythonProject took 0ms; general responsiveness: ok; EDT responsiveness: ok
+2026-04-14 15:24:56,578 [  62976]   INFO - #c.i.u.i.UnindexedFilesScanner - Scanning of pythonProject uses 7 scanning threads
+2026-04-14 15:24:57,085 [  63483]   INFO - #c.i.u.i.ProjectChangedFilesScanner - Retrieving changed during indexing files of pythonProject : 2314 to update, calculated in 1ms
+2026-04-14 15:24:57,190 [  63588]   WARN - #c.i.s.ComponentManagerImpl - com.jetbrains.python.PyElementTypes <clinit> requests com.jetbrains.python.PyElementTypesFacade instance. Class initialization must not depend on services. Consider using instance of the service on-demand instead.
+2026-04-14 15:24:57,193 [  63591]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of _parser.py by request of indexes: [Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,Py.module.name->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file _parser.py with appliers: [SingleIndexValueApplier{indexId=Py.module.name, inputId=1322, fileInfo='_parser.py(id=1322)'}] and removers: []; 
+2026-04-14 15:24:57,194 [  63592]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of __init__.py by request of indexes: [Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,Py.module.name->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file __init__.py with appliers: [SingleIndexValueApplier{indexId=Py.module.name, inputId=1325, fileInfo='__init__.py(id=1325)'}] and removers: []; 
+2026-04-14 15:24:57,194 [  63592]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of _casefix.py by request of indexes: [Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,Py.module.name->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file _casefix.py with appliers: [SingleIndexValueApplier{indexId=Py.module.name, inputId=1320, fileInfo='_casefix.py(id=1320)'}] and removers: []; 
+2026-04-14 15:24:57,194 [  63592]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of _compiler.py by request of indexes: [Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,Py.module.name->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file _compiler.py with appliers: [SingleIndexValueApplier{indexId=Py.module.name, inputId=1324, fileInfo='_compiler.py(id=1324)'}] and removers: []; 
+2026-04-14 15:24:57,194 [  63592]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of _constants.py by request of indexes: [Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,Py.module.name->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file _constants.py with appliers: [SingleIndexValueApplier{indexId=Py.module.name, inputId=1321, fileInfo='_constants.py(id=1321)'}] and removers: []; 
+2026-04-14 15:24:57,194 [  63592]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of gnu.py by request of indexes: [Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,Py.module.name->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file gnu.py with appliers: [SingleIndexValueApplier{indexId=Py.module.name, inputId=1330, fileInfo='gnu.py(id=1330)'}] and removers: []; 
+2026-04-14 15:24:57,194 [  63592]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of dumb.py by request of indexes: [Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,Py.module.name->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file dumb.py with appliers: [SingleIndexValueApplier{indexId=Py.module.name, inputId=1334, fileInfo='dumb.py(id=1334)'}] and removers: []; 
+2026-04-14 15:24:57,194 [  63592]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of ndbm.py by request of indexes: [Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,Py.module.name->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file ndbm.py with appliers: [SingleIndexValueApplier{indexId=Py.module.name, inputId=1331, fileInfo='ndbm.py(id=1331)'}] and removers: []; 
+2026-04-14 15:24:57,194 [  63592]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of __init__.py by request of indexes: [Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,Py.module.name->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file __init__.py with appliers: [SingleIndexValueApplier{indexId=Py.module.name, inputId=1333, fileInfo='__init__.py(id=1333)'}] and removers: []; 
+2026-04-14 15:24:57,194 [  63592]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of domreg.py by request of indexes: [Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,Py.module.name->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file domreg.py with appliers: [SingleIndexValueApplier{indexId=Py.module.name, inputId=1349, fileInfo='domreg.py(id=1349)'}] and removers: []; 
+2026-04-14 15:24:57,993 [  64391]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scanner has updated file pluck-pcm8.au with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=2042, fileInfo='pluck-pcm8.au(id=2042)'}] and removers: []; 
+2026-04-14 15:24:58,014 [  64412]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scanner has updated file pluck-ulaw.au with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=2039, fileInfo='pluck-ulaw.au(id=2039)'}] and removers: []; 
+2026-04-14 15:24:58,058 [  64456]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scanner has updated file pluck-pcm16.au with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=2034, fileInfo='pluck-pcm16.au(id=2034)'}] and removers: []; 
+2026-04-14 15:24:58,095 [  64493]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scanner has updated file pluck-pcm24.au with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=2041, fileInfo='pluck-pcm24.au(id=2041)'}] and removers: []; 
+2026-04-14 15:24:58,139 [  64537]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scanner has updated file pluck-pcm32.au with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=2035, fileInfo='pluck-pcm32.au(id=2035)'}] and removers: []; 
+2026-04-14 15:24:58,164 [  64562]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scanner has updated file pluck-pcm8.wav with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=2040, fileInfo='pluck-pcm8.wav(id=2040)'}] and removers: []; 
+2026-04-14 15:24:58,170 [  64568]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scanner has updated file pluck-alaw.aifc with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=2037, fileInfo='pluck-alaw.aifc(id=2037)'}] and removers: []; 
+2026-04-14 15:24:58,194 [  64592]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scanner has updated file pluck-pcm16.wav with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=2032, fileInfo='pluck-pcm16.wav(id=2032)'}] and removers: []; 
+2026-04-14 15:24:58,225 [  64623]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scanner has updated file pluck-pcm24.wav with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=2038, fileInfo='pluck-pcm24.wav(id=2038)'}] and removers: []; 
+2026-04-14 15:24:58,267 [  64665]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _abc at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/f517d3d5edaa539870845fb2b338a759fb304a98686562e57a08dca3da218074'
+2026-04-14 15:24:58,269 [  64667]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scanner has updated file pluck-pcm32.wav with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=2036, fileInfo='pluck-pcm32.wav(id=2036)'}] and removers: []; 
+2026-04-14 15:24:58,333 [  64731]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _ast ('built-in')
+2026-04-14 15:24:58,410 [  64808]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _ast at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/f517d3d5edaa539870845fb2b338a759fb304a98686562e57a08dca3da218074'
+2026-04-14 15:24:58,482 [  64880]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _codecs ('built-in')
+2026-04-14 15:24:58,574 [  64972]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _codecs at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/f517d3d5edaa539870845fb2b338a759fb304a98686562e57a08dca3da218074'
+2026-04-14 15:24:58,681 [  65079]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _collections ('built-in')
+2026-04-14 15:24:58,835 [  65233]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _collections at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/f517d3d5edaa539870845fb2b338a759fb304a98686562e57a08dca3da218074'
+2026-04-14 15:24:58,905 [  65303]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _functools ('built-in')
+2026-04-14 15:24:58,967 [  65365]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _functools at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/f517d3d5edaa539870845fb2b338a759fb304a98686562e57a08dca3da218074'
+2026-04-14 15:24:59,093 [  65491]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _imp ('built-in')
+2026-04-14 15:24:59,224 [  65622]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _imp at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/f517d3d5edaa539870845fb2b338a759fb304a98686562e57a08dca3da218074'
+2026-04-14 15:24:59,369 [  65767]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _io ('built-in')
+2026-04-14 15:24:59,468 [  65866]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _io at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/f517d3d5edaa539870845fb2b338a759fb304a98686562e57a08dca3da218074'
+2026-04-14 15:24:59,583 [  65981]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _locale ('built-in')
+2026-04-14 15:24:59,688 [  66086]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _locale at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/f517d3d5edaa539870845fb2b338a759fb304a98686562e57a08dca3da218074'
+2026-04-14 15:24:59,900 [  66298]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _operator ('built-in')
+2026-04-14 15:24:59,953 [  66351]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _operator at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/f517d3d5edaa539870845fb2b338a759fb304a98686562e57a08dca3da218074'
+2026-04-14 15:25:00,111 [  66509]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _signal ('built-in')
+2026-04-14 15:25:00,467 [  66865]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _signal at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/f517d3d5edaa539870845fb2b338a759fb304a98686562e57a08dca3da218074'
+2026-04-14 15:25:00,598 [  66996]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _sre ('built-in')
+2026-04-14 15:25:00,725 [  67123]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _sre at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/f517d3d5edaa539870845fb2b338a759fb304a98686562e57a08dca3da218074'
+2026-04-14 15:25:00,826 [  67224]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _stat ('built-in')
+2026-04-14 15:25:01,030 [  67428]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _stat at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/f517d3d5edaa539870845fb2b338a759fb304a98686562e57a08dca3da218074'
+2026-04-14 15:25:01,275 [  67673]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Saving global entities com.intellij.platform.workspace.jps.entities.SdkEntity to files
+2026-04-14 15:25:01,289 [  67687] SEVERE - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - com.jetbrains.python.sdk.PythonSdkAdditionalData mismatch for SDK: Python 3.12 (pythonProject); type: Python SDK; path: /Users/liuhaiyun/PycharmProjects/pythonProject/.venv/bin/python;
+com.jetbrains.python.sdk.PythonSdkAdditionalData in entity: 
+<additional SDK_UUID="ba947034-a35a-4a60-b921-f17f3055ea86">
+  <setting name="FLAVOR_ID" value="MacPythonSdkFlavor" />
+  <setting name="FLAVOR_DATA" value="{}" />
+</additional>
+com.jetbrains.python.sdk.PythonSdkAdditionalData in bridge: 
+<additional ASSOCIATED_PROJECT_PATH="/Users/liuhaiyun/PycharmProjects/pythonProject" SDK_UUID="ba947034-a35a-4a60-b921-f17f3055ea86">
+  <setting name="FLAVOR_ID" value="MacPythonSdkFlavor" />
+  <setting name="FLAVOR_DATA" value="{}" />
+</additional>
+Probably inconsistent update of the com.jetbrains.python.sdk.PythonSdkAdditionalData, see the documentation of `SdkAdditionalData#markAsCommited` for more information
+java.lang.Throwable: com.jetbrains.python.sdk.PythonSdkAdditionalData mismatch for SDK: Python 3.12 (pythonProject); type: Python SDK; path: /Users/liuhaiyun/PycharmProjects/pythonProject/.venv/bin/python;
+com.jetbrains.python.sdk.PythonSdkAdditionalData in entity: 
+<additional SDK_UUID="ba947034-a35a-4a60-b921-f17f3055ea86">
+  <setting name="FLAVOR_ID" value="MacPythonSdkFlavor" />
+  <setting name="FLAVOR_DATA" value="{}" />
+</additional>
+com.jetbrains.python.sdk.PythonSdkAdditionalData in bridge: 
+<additional ASSOCIATED_PROJECT_PATH="/Users/liuhaiyun/PycharmProjects/pythonProject" SDK_UUID="ba947034-a35a-4a60-b921-f17f3055ea86">
+  <setting name="FLAVOR_ID" value="MacPythonSdkFlavor" />
+  <setting name="FLAVOR_DATA" value="{}" />
+</additional>
+Probably inconsistent update of the com.jetbrains.python.sdk.PythonSdkAdditionalData, see the documentation of `SdkAdditionalData#markAsCommited` for more information
+	at com.intellij.openapi.diagnostic.Logger.error(Logger.java:376)
+	at com.intellij.workspaceModel.ide.impl.jps.serialization.JpsGlobalModelSynchronizerImpl.assertUnexpectedAdditionalDataModification(JpsGlobalModelSynchronizerImpl.kt:134)
+	at com.intellij.workspaceModel.ide.impl.jps.serialization.JpsGlobalModelSynchronizerImpl.serializeEntities(JpsGlobalModelSynchronizerImpl.kt:111)
+	at com.intellij.workspaceModel.ide.impl.jps.serialization.JpsGlobalModelSynchronizerImpl.saveGlobalEntities(JpsGlobalModelSynchronizerImpl.kt:85)
+	at com.intellij.configurationStore.ApplicationStoreImpl.doSave$intellij_platform_configurationStore_impl(ApplicationStoreImpl.kt:64)
+	at com.intellij.configurationStore.ComponentStoreImpl.save$suspendImpl(ComponentStoreImpl.kt:251)
+	at com.intellij.configurationStore.ComponentStoreImpl.save(ComponentStoreImpl.kt)
+	at com.intellij.configurationStore.StoreUtilKt.saveSettings(storeUtil.kt:99)
+	at com.intellij.configurationStore.StoreUtilKt.saveProjectsAndApp(storeUtil.kt:235)
+	at com.intellij.configurationStore.SaveAndSyncHandlerImpl.processTasks(SaveAndSyncHandlerImpl.kt:166)
+	at com.intellij.configurationStore.SaveAndSyncHandlerImpl.access$processTasks(SaveAndSyncHandlerImpl.kt:48)
+	at com.intellij.configurationStore.SaveAndSyncHandlerImpl$2$1$job$1$1.invokeSuspend(SaveAndSyncHandlerImpl.kt:103)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:793)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:697)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:684)
+2026-04-14 15:25:01,303 [  67701] SEVERE - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - PyCharm 2024.1  Build #PC-241.14494.241
+2026-04-14 15:25:01,304 [  67702] SEVERE - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - JDK: 17.0.10; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o.
+2026-04-14 15:25:01,304 [  67702] SEVERE - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - OS: Mac OS X
+2026-04-14 15:25:01,340 [  67738]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Saving global entities com.intellij.platform.workspace.jps.entities.LibraryEntity to files
+2026-04-14 15:25:01,345 [  67743]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _string ('built-in')
+2026-04-14 15:25:01,480 [  67878]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _string at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/f517d3d5edaa539870845fb2b338a759fb304a98686562e57a08dca3da218074'
+2026-04-14 15:25:01,587 [  67985]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _symtable ('built-in')
+2026-04-14 15:25:01,716 [  68114]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _symtable at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/f517d3d5edaa539870845fb2b338a759fb304a98686562e57a08dca3da218074'
+2026-04-14 15:25:01,801 [  68199]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _thread ('built-in')
+2026-04-14 15:25:01,856 [  68254]   INFO - #c.i.c.ComponentStoreImpl - Saving appAquaOldUserFeedbackInfoState took 18 ms, FileTypeManager took 12 ms
+2026-04-14 15:25:01,951 [  68349]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _thread at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/f517d3d5edaa539870845fb2b338a759fb304a98686562e57a08dca3da218074'
+2026-04-14 15:25:02,095 [  68493]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _tokenize ('built-in')
+2026-04-14 15:25:02,177 [  68575]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _tokenize at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/f517d3d5edaa539870845fb2b338a759fb304a98686562e57a08dca3da218074'
+2026-04-14 15:25:02,308 [  68706]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _tracemalloc ('built-in')
+2026-04-14 15:25:02,450 [  68848]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _tracemalloc at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/f517d3d5edaa539870845fb2b338a759fb304a98686562e57a08dca3da218074'
+2026-04-14 15:25:02,558 [  68956]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _typing ('built-in')
+2026-04-14 15:25:02,698 [  69096]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _typing at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/f517d3d5edaa539870845fb2b338a759fb304a98686562e57a08dca3da218074'
+2026-04-14 15:25:02,805 [  69203]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _warnings ('built-in')
+2026-04-14 15:25:02,948 [  69346]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _warnings at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/f517d3d5edaa539870845fb2b338a759fb304a98686562e57a08dca3da218074'
+2026-04-14 15:25:03,071 [  69469]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _weakref ('built-in')
+2026-04-14 15:25:03,201 [  69599]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _weakref at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/f517d3d5edaa539870845fb2b338a759fb304a98686562e57a08dca3da218074'
+2026-04-14 15:25:03,313 [  69711]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - atexit ('built-in')
+2026-04-14 15:25:03,435 [  69833]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for atexit at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/f517d3d5edaa539870845fb2b338a759fb304a98686562e57a08dca3da218074'
+2026-04-14 15:25:03,568 [  69966]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - builtins ('built-in')
+2026-04-14 15:25:03,675 [  70073]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for builtins at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/f517d3d5edaa539870845fb2b338a759fb304a98686562e57a08dca3da218074'
+2026-04-14 15:25:03,886 [  70284]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - errno ('built-in')
+2026-04-14 15:25:04,032 [  70430]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for errno at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/f517d3d5edaa539870845fb2b338a759fb304a98686562e57a08dca3da218074'
+2026-04-14 15:25:04,183 [  70581]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - faulthandler ('built-in')
+2026-04-14 15:25:04,307 [  70705]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for faulthandler at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/f517d3d5edaa539870845fb2b338a759fb304a98686562e57a08dca3da218074'
+2026-04-14 15:25:04,461 [  70859]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - gc ('built-in')
+2026-04-14 15:25:04,573 [  70971]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for gc at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/f517d3d5edaa539870845fb2b338a759fb304a98686562e57a08dca3da218074'
+2026-04-14 15:25:04,861 [  71259]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - itertools ('built-in')
+2026-04-14 15:25:04,942 [  71340]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for itertools at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/f517d3d5edaa539870845fb2b338a759fb304a98686562e57a08dca3da218074'
+2026-04-14 15:25:05,053 [  71451]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - marshal ('built-in')
+2026-04-14 15:25:05,121 [  71519]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for marshal at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/f517d3d5edaa539870845fb2b338a759fb304a98686562e57a08dca3da218074'
+2026-04-14 15:25:05,269 [  71667]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - posix ('built-in')
+2026-04-14 15:25:05,497 [  71895]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for posix at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/f517d3d5edaa539870845fb2b338a759fb304a98686562e57a08dca3da218074'
+2026-04-14 15:25:05,735 [  72133]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - pwd ('built-in')
+2026-04-14 15:25:05,844 [  72242]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for pwd at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/f517d3d5edaa539870845fb2b338a759fb304a98686562e57a08dca3da218074'
+2026-04-14 15:25:05,992 [  72390]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - sys ('built-in')
+2026-04-14 15:25:06,101 [  72499]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for sys at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/f517d3d5edaa539870845fb2b338a759fb304a98686562e57a08dca3da218074'
+2026-04-14 15:25:06,299 [  72697]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - time ('built-in')
+2026-04-14 15:25:06,512 [  72910]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for time at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/f517d3d5edaa539870845fb2b338a759fb304a98686562e57a08dca3da218074'
+2026-04-14 15:25:06,675 [  73073]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _asyncio ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_asyncio.cpython-312-darwin.so')
+2026-04-14 15:25:06,977 [  73375]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _asyncio at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/9829e71cdccda066a0f3fdc02e4620de593485fb8e264b0aca1634c9d35df8eb'
+2026-04-14 15:25:08,797 [  75195]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _bisect ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_bisect.cpython-312-darwin.so')
+2026-04-14 15:25:08,934 [  75332]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _bisect at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/090ed9821590f18bb3b8a087c83fc21edd8d160d86d0c413833b698f3042fafb'
+2026-04-14 15:25:08,984 [  75382]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _blake2 ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_blake2.cpython-312-darwin.so')
+2026-04-14 15:25:09,075 [  75473]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _blake2 at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/b042a862430ae0c9505fc60a5ef6ecbdf04cc0c996b15ad0111d35947f2548f0'
+2026-04-14 15:25:09,133 [  75531]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _bz2 ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_bz2.cpython-312-darwin.so')
+2026-04-14 15:25:09,198 [  75596]   INFO - #c.j.r.p.c.CodeWithMeCleanup - running activity to cleanup old thin clients... Root path is '/Users/liuhaiyun/Library/Caches/JetBrains'. JvmStartTimeMs=1776151433341
+2026-04-14 15:25:09,200 [  75598]   INFO - #c.j.r.p.c.CodeWithMeCleanup - found 0 Code With Me client system folders to check
+2026-04-14 15:25:09,202 [  75600]   INFO - #c.j.r.p.c.CodeWithMeCleanup - found 0 Code With Me client config folders to check
+2026-04-14 15:25:09,204 [  75602]   INFO - #c.j.r.p.c.CodeWithMeCleanup - keep only [] major versions
+2026-04-14 15:25:09,204 [  75602]   INFO - #c.j.r.p.c.CodeWithMeCleanup - Starting the logs folder cleanup. Path: /Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/log
+2026-04-14 15:25:09,206 [  75604]   INFO - #c.i.r.OsRegistryConfigProvider - Looking for 'versionManagementEnabled' value in [/Library/Application Support/JetBrains/JetBrainsClient/versionManagementEnabled, /Library/Application Support/JetBrains/JetBrainsClient/config.json, /Users/liuhaiyun/Library/Application Support/JetBrains/JetBrainsClient/versionManagementEnabled, /Users/liuhaiyun/Library/Application Support/JetBrains/JetBrainsClient/config.json]
+2026-04-14 15:25:09,206 [  75604]   INFO - #c.i.r.OsRegistryConfigProvider - OS provided value for 'versionManagementEnabled' is not found
+2026-04-14 15:25:09,227 [  75625]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _bz2 at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/d9896cdee184efe19e0bbb45a469da7eefdfcc677d168d9b727945a6d6aa99cf'
+2026-04-14 15:25:09,270 [  75668]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _codecs_cn ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_codecs_cn.cpython-312-darwin.so')
+2026-04-14 15:25:09,620 [  76018]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _codecs_cn at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/35a0de0284b30dbfb0ee8ad329591d5f9de0f870623bf8a74c4037329b377e9e'
+2026-04-14 15:25:10,017 [  76415]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _codecs_hk ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_codecs_hk.cpython-312-darwin.so')
+2026-04-14 15:25:10,080 [  76478]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _codecs_hk at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/f4d26dd973c04945f6a83c7bfff25f2088276e5464ad69f32dd99ffd610f2f19'
+2026-04-14 15:25:10,564 [  76962]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _codecs_iso2022 ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_codecs_iso2022.cpython-312-darwin.so')
+2026-04-14 15:25:11,032 [  77430]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _codecs_iso2022 at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/712a719e15490c12ef94bd171028c2a20d86023c5fcee93d1c4394c08260300a'
+2026-04-14 15:25:11,525 [  77923]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _codecs_jp ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_codecs_jp.cpython-312-darwin.so')
+2026-04-14 15:25:11,538 [  77936]   INFO - #c.i.u.i.UnindexedFilesIndexer - Finished for pythonProject. Unindexed files update took 14998ms; general responsiveness: 2/15 sluggish; EDT responsiveness: 1/15 sluggish
+2026-04-14 15:25:11,543 [  77941]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: (dumb mode task) UnindexedFilesIndexer[pythonProject, 1 iterators, reason: Merged On refresh of files in pythonProject with On refresh of files in pythonProject with On refresh of files in pythonProject with On project open]
+2026-04-14 15:25:11,544 [  77942]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: (dumb mode task) com.intellij.util.indexing.DumbModeWhileScanningTrigger$DumbModeWhileScanning@52a47f94
+2026-04-14 15:25:11,599 [  77997]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _codecs_jp at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/3b7e24cafc88cde0f6e0b90758dacea7198102a3a72a0940d1e9f06949e8dd46'
+2026-04-14 15:25:12,130 [  78528]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _codecs_kr ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_codecs_kr.cpython-312-darwin.so')
+2026-04-14 15:25:12,197 [  78595]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _codecs_kr at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/d06590c2b9d71067be40b94864a8cd68df36ab67f720f99cc389c9d333acea2d'
+2026-04-14 15:25:12,677 [  79075]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _codecs_tw ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_codecs_tw.cpython-312-darwin.so')
+2026-04-14 15:25:12,751 [  79149]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _codecs_tw at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/7a25213d8fe42281fc77b8b0364cc59deda4e1ec4456fe372a39b4cc20365fcc'
+2026-04-14 15:25:13,212 [  79610]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _contextvars ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_contextvars.cpython-312-darwin.so')
+2026-04-14 15:25:13,269 [  79667]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _contextvars at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/3c82d4553bca6deefc5c5363177a97f238fe486248d4340e361d1dd740347dde'
+2026-04-14 15:25:13,308 [  79706]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _crypt ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_crypt.cpython-312-darwin.so')
+2026-04-14 15:25:13,368 [  79766]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _crypt at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/4ad3103ac6c564cc4550873d92a8a4dc4e5e4e9f326849206063c714dc6d9ab2'
+2026-04-14 15:25:13,850 [  80248]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _csv ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_csv.cpython-312-darwin.so')
+2026-04-14 15:25:13,926 [  80324]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _csv at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/701d2e84b77e6d11ca51a2fac255776ffc3531e9baf0b96cc9dc00a799504e95'
+2026-04-14 15:25:13,964 [  80362]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _ctypes ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_ctypes.cpython-312-darwin.so')
+2026-04-14 15:25:14,026 [  80424]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _ctypes at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/279b6e2fc823e356435efa164bdbfd6416c48494ddde706ce0775fe65984cc4b'
+2026-04-14 15:25:14,655 [  81053]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _ctypes_test ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_ctypes_test.cpython-312-darwin.so')
+2026-04-14 15:25:14,715 [  81113]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _ctypes_test at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/46d071f76e04caac3456c40a2720ca3501abb345b130dc9c1277a7b403baf6b9'
+2026-04-14 15:25:15,052 [  81450]   INFO - #c.i.u.i.UnindexedFilesScanner - Scanning completed for pythonProject. Number of scanned files: 7583; number of files for indexing: 6680 took 18474ms; general responsiveness: 2/18 sluggish; EDT responsiveness: 1/18 sluggish
+2026-04-14 15:25:15,065 [  81463]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: UnindexedFilesScanner[pythonProject, 1 iterators]
+2026-04-14 15:25:15,065 [  81463]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: UnindexedFilesScanner[pythonProject, 1 iterators]
+2026-04-14 15:25:15,066 [  81464]   INFO - #c.i.u.i.UnindexedFilesScanner - Started scanning for indexing of pythonProject. Reason: changes in: "Python SDK Python 3.12 (pythonProject) /Users/liuhaiyun/PycharmProjects/pythonProject/.venv/bin/python"
+2026-04-14 15:25:15,067 [  81465]   INFO - #c.i.u.i.UnindexedFilesScanner - Performing delayed pushing properties tasks for pythonProject took 0ms; general responsiveness: ok; EDT responsiveness: ok
+2026-04-14 15:25:15,067 [  81465]   INFO - #c.i.u.i.UnindexedFilesScanner - Scanning of pythonProject uses 7 scanning threads
+2026-04-14 15:25:15,084 [  81482]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of README by request of indexes: [Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,]. 
+2026-04-14 15:25:15,085 [  81483]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of README.txt by request of indexes: [Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,]. 
+2026-04-14 15:25:15,085 [  81483]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of 4e1295a3.0 by request of indexes: [Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,]. 
+2026-04-14 15:25:15,085 [  81483]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of 5ed36f99.0 by request of indexes: [Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,]. 
+2026-04-14 15:25:15,085 [  81483]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of 6e88d7b8.0 by request of indexes: [Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,]. 
+2026-04-14 15:25:15,086 [  81484]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of 99d0fa06.0 by request of indexes: [Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,]. 
+2026-04-14 15:25:15,086 [  81484]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of b1930218.0 by request of indexes: [Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,]. 
+2026-04-14 15:25:15,086 [  81484]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of ceff1710.0 by request of indexes: [Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,]. 
+2026-04-14 15:25:15,086 [  81484]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of nokia.pem by request of indexes: [Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,]. 
+2026-04-14 15:25:15,086 [  81484]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of nosan.pem by request of indexes: [Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,]. 
+2026-04-14 15:25:15,178 [  81576]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _curses ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_curses.cpython-312-darwin.so')
+2026-04-14 15:25:15,231 [  81629]   INFO - #c.i.u.i.UnindexedFilesScanner - Scanning completed for pythonProject. Number of scanned files: 7614; number of files for indexing: 5117 took 164ms; general responsiveness: ok; EDT responsiveness: ok
+2026-04-14 15:25:15,233 [  81631]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: UnindexedFilesScanner[pythonProject, 1 iterators]
+2026-04-14 15:25:15,233 [  81631]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: (dumb mode task) com.intellij.util.indexing.DumbModeWhileScanningTrigger$DumbModeWhileScanning@52a47f94
+2026-04-14 15:25:15,234 [  81632]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: (dumb mode task) com.intellij.openapi.roots.impl.PushedFilePropertiesUpdaterImpl$MyDumbModeTask@9e483a5 (reason: Push on VFS changes)
+2026-04-14 15:25:15,234 [  81632]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: (dumb mode task) com.intellij.openapi.roots.impl.PushedFilePropertiesUpdaterImpl$MyDumbModeTask@9e483a5 (reason: Push on VFS changes)
+2026-04-14 15:25:15,235 [  81633]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: (dumb mode task) UnindexedFilesIndexer[pythonProject, 2 iterators, reason: Merged changes in: "Python SDK Python 3.12 (pythonProject) /Users/liuhaiyun/PycharmProjects/pythonProject/.venv/bin/python" with On refresh of files in pythonProject with changes in: "Python SDK Python 3.12 (pythonProject) /Users/liuhaiyun/PycharmProjects/pythonProject/.venv/bin/python" with On refresh of files in pythonProject]
+2026-04-14 15:25:15,235 [  81633]   INFO - #c.i.u.i.c.IndexUpdateRunner - Using 3 indexing and 4 writing threads for indexing
+2026-04-14 15:25:15,283 [  81681]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _curses at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/35b2b2501babf0bbd57834637843df4976620f50aee799d1cdaf298e495df717'
+2026-04-14 15:25:15,802 [  82200]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _curses_panel ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_curses_panel.cpython-312-darwin.so')
+2026-04-14 15:25:15,892 [  82290]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _curses_panel at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/ea2a42c1a0bdec7fbf32ea64d6b6c97a91f7baca8e901b00582a8dc24ce9f1bf'
+2026-04-14 15:25:16,588 [  82986]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _datetime ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_datetime.cpython-312-darwin.so')
+2026-04-14 15:25:16,742 [  83140]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _datetime at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/6b2644c68e79cd7a94a3a0211237a44a670fcb45ae07c263e789e78765121631'
+2026-04-14 15:25:16,769 [  83167]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Saving global entities com.intellij.platform.workspace.jps.entities.SdkEntity to files
+2026-04-14 15:25:16,772 [  83170]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Saving global entities com.intellij.platform.workspace.jps.entities.LibraryEntity to files
+2026-04-14 15:25:16,806 [  83204]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _dbm ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_dbm.cpython-312-darwin.so')
+2026-04-14 15:25:16,925 [  83323]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _dbm at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/48fef2685a8d348534e2d9beb077a9815882e7f19fe36703cf52dec2ae625fb2'
+2026-04-14 15:25:17,377 [  83775]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _decimal ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_decimal.cpython-312-darwin.so')
+2026-04-14 15:25:17,467 [  83865]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _decimal at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/ed64d7cdadd1b1a135d3a0e8dbced9c47259453d61d970f3b68f07becdae630d'
+2026-04-14 15:25:17,535 [  83933]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _elementtree ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_elementtree.cpython-312-darwin.so')
+2026-04-14 15:25:17,603 [  84001]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _elementtree at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/9af638366c5fc449eaa04a296ffd31b39835a731e38e2873c649a467e2fe4623'
+2026-04-14 15:25:18,299 [  84697]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _hashlib ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_hashlib.cpython-312-darwin.so')
+2026-04-14 15:25:18,388 [  84786]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _hashlib at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/d6584289a887396971cff28622916d3dafd7e14e0c7325acc227c5f3b77366ad'
+2026-04-14 15:25:18,431 [  84829]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _heapq ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_heapq.cpython-312-darwin.so')
+2026-04-14 15:25:18,498 [  84896]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _heapq at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/cebbbec5c6cadf1ca1a5071d8f94a8392632fae9076978952901492dc03f7e8d'
+2026-04-14 15:25:18,535 [  84933]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _json ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_json.cpython-312-darwin.so')
+2026-04-14 15:25:18,616 [  85014]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _json at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/c40a457a846f2384138a92fdbf66ab9a119cf2f2d757664abfe146e7298f9ba7'
+2026-04-14 15:25:18,656 [  85054]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _lsprof ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_lsprof.cpython-312-darwin.so')
+2026-04-14 15:25:18,755 [  85153]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _lsprof at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/ebf9cb026924c95995ba192ed865c2021db680facd30a9afc02b22f8ef9cb6d0'
+2026-04-14 15:25:19,220 [  85618]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _lzma ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_lzma.cpython-312-darwin.so')
+2026-04-14 15:25:19,283 [  85681]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _lzma at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/828d6212ca3fc6fa5fd862323fdc0ef33f273e1c74c1fa99b32180b67a153323'
+2026-04-14 15:25:19,325 [  85723]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _md5 ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_md5.cpython-312-darwin.so')
+2026-04-14 15:25:19,394 [  85792]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _md5 at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/a6c4d072132cb8b8ab6b0d67c870baf4f367ccde77e3e199af01ca18898d2e89'
+2026-04-14 15:25:19,900 [  86298]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _multibytecodec ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_multibytecodec.cpython-312-darwin.so')
+2026-04-14 15:25:19,982 [  86380]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _multibytecodec at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/6be1081e94c0cd95ba85c8095d25af4185d65a39919948ecda3420aae6038047'
+2026-04-14 15:25:20,452 [  86850]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _multiprocessing ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_multiprocessing.cpython-312-darwin.so')
+2026-04-14 15:25:20,533 [  86931]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _multiprocessing at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/8596f66a3c88a1a345956f463115ccd975a9f9a11281e6ff72796ff44426f832'
+2026-04-14 15:25:20,596 [  86994]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _opcode ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_opcode.cpython-312-darwin.so')
+2026-04-14 15:25:20,669 [  87067]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _opcode at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/936ee3e5c9f0520a848c2738f2942f1d09a23a475ddf0c81d1adfe89c35fb53f'
+2026-04-14 15:25:20,713 [  87111]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _pickle ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_pickle.cpython-312-darwin.so')
+2026-04-14 15:25:20,775 [  87173]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _pickle at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/a862746acdbb19213eb5a2fe168b9a26750116bfc470302dac4d15bf8e1d724f'
+2026-04-14 15:25:20,818 [  87216]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _posixshmem ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_posixshmem.cpython-312-darwin.so')
+2026-04-14 15:25:20,893 [  87291]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _posixshmem at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/3c3ea993bc466c17ed9e1747f8b83658cac55175e32be038c0402a5dc970973f'
+2026-04-14 15:25:20,931 [  87329]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _posixsubprocess ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_posixsubprocess.cpython-312-darwin.so')
+2026-04-14 15:25:21,007 [  87405]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _posixsubprocess at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/603e9abec008e3c16973da124ebf16a3a74d98c399a4dc63999f35649a7eb714'
+2026-04-14 15:25:21,040 [  87438]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _queue ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_queue.cpython-312-darwin.so')
+2026-04-14 15:25:21,115 [  87513]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _queue at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/41e03f7fba98574310cecbd5386fc22adfedf6af0ce9b725b18e0457ec4f51b0'
+2026-04-14 15:25:21,157 [  87555]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _random ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_random.cpython-312-darwin.so')
+2026-04-14 15:25:21,227 [  87625]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _random at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/dfb1631ce765833b13f7da11e3e6f9433158579389982654e911d63685418229'
+2026-04-14 15:25:21,266 [  87664]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _scproxy ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_scproxy.cpython-312-darwin.so')
+2026-04-14 15:25:21,326 [  87724]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _scproxy at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/747a87fd6569a0cd0904899a87cad9292443b3d69ed28fdee403594bf44a896e'
+2026-04-14 15:25:21,363 [  87761]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _sha1 ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_sha1.cpython-312-darwin.so')
+2026-04-14 15:25:21,456 [  87854]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _sha1 at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/65a95693733ff023258d6644ff3c47bf1f61a22f817b569b0b1665f10389f89a'
+2026-04-14 15:25:21,909 [  88307]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _sha2 ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_sha2.cpython-312-darwin.so')
+2026-04-14 15:25:21,936 [  88334]   INFO - #c.i.u.i.ProjectChangedFilesScanner - Retrieving changed during indexing files of pythonProject : 1 to update, calculated in 0ms
+2026-04-14 15:25:21,965 [  88363]   INFO - #c.i.u.i.UnindexedFilesIndexer - Finished for pythonProject. Unindexed files update took 6730ms; general responsiveness: ok; EDT responsiveness: ok
+2026-04-14 15:25:21,972 [  88370]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: (dumb mode task) UnindexedFilesIndexer[pythonProject, 2 iterators, reason: Merged changes in: "Python SDK Python 3.12 (pythonProject) /Users/liuhaiyun/PycharmProjects/pythonProject/.venv/bin/python" with On refresh of files in pythonProject with changes in: "Python SDK Python 3.12 (pythonProject) /Users/liuhaiyun/PycharmProjects/pythonProject/.venv/bin/python" with On refresh of files in pythonProject]
+2026-04-14 15:25:21,977 [  88375]   INFO - #c.i.o.p.DumbServiceImpl - exit dumb mode [pythonProject]
+2026-04-14 15:25:22,012 [  88410]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _sha2 at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/77e58c9d6fb4b9ec5055d112a031aaf427f5b6f1f91774c8731c4979e4b2c541'
+2026-04-14 15:25:22,073 [  88471]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _sha3 ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_sha3.cpython-312-darwin.so')
+2026-04-14 15:25:22,125 [  88523]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _sha3 at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/32f0694767d0b54cc557ef01f364f78101f08be8e096a198ee9d60d2c4d549e4'
+2026-04-14 15:25:22,589 [  88987]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _socket ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_socket.cpython-312-darwin.so')
+2026-04-14 15:25:22,681 [  89079]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _socket at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/027de536b40d42ee3eebd4f61fa44b6b3f2b3d8683d2644d238265ff1eb7da31'
+2026-04-14 15:25:22,778 [  89176]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _sqlite3 ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_sqlite3.cpython-312-darwin.so')
+2026-04-14 15:25:22,846 [  89244]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _sqlite3 at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/10a07b02e5449c0600ff0e10710950aa7ccfb53599efddbf36463c00fcd7c266'
+2026-04-14 15:25:23,361 [  89759]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _ssl ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_ssl.cpython-312-darwin.so')
+2026-04-14 15:25:23,426 [  89824]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _ssl at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/cc7d8f3f492b61677681d5806d3ec6347c456e83f9175d82faa0b627e8442726'
+2026-04-14 15:25:23,476 [  89874]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _statistics ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_statistics.cpython-312-darwin.so')
+2026-04-14 15:25:23,539 [  89937]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _statistics at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/0401a0a084d587ad7f60b81da631208d2660fe8fe75287d348e6ff38d2f7c368'
+2026-04-14 15:25:24,031 [  90429]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _struct ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_struct.cpython-312-darwin.so')
+2026-04-14 15:25:24,094 [  90492]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _struct at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/aa9f9e175bb6cc625b8d5cf1e271ee05811d12cf1e07091e608be1091c7793ca'
+2026-04-14 15:25:24,133 [  90531]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _testbuffer ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_testbuffer.cpython-312-darwin.so')
+2026-04-14 15:25:24,195 [  90593]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _testbuffer at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/47d8414d79f69d56b2ca25286d08bf681155e457578995d87766f45ec132bb82'
+2026-04-14 15:25:24,669 [  91067]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _testcapi ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_testcapi.cpython-312-darwin.so')
+2026-04-14 15:25:24,739 [  91137]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _testcapi at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/ba4a2a45f7fe274817a7e33190e655e6a61061471ba4f1587b8999c6d0021368'
+2026-04-14 15:25:25,350 [  91748]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _testclinic ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_testclinic.cpython-312-darwin.so')
+2026-04-14 15:25:25,426 [  91824]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _testclinic at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/cec902a9e39a80c5744f2f15000bef7c341a33077c97129b408fb0473a867299'
+2026-04-14 15:25:25,940 [  92338]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _testimportmultiple ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_testimportmultiple.cpython-312-darwin.so')
+2026-04-14 15:25:26,009 [  92407]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _testimportmultiple at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/a1bb6eb4cc45307bccdc1f369710e56ffb8d5e4dd9203ca073b6068fd8e5717b'
+2026-04-14 15:25:26,511 [  92909]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _testinternalcapi ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_testinternalcapi.cpython-312-darwin.so')
+2026-04-14 15:25:26,575 [  92973]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _testinternalcapi at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/776a95876e207706b037df7af8dcddba1e589ed46558d58388047ad3ae8fe35f'
+2026-04-14 15:25:27,065 [  93463]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _testmultiphase ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_testmultiphase.cpython-312-darwin.so')
+2026-04-14 15:25:27,134 [  93532]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _testmultiphase at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/62a5ce659ffdc7a8a09d060f2d36bddb8132e0cdbbc64ab32cb5cda137e451ee'
+2026-04-14 15:25:27,616 [  94014]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _testsinglephase ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_testsinglephase.cpython-312-darwin.so')
+2026-04-14 15:25:27,680 [  94078]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _testsinglephase at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/5007e5e1c307b439b7d5a7b59f1433443b8fdfd3b4682ba9c131bfc13c619e85'
+2026-04-14 15:25:28,171 [  94569]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _tkinter ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_tkinter.cpython-312-darwin.so')
+2026-04-14 15:25:28,229 [  94627]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _tkinter at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/df3d6a4d90d532c0bc3f257bf92dc59a2d77e845427f50e955c1548b67a23550'
+2026-04-14 15:25:30,262 [  96660]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _uuid ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_uuid.cpython-312-darwin.so')
+2026-04-14 15:25:30,338 [  96736]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _uuid at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/a81ed1a3bdbaf479e79093158d1c9fb05e2b9c828d70d0dbd0d3986540ab5ae2'
+2026-04-14 15:25:30,638 [  97036]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _xxinterpchannels ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_xxinterpchannels.cpython-312-darwin.so')
+2026-04-14 15:25:30,703 [  97101]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _xxinterpchannels at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/fc56b67428c5049a60224ee41b201b88f95386e065ab715558ffaae753e7ed15'
+2026-04-14 15:25:31,215 [  97613]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _xxsubinterpreters ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_xxsubinterpreters.cpython-312-darwin.so')
+2026-04-14 15:25:31,281 [  97679]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _xxsubinterpreters at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/3ecfc95ddf45e994b1484a688ac92a691ac0e4dea24e8f14cfb9c2c8081a7ea6'
+2026-04-14 15:25:31,508 [  97906]   INFO - #c.i.o.p.DumbServiceImpl - enter dumb mode [pythonProject]
+2026-04-14 15:25:31,538 [  97936]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: (dumb mode task) com.intellij.openapi.roots.impl.PushedFilePropertiesUpdaterImpl$MyDumbModeTask@56d64f4a (reason: Push on VFS changes)
+2026-04-14 15:25:31,553 [  97951]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: (dumb mode task) com.intellij.openapi.roots.impl.PushedFilePropertiesUpdaterImpl$MyDumbModeTask@56d64f4a (reason: Push on VFS changes)
+2026-04-14 15:25:31,564 [  97962]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: (dumb mode task) UnindexedFilesIndexer[pythonProject, 0 iterators, reason: On refresh of files in pythonProject]
+2026-04-14 15:25:31,566 [  97964]   INFO - #c.i.u.i.c.IndexUpdateRunner - Using 3 indexing and 4 writing threads for indexing
+2026-04-14 15:25:31,567 [  97965]   INFO - #c.i.u.i.ProjectChangedFilesScanner - Retrieving changed during indexing files of pythonProject : 94 to update, calculated in 0ms
+2026-04-14 15:25:31,769 [  98167]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _xxtestfuzz ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_xxtestfuzz.cpython-312-darwin.so')
+2026-04-14 15:25:31,775 [  98173]   INFO - #c.i.u.i.UnindexedFilesIndexer - Finished for pythonProject. Unindexed files update took 209ms; general responsiveness: ok; EDT responsiveness: ok
+2026-04-14 15:25:31,776 [  98174]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: (dumb mode task) UnindexedFilesIndexer[pythonProject, 0 iterators, reason: On refresh of files in pythonProject]
+2026-04-14 15:25:31,777 [  98175]   INFO - #c.i.o.p.DumbServiceImpl - exit dumb mode [pythonProject]
+2026-04-14 15:25:31,851 [  98249]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _xxtestfuzz at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/b1f0272ddb88908929ff3c0be4fb8a701a8c32667adfa45a18cca929052c812e'
+2026-04-14 15:25:32,319 [  98717]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - _zoneinfo ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_zoneinfo.cpython-312-darwin.so')
+2026-04-14 15:25:32,383 [  98781]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for _zoneinfo at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/acec205703757b734636f9d093b265a6211e6b4adba35712b8519e8f8cf2ca98'
+2026-04-14 15:25:32,886 [  99284]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - array ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/array.cpython-312-darwin.so')
+2026-04-14 15:25:32,950 [  99348]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for array at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/4e73a633632fc88ba0e7c7dd9ce97b2734b988ff046f60d5e275514251928397'
+2026-04-14 15:25:32,983 [  99381]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - audioop ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/audioop.cpython-312-darwin.so')
+2026-04-14 15:25:33,045 [  99443]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for audioop at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/a963316887dd6a89390a240d503c7c12644edc6f1c1e64b65c6a2235046e22a9'
+2026-04-14 15:25:33,567 [  99965]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - binascii ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/binascii.cpython-312-darwin.so')
+2026-04-14 15:25:33,637 [ 100035]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for binascii at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/f70e333d5d4fd26d0a1fc6174f5e9c1c071de1cc9db4794bae39b517ff2233bb'
+2026-04-14 15:25:33,675 [ 100073]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - cmath ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/cmath.cpython-312-darwin.so')
+2026-04-14 15:25:33,738 [ 100136]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for cmath at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/7bfbca2244e18c86f550936075240a0dc9eb4406c9389f4c021b2a6cf1aa3e8b'
+2026-04-14 15:25:34,110 [ 100508]   INFO - #c.i.u.g.s.GistStorageImpl - Cleaning old huge-gists dirs from [/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/caches/huge-gists] ...
+2026-04-14 15:25:34,126 [ 100524]   INFO - #c.i.u.g.s.GistStorageImpl - Cleaning old huge-gists dirs finished
+2026-04-14 15:25:34,305 [ 100703]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - fcntl ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/fcntl.cpython-312-darwin.so')
+2026-04-14 15:25:34,368 [ 100766]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for fcntl at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/a2dd199b0044c4115af95d95be9a951af479790c22aaf506371d23c5700b5471'
+2026-04-14 15:25:34,407 [ 100805]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - grp ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/grp.cpython-312-darwin.so')
+2026-04-14 15:25:34,463 [ 100861]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for grp at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/6dc4715d3fab94987d7e667835f6f17f5d09fdeabde0e825ded3331f9a89f0f8'
+2026-04-14 15:25:34,502 [ 100900]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - math ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/math.cpython-312-darwin.so')
+2026-04-14 15:25:34,571 [ 100969]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for math at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/7b98cd6f9953257843bc980a385049c49319de0916b481acab4db78b2eb41ef3'
+2026-04-14 15:25:34,609 [ 101007]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - mmap ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/mmap.cpython-312-darwin.so')
+2026-04-14 15:25:34,671 [ 101069]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for mmap at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/9d33da2f58ca1cf73c49f2f348b69e3b4dbbf7be55745e71b08f31ab14d5df10'
+2026-04-14 15:25:35,224 [ 101622]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - nis ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/nis.cpython-312-darwin.so')
+2026-04-14 15:25:35,288 [ 101686]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for nis at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/b06e6980d289a6815fdb5d97e1c1b73eafbb61703174b017e1f48feb0dc50199'
+2026-04-14 15:25:35,833 [ 102231]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - pyexpat ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/pyexpat.cpython-312-darwin.so')
+2026-04-14 15:25:35,904 [ 102302]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for pyexpat at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/ce08b6ba6b70e83a4f0f62956e5e9f6210508b5ebd88c337491582fd3293950c'
+2026-04-14 15:25:35,930 [ 102328]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Processing submodule pyexpat.errors of pyexpat
+2026-04-14 15:25:35,938 [ 102336]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Processing submodule pyexpat.model of pyexpat
+2026-04-14 15:25:35,952 [ 102350]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - readline ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/readline.cpython-312-darwin.so')
+2026-04-14 15:25:36,021 [ 102419]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for readline at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/4a7ca68dc9c5d57ca9cea445aafe318023ed438b4912fae514ebf4f1c3848989'
+2026-04-14 15:25:36,586 [ 102984]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - resource ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/resource.cpython-312-darwin.so')
+2026-04-14 15:25:36,649 [ 103047]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for resource at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/097af181d29eaa1529fd435e4df9aab6ea64c04b08ec4b1eb84d54fd6fd8319d'
+2026-04-14 15:25:37,171 [ 103569]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - select ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/select.cpython-312-darwin.so')
+2026-04-14 15:25:37,248 [ 103646]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for select at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/f4e5339f91cd70015cc53fde49a68e8814af3980bdf7e8d80cbe074152b97f97'
+2026-04-14 15:25:37,287 [ 103685]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - syslog ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/syslog.cpython-312-darwin.so')
+2026-04-14 15:25:37,344 [ 103742]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for syslog at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/1b39154086fca5140e5fd3f02a5023b3b6b989cb84be44319407476f42f878df'
+2026-04-14 15:25:37,938 [ 104336]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - termios ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/termios.cpython-312-darwin.so')
+2026-04-14 15:25:38,015 [ 104413]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for termios at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/85957ff3bde31128adfdff310654e74c8a4c4e4b71155aa77a004c39b7770799'
+2026-04-14 15:25:38,526 [ 104924]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - unicodedata ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/unicodedata.cpython-312-darwin.so')
+2026-04-14 15:25:38,587 [ 104985]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for unicodedata at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/7d6c669db07544ba196232872b4fb485a6a472048aae4429204d9622db916b10'
+2026-04-14 15:25:39,139 [ 105537]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - xxlimited ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/xxlimited.cpython-312-darwin.so')
+2026-04-14 15:25:39,209 [ 105607]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for xxlimited at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/97b497625e1933a85dfe0c3303aa207fe2b23b6bf36ebaac89e11752dc58593a'
+2026-04-14 15:25:39,715 [ 106113]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - xxlimited_35 ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/xxlimited_35.cpython-312-darwin.so')
+2026-04-14 15:25:39,773 [ 106171]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for xxlimited_35 at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/794ba1fe504852aec6a417808e80da052c0b854076da138f4763db815a1a49a1'
+2026-04-14 15:25:40,263 [ 106661]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - xxsubtype ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/xxsubtype.cpython-312-darwin.so')
+2026-04-14 15:25:40,320 [ 106718]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for xxsubtype at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/e86e52cae56024c775189bdcd3568743d3b3fbe5ee06afdea942fb8e842b23a6'
+2026-04-14 15:25:40,802 [ 107200]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - zlib ('/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/zlib.cpython-312-darwin.so')
+2026-04-14 15:25:40,860 [ 107258]   INFO - #c.j.p.s.s.PySkeletonGenerator$Run - Updating cache for zlib at '/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/python_stubs/cache/433426792f3e5ed0e45023670a122fa7c30754be8b23ce4e9d890ef7ceb6189c'
+2026-04-14 15:25:40,908 [ 107306]   INFO - #c.j.p.s.s.PySkeletonRefresher - Rebuilding skeletons for binaries took 44666 ms
+2026-04-14 15:25:40,924 [ 107322]   INFO - #c.i.o.p.DumbServiceImpl - enter dumb mode [pythonProject]
+2026-04-14 15:25:40,934 [ 107332]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: (dumb mode task) com.intellij.openapi.roots.impl.PushedFilePropertiesUpdaterImpl$MyDumbModeTask@12838029 (reason: Push on VFS changes)
+2026-04-14 15:25:40,936 [ 107334]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: (dumb mode task) com.intellij.openapi.roots.impl.PushedFilePropertiesUpdaterImpl$MyDumbModeTask@12838029 (reason: Push on VFS changes)
+2026-04-14 15:25:40,936 [ 107334]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: (dumb mode task) UnindexedFilesIndexer[pythonProject, 0 iterators, reason: On refresh of files in pythonProject]
+2026-04-14 15:25:40,937 [ 107335]   INFO - #c.i.u.i.c.IndexUpdateRunner - Using 3 indexing and 4 writing threads for indexing
+2026-04-14 15:25:40,937 [ 107335]   INFO - #c.i.u.i.ProjectChangedFilesScanner - Retrieving changed during indexing files of pythonProject : 25 to update, calculated in 0ms
+2026-04-14 15:25:41,029 [ 107427]   INFO - #c.j.p.s.PythonSdkUpdater - Performing background scan of packages for SDK Python 3.12 (pythonProject) (/Users/liuhaiyun/PycharmProjects/pythonProject/.venv/bin/python)
+2026-04-14 15:25:41,032 [ 107430]   INFO - #c.j.p.p.PyTargetEnvironmentPackageManager - Running packaging tool
+2026-04-14 15:25:41,049 [ 107447]   INFO - #c.i.u.i.UnindexedFilesIndexer - Finished for pythonProject. Unindexed files update took 112ms; general responsiveness: ok; EDT responsiveness: ok
+2026-04-14 15:25:41,050 [ 107448]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: (dumb mode task) UnindexedFilesIndexer[pythonProject, 0 iterators, reason: On refresh of files in pythonProject]
+2026-04-14 15:25:41,050 [ 107448]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: (dumb mode task) UnindexedFilesIndexer[pythonProject, 0 iterators, reason: On refresh of files in pythonProject]
+2026-04-14 15:25:41,051 [ 107449]   INFO - #c.i.u.i.c.IndexUpdateRunner - Using 3 indexing and 4 writing threads for indexing
+2026-04-14 15:25:41,051 [ 107449]   INFO - #c.i.u.i.ProjectChangedFilesScanner - Retrieving changed during indexing files of pythonProject : 0 to update, calculated in 0ms
+2026-04-14 15:25:41,075 [ 107473]   INFO - #c.i.u.i.UnindexedFilesIndexer - Finished for pythonProject. Unindexed files update took 24ms; general responsiveness: ok; EDT responsiveness: ok
+2026-04-14 15:25:41,076 [ 107474]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: (dumb mode task) UnindexedFilesIndexer[pythonProject, 0 iterators, reason: On refresh of files in pythonProject]
+2026-04-14 15:25:41,076 [ 107474]   INFO - #c.i.o.p.DumbServiceImpl - exit dumb mode [pythonProject]
+2026-04-14 15:25:58,388 [ 124786]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Saving global entities com.intellij.platform.workspace.jps.entities.SdkEntity to files
+2026-04-14 15:25:58,393 [ 124791]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Saving global entities com.intellij.platform.workspace.jps.entities.LibraryEntity to files
+2026-04-14 15:26:50,975 [ 177373]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Saving global entities com.intellij.platform.workspace.jps.entities.SdkEntity to files
+2026-04-14 15:26:50,984 [ 177382]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Saving global entities com.intellij.platform.workspace.jps.entities.LibraryEntity to files
+2026-04-14 15:26:58,744 [ 185142]   INFO - #c.i.u.p.CommonProxy - <html>You have JVM property "https.proxyHost" set to "127.0.0.1".<br>This may lead to incorrect behaviour. Proxy should be set in Settings | HTTP Proxy<br>This JVM property is old and its usage is not recommended by Oracle.<br>(Note: It could have been assigned by some code dynamically.)</html>
+2026-04-14 15:29:32,215 [ 338613]   INFO - #c.i.c.ComponentStoreImpl - Saving Project(name=pythonProject, containerState=COMPONENT_CREATED, componentStore=/Users/liuhaiyun/PycharmProjects/pythonProject)XDebuggerManager took 15 ms
+2026-04-14 15:29:32,262 [ 338660]   INFO - #c.i.o.p.DumbServiceImpl - enter dumb mode [pythonProject]
+2026-04-14 15:29:32,274 [ 338672]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: (dumb mode task) com.intellij.openapi.roots.impl.PushedFilePropertiesUpdaterImpl$MyDumbModeTask@522a1b50 (reason: Push on VFS changes)
+2026-04-14 15:29:32,279 [ 338677]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: (dumb mode task) com.intellij.openapi.roots.impl.PushedFilePropertiesUpdaterImpl$MyDumbModeTask@522a1b50 (reason: Push on VFS changes)
+2026-04-14 15:29:32,296 [ 338694]   INFO - #c.i.o.p.DumbServiceImpl - exit dumb mode [pythonProject]
+2026-04-14 15:29:32,398 [ 338796]   INFO - #c.j.r.f.FollowMeManager - Unregister user (name: 'liuhaiyun', clientId: Host)
+2026-04-14 15:29:32,401 [ 338799]   INFO - #c.i.o.w.i.WindowManagerImpl - === Release(true) frame on closed project ===
+2026-04-14 15:30:06,472 [ 372870]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Saving global entities com.intellij.platform.workspace.jps.entities.SdkEntity to files
+2026-04-14 15:30:06,474 [ 372872] SEVERE - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - com.jetbrains.python.sdk.PythonSdkAdditionalData mismatch for SDK: Python 3.12 (pythonProject); type: Python SDK; path: /Users/liuhaiyun/PycharmProjects/pythonProject/.venv/bin/python;
+com.jetbrains.python.sdk.PythonSdkAdditionalData in entity: 
+<additional SDK_UUID="ba947034-a35a-4a60-b921-f17f3055ea86">
+  <setting name="FLAVOR_ID" value="MacPythonSdkFlavor" />
+  <setting name="FLAVOR_DATA" value="{}" />
+</additional>
+com.jetbrains.python.sdk.PythonSdkAdditionalData in bridge: 
+<additional ASSOCIATED_PROJECT_PATH="/Users/liuhaiyun/PycharmProjects/pythonProject" SDK_UUID="ba947034-a35a-4a60-b921-f17f3055ea86">
+  <setting name="FLAVOR_ID" value="MacPythonSdkFlavor" />
+  <setting name="FLAVOR_DATA" value="{}" />
+</additional>
+Probably inconsistent update of the com.jetbrains.python.sdk.PythonSdkAdditionalData, see the documentation of `SdkAdditionalData#markAsCommited` for more information
+java.lang.Throwable: com.jetbrains.python.sdk.PythonSdkAdditionalData mismatch for SDK: Python 3.12 (pythonProject); type: Python SDK; path: /Users/liuhaiyun/PycharmProjects/pythonProject/.venv/bin/python;
+com.jetbrains.python.sdk.PythonSdkAdditionalData in entity: 
+<additional SDK_UUID="ba947034-a35a-4a60-b921-f17f3055ea86">
+  <setting name="FLAVOR_ID" value="MacPythonSdkFlavor" />
+  <setting name="FLAVOR_DATA" value="{}" />
+</additional>
+com.jetbrains.python.sdk.PythonSdkAdditionalData in bridge: 
+<additional ASSOCIATED_PROJECT_PATH="/Users/liuhaiyun/PycharmProjects/pythonProject" SDK_UUID="ba947034-a35a-4a60-b921-f17f3055ea86">
+  <setting name="FLAVOR_ID" value="MacPythonSdkFlavor" />
+  <setting name="FLAVOR_DATA" value="{}" />
+</additional>
+Probably inconsistent update of the com.jetbrains.python.sdk.PythonSdkAdditionalData, see the documentation of `SdkAdditionalData#markAsCommited` for more information
+	at com.intellij.openapi.diagnostic.Logger.error(Logger.java:376)
+	at com.intellij.workspaceModel.ide.impl.jps.serialization.JpsGlobalModelSynchronizerImpl.assertUnexpectedAdditionalDataModification(JpsGlobalModelSynchronizerImpl.kt:134)
+	at com.intellij.workspaceModel.ide.impl.jps.serialization.JpsGlobalModelSynchronizerImpl.serializeEntities(JpsGlobalModelSynchronizerImpl.kt:111)
+	at com.intellij.workspaceModel.ide.impl.jps.serialization.JpsGlobalModelSynchronizerImpl.saveGlobalEntities(JpsGlobalModelSynchronizerImpl.kt:85)
+	at com.intellij.configurationStore.ApplicationStoreImpl.doSave$intellij_platform_configurationStore_impl(ApplicationStoreImpl.kt:64)
+	at com.intellij.configurationStore.ComponentStoreImpl.save$suspendImpl(ComponentStoreImpl.kt:251)
+	at com.intellij.configurationStore.ComponentStoreImpl.save(ComponentStoreImpl.kt)
+	at com.intellij.configurationStore.StoreUtilKt.saveSettings(storeUtil.kt:99)
+	at com.intellij.configurationStore.SaveAndSyncHandlerImpl$saveSettingsUnderModalProgress$1$3.invokeSuspend(SaveAndSyncHandlerImpl.kt:292)
+	at com.intellij.configurationStore.SaveAndSyncHandlerImpl$saveSettingsUnderModalProgress$1$3.invoke(SaveAndSyncHandlerImpl.kt)
+	at com.intellij.configurationStore.SaveAndSyncHandlerImpl$saveSettingsUnderModalProgress$1$3.invoke(SaveAndSyncHandlerImpl.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturn(Undispatched.kt:78)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.withContext(Builders.common.kt:167)
+	at kotlinx.coroutines.BuildersKt.withContext(Unknown Source)
+	at com.intellij.platform.util.progress.ProgressPipeImpl.collectProgressUpdates(ProgressPipe.kt:41)
+	at com.intellij.openapi.progress.impl.PlatformTaskSupport$runWithModalProgressBlockingInternal$2$taskJob$1.invokeSuspend(PlatformTaskSupport.kt:138)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:793)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:697)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:684)
+2026-04-14 15:30:06,477 [ 372875] SEVERE - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - PyCharm 2024.1  Build #PC-241.14494.241
+2026-04-14 15:30:06,477 [ 372875] SEVERE - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - JDK: 17.0.10; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o.
+2026-04-14 15:30:06,477 [ 372875] SEVERE - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - OS: Mac OS X
+2026-04-14 15:30:06,478 [ 372876] SEVERE - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Last Action: EditorBackSpace
+2026-04-14 15:30:06,482 [ 372880]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Saving global entities com.intellij.platform.workspace.jps.entities.LibraryEntity to files
+2026-04-14 15:30:06,515 [ 372913]   INFO - #c.i.u.p.CommonProxy - <html>You have JVM property "https.proxyHost" set to "127.0.0.1".<br>This may lead to incorrect behaviour. Proxy should be set in Settings | HTTP Proxy<br>This JVM property is old and its usage is not recommended by Oracle.<br>(Note: It could have been assigned by some code dynamically.)</html>
+2026-04-14 15:30:06,521 [ 372919]   INFO - #c.i.a.o.PathMacrosImpl - Saved path macros: {}
+2026-04-14 15:30:06,612 [ 373010]   INFO - #c.i.i.s.e.u.EventLogExternalUploader - Started external process for uploading event log
+2026-04-14 15:30:06,628 [ 373026]   INFO - #c.i.u.s.SvgCacheManager - SVG icon cache is closed
+2026-04-14 15:30:06,631 [ 373029]   INFO - #c.i.o.v.i.l.NativeFileWatcherImpl - Watcher terminated with exit code 0
+2026-04-14 15:30:06,634 [ 373032]   INFO - #o.j.i.BuiltInServer - web server stopped
+2026-04-14 15:30:06,640 [ 373038]   INFO - #c.i.u.i.FileBasedIndexImpl - Index dispose started
+2026-04-14 15:30:06,655 [ 373053]   INFO - #c.i.p.s.StubIndexImpl - StubIndexExtension-s were unloaded
+2026-04-14 15:30:06,655 [ 373053]   INFO - #c.i.p.s.SerializationManagerImpl - Start shutting down /Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/index/rep.names
+2026-04-14 15:30:06,655 [ 373053]   INFO - #c.i.p.s.SerializationManagerImpl - Finished shutting down /Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/index/rep.names
+2026-04-14 15:30:06,657 [ 373055]   INFO - #c.i.u.i.FileBasedIndexImpl - Index dispose completed in 16ms.
+2026-04-14 15:30:06,660 [ 373058]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS dispose started
+2026-04-14 15:30:06,661 [ 373059]   INFO - #c.i.o.v.n.p.FSRecordsImpl - VFS closing
+2026-04-14 15:30:06,661 [ 373059]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS dispose completed in 1 ms.
+2026-04-14 15:30:06,662 [ 373060]   INFO - #c.i.o.f.i.FileTypeDetectionService - 388 auto-detected files. Detection took 17498 ms
+2026-04-14 15:30:06,683 [ 373081]   INFO - #c.i.p.i.b.AppStarter - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------
+2026-04-14 15:55:32,520 [      1]   INFO - #c.i.p.i.b.AppStarter - ------------------------------------------------------ IDE STARTED ------------------------------------------------------
+2026-04-14 15:55:32,597 [     78]   INFO - #c.i.u.EnvironmentUtil - loading shell env is skipped: IDE has been launched from a terminal (SHLVL=1)
+2026-04-14 15:55:32,605 [     86]   INFO - #c.i.u.i.PageCacheUtils - File page caching params:
+2026-04-14 15:55:32,605 [     86]   INFO - #c.i.u.i.PageCacheUtils - 	DEFAULT_PAGE_SIZE: 10485760
+2026-04-14 15:55:32,606 [     87]   INFO - #c.i.u.i.PageCacheUtils - 	Direct memory to use, max: 1556086784
+2026-04-14 15:55:32,606 [     87]   INFO - #c.i.u.i.PageCacheUtils - 	FilePageCache: regular + lock-free (LOCK_FREE_PAGE_CACHE_ENABLED:true)
+2026-04-14 15:55:32,610 [     91]   INFO - #c.i.u.i.PageCacheUtils - 	NEW_PAGE_CACHE_MEMORY_FRACTION: 0.20000000298023224
+2026-04-14 15:55:32,610 [     91]   INFO - #c.i.u.i.PageCacheUtils - 	Regular FilePageCache: 503316478 bytes
+2026-04-14 15:55:32,610 [     91]   INFO - #c.i.u.i.PageCacheUtils - 	New     FilePageCache: 125829122 bytes (+ up to 10.0% overflow)
+2026-04-14 15:55:32,611 [     92]   INFO - #c.i.u.i.PageCacheUtils - 	DirectByteBuffers pool: 104857600 bytes
+2026-04-14 15:55:32,949 [    430]   INFO - #c.i.i.p.PluginManager - Using cached broken plugins file
+2026-04-14 15:55:32,954 [    435]   INFO - #c.i.i.p.PluginManager - PluginDescriptor(name=AI Chat Assistant, id=com.ji.aichat, descriptorPath=plugin.xml, path=~/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/plugins/AIChatPlugin, version=1.0.0, package=null, isBundled=false) overrides PluginDescriptor(name=AI Chat Assistant, id=com.ji.aichat, descriptorPath=plugin.xml, path=~/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/plugins/AIChatPlugin, version=1.0.0, package=null, isBundled=false)
+2026-04-14 15:55:32,998 [    479]   INFO - #c.i.i.p.PluginManager - Module intellij.searchEverywhereMl.semantics.kotlin is not enabled because dependency org.jetbrains.kotlin is not available
+Module intellij.searchEverywhereMl.semantics.java is not enabled because dependency com.intellij.java is not available
+Module intellij.qt.clion is not enabled because dependency com.intellij.clion is not available
+Module intellij.grazie.java is not enabled because dependency com.intellij.java is not available
+Module intellij.python.community.plugin.impl is not enabled because dependency com.intellij.modules.python-in-non-pycharm-ide-capable is not available
+Module intellij.python.community.plugin.minor.rider is not enabled because dependency intellij.python.community.plugin.impl is not available
+Module intellij.python.community.plugin.minor is not enabled because dependency intellij.python.community.plugin.impl is not available
+Module intellij.python.community.plugin.java is not enabled because dependency intellij.python.community.plugin.impl is not available
+Module intellij.groovy.dev is not enabled because dependency org.intellij.groovy is not available
+Module intellij.kotlin.dev is not enabled because dependency org.jetbrains.kotlin is not available
+Module intellij.java.dev is not enabled because dependency com.intellij.java is not available
+Module intellij.qodana.jvm.coverage is not enabled because dependency com.intellij.java is not available
+Module intellij.qodana.jvm.swagger is not enabled because dependency com.intellij.swagger is not available
+Module intellij.qodana.jvm.maven is not enabled because dependency org.jetbrains.idea.maven is not available
+Module intellij.qodana.jvm.java is not enabled because dependency com.intellij.java is not available
+Module intellij.qodana.jvm.kotlin is not enabled because dependency org.jetbrains.kotlin is not available
+Module intellij.qodana.jvm.groovy is not enabled because dependency org.intellij.groovy is not available
+Module intellij.qodana.jvm.gradle is not enabled because dependency com.intellij.gradle is not available
+Module intellij.qodana.jvm.dev is not enabled because dependency intellij.java.dev is not available
+Module intellij.qodana.python is not enabled because dependency intellij.python is not available
+Module intellij.qodana.php is not enabled because dependency com.jetbrains.php is not available
+Module intellij.qodana.js is not enabled because dependency JavaScript is not available
+Module intellij.qodana.inspectionKts.kotlin is not enabled because dependency org.jetbrains.kotlin is not available
+Module intellij.qodana.inspectionKts.js is not enabled because dependency JavaScript is not available
+Module intellij.qodana.go is not enabled because dependency intellij.go.coverage is not available
+Module intellij.packageChecker.php is not enabled because dependency com.jetbrains.php is not available
+Module intellij.packageChecker.javascript is not enabled because dependency JavaScript is not available
+Module intellij.packageChecker.java is not enabled because dependency com.intellij.java is not available
+Module intellij.packageChecker.maven is not enabled because dependency intellij.packageChecker.java is not available
+Module intellij.packageChecker.gradle is not enabled because dependency intellij.packageChecker.maven is not available
+Module intellij.packageChecker.go is not enabled because dependency org.jetbrains.plugins.go is not available
+Module intellij.cwm.plugin.elevation is not enabled because dependency intellij.execution.process.elevation is not available
+Module intellij.performanceTesting.async.core is not enabled because dependency intellij.profiler.asyncOne is not available
+2026-04-14 15:55:33,030 [    511]   INFO - #c.i.i.p.PluginManager - Loaded bundled plugins: IDEA CORE (241.14494.241), GitHub Color Scheme (241.14494.241), IntelliLang (241.14494.241), TextMate Bundles (241.14494.241), Images (241.14494.241), Copyright (241.14494.241), Machine Learning Code Completion (241.14494.241), Monokai Color Scheme (241.14494.241), EditorConfig (241.14494.241), IDE Services / Provisioner API (241.14494.241), Toml (241.14494.241), Machine Learning in Search Everywhere (241.14494.241), YAML (241.14494.241), Performance Testing (241.14494.241), Twilight Color Scheme (241.14494.241), Qt (241.14494.241), WarmNeon Color Scheme (241.14494.241), Markdown (241.14494.241), Terminal (241.14494.241), Task Management (241.14494.241), Mercurial (241.14494.241), Properties (241.14494.241), Grazie Lite (241.14494.241), Python Community Edition (241.14494.241), PyCharm Community Customization (241.14494.241), JetBrains Marketplace Licensing (241.14494.241), com.intellij.dev (241.14494.241), Settings Sync (241.14494.241), GitHub (241.14494.241), GitLab (241.14494.241), Git (241.14494.241), Qodana (241.14494.241), IDE Features Trainer (241.14494.241), Configuration Script (241.14494.241), Shared Indexes (241.14494.241), Shared Indexes for Python (241.14494.241), Subversion (241.14494.241), Package Checker (241.14494.241), Code With Me (241.14494.241), Shell Script (241.14494.241), Async Profiler for IDE Performance Testing (241.14494.241)
+2026-04-14 15:55:33,030 [    511]   INFO - #c.i.i.p.PluginManager - Loaded custom plugins: AI Chat Assistant (1.0.0)
+2026-04-14 15:55:33,046 [    527]   INFO - #c.i.p.i.b.AppStarter - JNA library (64-bit) loaded in 449 ms
+2026-04-14 15:55:33,048 [    529]   INFO - #c.i.p.i.b.AppStarter - IDE: PyCharm (build #PC-241.14494.241, Thu, 28 Mar 2024 10:10:00 GMT)
+2026-04-14 15:55:33,048 [    529]   INFO - #c.i.p.i.b.AppStarter - OS: Mac OS X (15.5)
+2026-04-14 15:55:33,048 [    529]   INFO - #c.i.p.i.b.AppStarter - JRE: 17.0.10+8-b1207.12, aarch64 (JetBrains s.r.o.)
+2026-04-14 15:55:33,048 [    529]   INFO - #c.i.p.i.b.AppStarter - JVM: 17.0.10+8-b1207.12 (OpenJDK 64-Bit Server VM)
+2026-04-14 15:55:33,049 [    530]   INFO - #c.i.p.i.b.AppStarter - PID: 24740
+2026-04-14 15:55:33,116 [    597]   INFO - #c.i.p.i.b.AppStarter - JVM options: [-Daether.connector.resumeDownloads=false, -Dapple.awt.application.appearance=system, -Dide.native.launcher=false, -Dide.show.tips.on.startup.default.value=false, -Didea.config.path=/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/config, -Didea.l10n.keys=only, -Didea.log.path=/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/log, -Didea.paths.selector=PyCharmCE2024.1, -Didea.platform.prefix=PyCharmCore, -Didea.plugins.path=/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/plugins, -Didea.required.plugins.id=com.ji.aichat, -Didea.system.path=/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system, -Didea.vendor.name=JetBrains, -Dintellij.platform.runtime.repository.path=/Users/liuhaiyun/.gradle/caches/9.4.1/transforms/985229bf7a935a460d633dee37c8d2af/transformed/pycharm-community-2024.1-aarch64/modules/module-descriptors.jar, -Djava.system.class.loader=com.intellij.util.lang.PathClassLoader, -Djbr.catch.SIGABRT=true, -Djdk.attach.allowAttachSelf=true, -Djdk.http.auth.tunneling.disabledSchemes="", -Djdk.module.illegalAccess.silent=true, -Djna.boot.library.path=/Users/liuhaiyun/.gradle/caches/9.4.1/transforms/985229bf7a935a460d633dee37c8d2af/transformed/pycharm-community-2024.1-aarch64/lib/jna/aarch64, -Djna.noclasspath=true, -Djna.nosys=true, -Dplugin.path=/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/plugins/AIChatPlugin, -Dpty4j.preferred.native.folder=/Users/liuhaiyun/.gradle/caches/9.4.1/transforms/985229bf7a935a460d633dee37c8d2af/transformed/pycharm-community-2024.1-aarch64/lib/pty4j, -Dsplash=true, -Dsun.io.useCanonCaches=false, -Dsun.java2d.metal=true, -XX:+HeapDumpOnOutOfMemoryError, -XX:-OmitStackTraceInFastThrow, -XX:+IgnoreUnrecognizedVMOptions, -XX:CICompilerCount=2, -XX:ReservedCodeCacheSize=512m, -XX:CompileCommand=exclude,com/intellij/openapi/vfs/impl/FilePartNodeRoot,trieDescend, -XX:SoftRefLRUPolicyMSPerMB=50, --add-opens=java.base/java.io=ALL-UNNAMED, --add-opens=java.base/java.lang=ALL-UNNAMED, --add-opens=java.base/java.lang.ref=ALL-UNNAMED, --add-opens=java.base/java.lang.reflect=ALL-UNNAMED, --add-opens=java.base/java.net=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.base/java.nio.charset=ALL-UNNAMED, --add-opens=java.base/java.text=ALL-UNNAMED, --add-opens=java.base/java.time=ALL-UNNAMED, --add-opens=java.base/java.util=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent.locks=ALL-UNNAMED, --add-opens=java.base/jdk.internal.vm=ALL-UNNAMED, --add-opens=java.base/sun.nio.ch=ALL-UNNAMED, --add-opens=java.base/sun.nio.fs=ALL-UNNAMED, --add-opens=java.base/sun.security.ssl=ALL-UNNAMED, --add-opens=java.base/sun.security.util=ALL-UNNAMED, --add-opens=java.base/sun.net.dns=ALL-UNNAMED, --add-opens=java.desktop/com.apple.eawt=ALL-UNNAMED, --add-opens=java.desktop/com.apple.eawt.event=ALL-UNNAMED, --add-opens=java.desktop/com.apple.laf=ALL-UNNAMED, --add-opens=java.desktop/java.awt=ALL-UNNAMED, --add-opens=java.desktop/java.awt.dnd.peer=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-opens=java.desktop/java.awt.image=ALL-UNNAMED, --add-opens=java.desktop/java.awt.peer=ALL-UNNAMED, --add-opens=java.desktop/java.awt.font=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.text=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.text.html=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.datatransfer=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.image=ALL-UNNAMED, --add-opens=java.desktop/sun.awt=ALL-UNNAMED, --add-opens=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.java2d=ALL-UNNAMED, --add-opens=java.desktop/sun.lwawt=ALL-UNNAMED, --add-opens=java.desktop/sun.lwawt.macosx=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/com.sun.java.swing=ALL-UNNAMED, --add-opens=jdk.attach/sun.tools.attach=ALL-UNNAMED, --add-opens=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED, --add-opens=jdk.internal.jvmstat/sun.jvmstat.monitor=ALL-UNNAMED, --add-opens=jdk.jdi/com.sun.tools.jdi=ALL-UNNAMED, -Xms256m, -Xmx1500m, -Dfile.encoding=UTF-8, -Duser.country=CN, -Duser.language=zh, -Duser.variant, -ea]
+2026-04-14 15:55:33,117 [    598]   INFO - #c.i.p.i.b.AppStarter - args: traverseUI /Users/liuhaiyun/Desktop/AIChatPlugin/build/tmp/buildSearchableOptions true
+2026-04-14 15:55:33,117 [    598]   INFO - #c.i.p.i.b.AppStarter - library path: /Users/liuhaiyun/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+2026-04-14 15:55:33,117 [    598]   INFO - #c.i.p.i.b.AppStarter - boot library path: /Users/liuhaiyun/.gradle/caches/9.4.1/transforms/985229bf7a935a460d633dee37c8d2af/transformed/pycharm-community-2024.1-aarch64/jbr/Contents/Home/lib
+2026-04-14 15:55:33,122 [    603]   INFO - #c.i.p.i.b.AppStarter - locale=zh_CN_#Hans JNU=UTF-8 file.encoding=UTF-8
+    idea.config.path=/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/config
+    idea.system.path=/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system
+    idea.plugins.path=/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/plugins
+    idea.log.path=/Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/log
+2026-04-14 15:55:33,126 [    607]   INFO - #c.i.p.i.b.AppStarter - CPU cores: 8; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@4bf2e1f3[Running, parallelism = 8, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@5f361d89
+2026-04-14 15:55:33,223 [    704]   INFO - c.i.p.i.IdeFingerprint - Calculated dependencies fingerprint in 8 ms (hash=oz5ly3asrznh, buildTime=1711620600, appVersion=PC-241.14494.241)
+2026-04-14 15:55:33,297 [    778]   INFO - #c.i.a.o.PathMacrosImpl - Loaded path macros: {}
+2026-04-14 15:55:33,347 [    828]   INFO - #c.i.o.v.n.p.PersistentFSLoader - VFS uses 'fast' names enumerator (over mmapped file)
+2026-04-14 15:55:33,348 [    829]   INFO - #c.i.o.v.n.p.PersistentFSLoader - VFS uses streamlined attributes storage (over mmapped file)
+2026-04-14 15:55:33,350 [    831]   INFO - #c.i.o.v.n.p.PersistentFSLoader - VFS uses content storage over memory-mapped file, with compression algo: LZ4[ > 8000b ]
+2026-04-14 15:55:33,468 [    949]   INFO - #c.i.o.v.n.p.FSRecords - VFS health-check enabled: first after 600000 ms, and each following 43200000 ms, wrap in RA: true
+2026-04-14 15:55:33,513 [    994]   INFO - #c.i.i.p.ExpiredPluginsState - Plugins to skip: []
+2026-04-14 15:55:33,834 [   1315]   INFO - #o.j.i.BuiltInServerManager - built-in server started, port 63344
+2026-04-14 15:55:34,861 [   2342]   INFO - #c.i.u.n.s.CertificateManager - Default SSL context initialized
+2026-04-14 15:55:47,018 [  14499]   INFO - #c.i.o.v.n.p.PersistentFSLoader - VFS: impl (expected) version=846397, 9189 file records, 1 content blobs
+2026-04-14 15:55:47,094 [  14575]   INFO - #c.i.o.v.n.p.FSRecordsImpl - VFS initialized: 13748 ms, 0 failed attempts, 0 error(s) were recovered
+2026-04-14 15:55:47,109 [  14590]   INFO - #c.i.o.v.n.p.FSRecordsImpl - VFS scanned: file-by-name index was populated
+2026-04-14 15:55:47,135 [  14616]   INFO - #c.i.o.v.i.l.NativeFileWatcherImpl - Native file watcher is disabled
+2026-04-14 15:55:47,561 [  15042]   INFO - #c.i.i.s.p.i.SharedIndexMainZipStorage - Shared Indexes Storage is opened and empty
+2026-04-14 15:55:49,910 [  17391]   INFO - #c.i.u.i.FileBasedIndexImpl - Using nice flusher for indexes
+2026-04-14 15:55:49,985 [  17466]   INFO - #c.i.u.i.IndexDataInitializer - Index data initialization done: 2848 ms. Initialized indexes: [FilenameIndex, filetypes, DomFileIndex, fileIncludes, RelaxSymbolIndex, Trigram.Index, XmlTagNames, TodoIndex, IdIndex, XmlNamespaces, SchemaTypeInheritance, FrameworkDetectionIndex, html5.custom.attributes.index, Py.module.name, json.file.root.values, yaml.keys.name, Py.setuptools.namespace, xmlProperties, Stubs, editorconfig.index.name].
+2026-04-14 15:55:52,876 [  20357]   INFO - #c.i.u.i.IndexDataInitializer - Index data initialization done: 2890 ms. Initialized stub indexes: {Py.class.shortName, Py.variable.shortName, properties.index, Py.class.attributes, markdown.header, dom.elementClass, dom.namespaceKey, Py.class.super, markdown.header.anchor, Python.Decorator, Py.module.attribute, Py.function.shortName, Py.class.shortNameInsensitive}.
+2026-04-14 15:55:52,919 [  20400]   INFO - #c.i.u.i.StaleIndexesChecker - clearing stale id = 287, path =  //Users/liuhaiyun/PycharmProjects/pythonProject/.venv/bin/pip-3.12
+2026-04-14 15:55:53,295 [  20776]   INFO - #c.i.o.v.n.p.d.e.DurableEnumeratorFactory - [enumerator.mmapped]: .valueHashToId (in memory) was filled (13 records)
+2026-04-14 15:55:53,572 [  21053]   INFO - #c.i.u.p.CommonProxy - <html>You have JVM property "https.proxyHost" set to "127.0.0.1".<br>This may lead to incorrect behaviour. Proxy should be set in Settings | HTTP Proxy<br>This JVM property is old and its usage is not recommended by Oracle.<br>(Note: It could have been assigned by some code dynamically.)</html>
+2026-04-14 15:55:53,736 [  21217]   INFO - #c.i.i.p.n.PluginsGroupComponentWithProgress - Marketplace tab: loading stopped
+2026-04-14 15:55:53,793 [  21274]   INFO - #c.i.i.p.PluginManagerConfigurable - Marketplace tab: 'Staff Picks' group load started
+2026-04-14 15:55:53,803 [  21284]   INFO - #c.i.u.p.CommonProxy - <html>You have JVM property "https.proxyHost" set to "127.0.0.1".<br>This may lead to incorrect behaviour. Proxy should be set in Settings | HTTP Proxy<br>This JVM property is old and its usage is not recommended by Oracle.<br>(Note: It could have been assigned by some code dynamically.)</html>
+2026-04-14 15:55:55,866 [  23347]   INFO - #c.i.i.p.PluginManagerConfigurable - Marketplace tab: 'Staff Picks' group load finished
+2026-04-14 15:55:55,872 [  23353]   INFO - #c.i.i.p.PluginManagerConfigurable - Marketplace tab: 'New and Updated' group load started
+2026-04-14 15:55:56,474 [  23955]   INFO - #c.i.w.i.i.GlobalWorkspaceModel - Load global workspace model from cache in 212 ms
+2026-04-14 15:55:56,731 [  24212]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2026-04-14 15:55:56,775 [  24256]   INFO - #c.j.p.packaging - Using /Users/liuhaiyun/miniconda3/bin/conda as a conda executable (found in PATH)
+2026-04-14 15:55:57,264 [  24745]   INFO - #c.i.p.s.StubUpdatingIndexStorage - Not updating IndexingStampInfo. inputId=287,result=true
+2026-04-14 15:55:57,450 [  24931]   INFO - #c.i.i.p.PluginManagerConfigurable - Marketplace tab: 'New and Updated' group load finished
+2026-04-14 15:55:57,450 [  24931]   INFO - #c.i.i.p.PluginManagerConfigurable - Marketplace tab: 'Top Downloads' group load started
+2026-04-14 15:55:58,040 [  25521]   INFO - #c.i.o.a.i.NonBlockingReadActionImpl - OTel monitoring for NonBlockingReadAction is enabled
+2026-04-14 15:55:58,290 [  25771]   INFO - #c.i.u.i.StaleIndexesChecker - clearing stale id = 286, path =  //Users/liuhaiyun/PycharmProjects/pythonProject/.venv/bin/activate.csh
+2026-04-14 15:55:58,291 [  25772]   INFO - #c.i.p.s.StubUpdatingIndexStorage - Not updating IndexingStampInfo. inputId=286,result=true
+2026-04-14 15:55:58,291 [  25772]   INFO - #c.i.u.i.StaleIndexesChecker - clearing stale id = 276, path =  //Users/liuhaiyun/PycharmProjects/pythonProject/.venv/bin/pip3.12
+2026-04-14 15:55:58,292 [  25773]   INFO - #c.i.p.s.StubUpdatingIndexStorage - Not updating IndexingStampInfo. inputId=276,result=true
+2026-04-14 15:55:58,292 [  25773]   INFO - #c.i.u.i.StaleIndexesChecker - clearing stale id = 285, path =  //Users/liuhaiyun/PycharmProjects/pythonProject/.venv/bin/activate_this.py
+2026-04-14 15:55:58,293 [  25774]   INFO - #c.i.p.s.StubUpdatingIndexStorage - Not updating IndexingStampInfo. inputId=285,result=true
+2026-04-14 15:55:58,435 [  25916]   INFO - #c.i.u.i.StaleIndexesChecker - clearing stale id = 9189, path =  //Users/liuhaiyun/PycharmProjects/pythonProject/.idea/workspace.xml
+2026-04-14 15:55:58,436 [  25917]   INFO - #c.i.p.s.StubUpdatingIndexStorage - Not updating IndexingStampInfo. inputId=9189,result=true
+2026-04-14 15:55:58,436 [  25917]   INFO - #c.i.u.i.StaleIndexesChecker - clearing stale id = 278, path =  //Users/liuhaiyun/PycharmProjects/pythonProject/.venv/bin/activate.nu
+2026-04-14 15:55:58,438 [  25919]   INFO - #c.i.p.s.StubUpdatingIndexStorage - Not updating IndexingStampInfo. inputId=278,result=true
+2026-04-14 15:55:58,438 [  25919]   INFO - #c.i.u.i.StaleIndexesChecker - clearing stale id = 284, path =  //Users/liuhaiyun/PycharmProjects/pythonProject/.venv/bin/activate.fish
+2026-04-14 15:55:58,439 [  25920]   INFO - #c.i.p.s.StubUpdatingIndexStorage - Not updating IndexingStampInfo. inputId=284,result=true
+2026-04-14 15:55:58,439 [  25920]   INFO - #c.i.u.i.StaleIndexesChecker - clearing stale id = 282, path =  //Users/liuhaiyun/PycharmProjects/pythonProject/.venv/bin/activate
+2026-04-14 15:55:58,439 [  25920]   INFO - #c.i.p.s.StubUpdatingIndexStorage - Not updating IndexingStampInfo. inputId=282,result=true
+2026-04-14 15:55:58,439 [  25920]   INFO - #c.i.u.i.StaleIndexesChecker - clearing stale id = 281, path =  //Users/liuhaiyun/PycharmProjects/pythonProject/.venv/bin/pip3
+2026-04-14 15:55:58,442 [  25923]   INFO - #c.i.p.s.StubUpdatingIndexStorage - Not updating IndexingStampInfo. inputId=281,result=true
+2026-04-14 15:55:58,442 [  25923]   INFO - #c.i.u.i.StaleIndexesChecker - clearing stale id = 277, path =  //Users/liuhaiyun/PycharmProjects/pythonProject/.venv/bin/activate.ps1
+2026-04-14 15:55:58,443 [  25924]   INFO - #c.i.p.s.StubUpdatingIndexStorage - Not updating IndexingStampInfo. inputId=277,result=true
+2026-04-14 15:55:58,443 [  25924]   INFO - #c.i.u.i.StaleIndexesChecker - clearing more items (not logged due to logging limit). Use -Didea.trace.stub.index.update=true, or enable debug log for: #com.intellij.util.indexing.StaleIndexesChecker
+2026-04-14 15:55:58,444 [  25925]   INFO - #c.i.p.s.StubUpdatingIndexStorage - Not updating IndexingStampInfo. inputId=9188,result=true
+2026-04-14 15:55:58,444 [  25925]   INFO - #c.i.p.s.StubUpdatingIndexStorage - Not updating IndexingStampInfo. inputId=288,result=true
+2026-04-14 15:55:58,445 [  25926]   INFO - #c.i.p.s.StubUpdatingIndexStorage - Not updating IndexingStampInfo. inputId=274,result=true
+2026-04-14 15:55:58,447 [  25928]   INFO - #c.i.p.s.StubUpdatingIndexStorage - Not updating IndexingStampInfo. inputId=273,result=true
+2026-04-14 15:55:59,110 [  26591]   INFO - #c.i.i.p.PluginManagerConfigurable - Marketplace tab: 'Top Downloads' group load finished
+2026-04-14 15:55:59,111 [  26592]   INFO - #c.i.i.p.PluginManagerConfigurable - Marketplace tab: 'Top Rated' group load started
+2026-04-14 15:56:00,319 [  27800]   WARN - #c.i.u.j.JBCefApp - JCEF is manually disabled in headless env via 'ide.browser.jcef.headless.enabled=false'
+2026-04-14 15:56:00,479 [  27960]   INFO - #c.i.r.OsRegistryConfigProvider - Looking for 'lobbyServerUrl' value in [/Library/Application Support/JetBrains/CodeWithMe/lobbyServerUrl, /Library/Application Support/JetBrains/CodeWithMe/config.json, /Users/liuhaiyun/Library/Application Support/JetBrains/CodeWithMe/lobbyServerUrl, /Users/liuhaiyun/Library/Application Support/JetBrains/CodeWithMe/config.json]
+2026-04-14 15:56:00,481 [  27962]   INFO - #c.i.r.OsRegistryConfigProvider - OS provided value for 'lobbyServerUrl' is not found
+2026-04-14 15:56:00,487 [  27968]   INFO - #c.j.r.p.c.u.CodeWithMeSystemSettings - Got regional URL for CN: https://code-with-me.jetbrains.com.cn
+2026-04-14 15:56:00,490 [  27971]   INFO - #c.j.r.p.c.u.CodeWithMeSystemSettings - Regional LobbyUrl value='https://code-with-me.jetbrains.com.cn'
+2026-04-14 15:56:00,558 [  28039]   INFO - #c.i.r.OsRegistryConfigProvider - Looking for 'lobbyServerUrl' value in [/Library/Application Support/JetBrains/CodeWithMe/lobbyServerUrl, /Library/Application Support/JetBrains/CodeWithMe/config.json, /Users/liuhaiyun/Library/Application Support/JetBrains/CodeWithMe/lobbyServerUrl, /Users/liuhaiyun/Library/Application Support/JetBrains/CodeWithMe/config.json]
+2026-04-14 15:56:00,559 [  28040]   INFO - #c.i.r.OsRegistryConfigProvider - OS provided value for 'lobbyServerUrl' is not found
+2026-04-14 15:56:00,559 [  28040]   INFO - #c.j.r.p.c.u.CodeWithMeSystemSettings - Got regional URL for CN: https://code-with-me.jetbrains.com.cn
+2026-04-14 15:56:00,559 [  28040]   INFO - #c.j.r.p.c.u.CodeWithMeSystemSettings - Regional LobbyUrl value='https://code-with-me.jetbrains.com.cn'
+2026-04-14 15:56:00,757 [  28238]   INFO - #c.i.i.p.PluginManagerConfigurable - Marketplace tab: 'Top Rated' group load finished
+2026-04-14 15:56:03,869 [  31350]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2026-04-14 15:56:03,872 [  31353]   INFO - #c.j.p.packaging - Using /Users/liuhaiyun/miniconda3/bin/conda as a conda executable (found in PATH)
+2026-04-14 15:56:04,490 [  31971]   INFO - STDOUT - Found 169 configurables
+2026-04-14 15:56:04,606 [  32087]   INFO - #c.i.i.p.n.PluginsGroupComponentWithProgress - Marketplace tab: loading stopped
+2026-04-14 15:56:06,184 [  33665]   WARN - #c.i.o.a.ActionStub - ActionGroup should be registered using <group> tag: id="WelcomeScreen.CreateDirectoryProject" class="com.intellij.pycharm.community.ide.impl.newProject.steps.PyCharmNewProjectStep"
+2026-04-14 15:56:06,547 [  34028]   WARN - #c.i.o.a.ActionStub - ActionGroup should be registered using <group> tag: id="GitBranchesTreePopupFilterSeparatorWithText" class="git4idea.ui.branch.popup.GitBranchesTreePopupFilterSeparatorWithText"
+2026-04-14 15:56:06,849 [  34330]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Loading global entities com.intellij.platform.workspace.jps.entities.SdkEntity from files
+2026-04-14 15:56:06,929 [  34410]   INFO - STDOUT - Output written to /Users/liuhaiyun/Desktop/AIChatPlugin/build/tmp/buildSearchableOptions/terminal.jar/search/terminal.jar.searchableOptions.xml
+2026-04-14 15:56:06,930 [  34411]   INFO - STDOUT - Output written to /Users/liuhaiyun/Desktop/AIChatPlugin/build/tmp/buildSearchableOptions/textmate.jar/search/textmate.jar.searchableOptions.xml
+2026-04-14 15:56:06,930 [  34411]   INFO - STDOUT - Output written to /Users/liuhaiyun/Desktop/AIChatPlugin/build/tmp/buildSearchableOptions/properties.jar/search/properties.jar.searchableOptions.xml
+2026-04-14 15:56:06,933 [  34414]   INFO - STDOUT - Output written to /Users/liuhaiyun/Desktop/AIChatPlugin/build/tmp/buildSearchableOptions/markdown.jar/search/markdown.jar.searchableOptions.xml
+2026-04-14 15:56:06,991 [  34472]   INFO - STDOUT - Output written to /Users/liuhaiyun/Desktop/AIChatPlugin/build/tmp/buildSearchableOptions/app-client.jar/search/app-client.jar.searchableOptions.xml
+2026-04-14 15:56:06,992 [  34473]   INFO - STDOUT - Output written to /Users/liuhaiyun/Desktop/AIChatPlugin/build/tmp/buildSearchableOptions/grazie.jar/search/grazie.jar.searchableOptions.xml
+2026-04-14 15:56:06,993 [  34474]   INFO - STDOUT - Output written to /Users/liuhaiyun/Desktop/AIChatPlugin/build/tmp/buildSearchableOptions/sh.jar/search/sh.jar.searchableOptions.xml
+2026-04-14 15:56:06,994 [  34475]   INFO - STDOUT - Output written to /Users/liuhaiyun/Desktop/AIChatPlugin/build/tmp/buildSearchableOptions/tasks-core.jar/search/tasks-core.jar.searchableOptions.xml
+2026-04-14 15:56:06,994 [  34475]   INFO - STDOUT - Output written to /Users/liuhaiyun/Desktop/AIChatPlugin/build/tmp/buildSearchableOptions/qodana.jar/search/qodana.jar.searchableOptions.xml
+2026-04-14 15:56:06,994 [  34475]   INFO - STDOUT - Output written to /Users/liuhaiyun/Desktop/AIChatPlugin/build/tmp/buildSearchableOptions/qt-plugin.jar!/search/qt-plugin.jar!.searchableOptions.xml
+2026-04-14 15:56:07,003 [  34484]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Loading global entities com.intellij.platform.workspace.jps.entities.LibraryEntity from files
+2026-04-14 15:56:07,011 [  34492]   INFO - STDOUT - Output written to /Users/liuhaiyun/Desktop/AIChatPlugin/build/tmp/buildSearchableOptions/app.jar/search/app.jar.searchableOptions.xml
+2026-04-14 15:56:07,013 [  34494]   INFO - STDOUT - Output written to /Users/liuhaiyun/Desktop/AIChatPlugin/build/tmp/buildSearchableOptions/completionMlRanking.jar/search/completionMlRanking.jar.searchableOptions.xml
+2026-04-14 15:56:07,016 [  34497]   INFO - STDOUT - Output written to /Users/liuhaiyun/Desktop/AIChatPlugin/build/tmp/buildSearchableOptions/vcs-hg.jar/search/vcs-hg.jar.searchableOptions.xml
+2026-04-14 15:56:07,016 [  34497]   INFO - STDOUT - Output written to /Users/liuhaiyun/Desktop/AIChatPlugin/build/tmp/buildSearchableOptions/performanceTesting.jar/search/performanceTesting.jar.searchableOptions.xml
+2026-04-14 15:56:07,019 [  34500]   INFO - STDOUT - Output written to /Users/liuhaiyun/Desktop/AIChatPlugin/build/tmp/buildSearchableOptions/python-ce.jar/search/python-ce.jar.searchableOptions.xml
+2026-04-14 15:56:07,022 [  34503]   INFO - STDOUT - Output written to /Users/liuhaiyun/Desktop/AIChatPlugin/build/tmp/buildSearchableOptions/dev.jar/search/dev.jar.searchableOptions.xml
+2026-04-14 15:56:07,023 [  34504]   INFO - STDOUT - Output written to /Users/liuhaiyun/Desktop/AIChatPlugin/build/tmp/buildSearchableOptions/vcs-gitlab.jar/search/vcs-gitlab.jar.searchableOptions.xml
+2026-04-14 15:56:07,023 [  34504]   INFO - STDOUT - Output written to /Users/liuhaiyun/Desktop/AIChatPlugin/build/tmp/buildSearchableOptions/cwm-plugin-terminal.jar/search/cwm-plugin-terminal.jar.searchableOptions.xml
+2026-04-14 15:56:07,023 [  34504]   INFO - STDOUT - Output written to /Users/liuhaiyun/Desktop/AIChatPlugin/build/tmp/buildSearchableOptions/cwm-common.jar/search/cwm-common.jar.searchableOptions.xml
+2026-04-14 15:56:07,025 [  34506]   INFO - STDOUT - Output written to /Users/liuhaiyun/Desktop/AIChatPlugin/build/tmp/buildSearchableOptions/vcs-svn.jar/search/vcs-svn.jar.searchableOptions.xml
+2026-04-14 15:56:07,027 [  34508]   INFO - STDOUT - Output written to /Users/liuhaiyun/Desktop/AIChatPlugin/build/tmp/buildSearchableOptions/toml.jar/search/toml.jar.searchableOptions.xml
+2026-04-14 15:56:07,028 [  34509]   INFO - STDOUT - Output written to /Users/liuhaiyun/Desktop/AIChatPlugin/build/tmp/buildSearchableOptions/yaml.jar/search/yaml.jar.searchableOptions.xml
+2026-04-14 15:56:07,028 [  34509]   INFO - STDOUT - Output written to /Users/liuhaiyun/Desktop/AIChatPlugin/build/tmp/buildSearchableOptions/packageChecker.jar/search/packageChecker.jar.searchableOptions.xml
+2026-04-14 15:56:07,028 [  34509]   INFO - STDOUT - Output written to /Users/liuhaiyun/Desktop/AIChatPlugin/build/tmp/buildSearchableOptions/marketplace.jar/search/marketplace.jar.searchableOptions.xml
+2026-04-14 15:56:07,034 [  34515]   INFO - STDOUT - Output written to /Users/liuhaiyun/Desktop/AIChatPlugin/build/tmp/buildSearchableOptions/editorconfig.jar/search/editorconfig.jar.searchableOptions.xml
+2026-04-14 15:56:07,035 [  34516]   INFO - STDOUT - Output written to /Users/liuhaiyun/Desktop/AIChatPlugin/build/tmp/buildSearchableOptions/copyright.jar/search/copyright.jar.searchableOptions.xml
+2026-04-14 15:56:07,035 [  34516]   INFO - STDOUT - Output written to /Users/liuhaiyun/Desktop/AIChatPlugin/build/tmp/buildSearchableOptions/qt-plugin.jar/search/qt-plugin.jar.searchableOptions.xml
+2026-04-14 15:56:07,037 [  34518]   INFO - STDOUT - Output written to /Users/liuhaiyun/Desktop/AIChatPlugin/build/tmp/buildSearchableOptions/vcs-github.jar/search/vcs-github.jar.searchableOptions.xml
+2026-04-14 15:56:07,038 [  34519]   INFO - STDOUT - Output written to /Users/liuhaiyun/Desktop/AIChatPlugin/build/tmp/buildSearchableOptions/platform-langInjection.jar/search/platform-langInjection.jar.searchableOptions.xml
+2026-04-14 15:56:07,038 [  34519]   INFO - STDOUT - Output written to /Users/liuhaiyun/Desktop/AIChatPlugin/build/tmp/buildSearchableOptions/platform-images.jar/search/platform-images.jar.searchableOptions.xml
+2026-04-14 15:56:07,041 [  34522]   INFO - STDOUT - Output written to /Users/liuhaiyun/Desktop/AIChatPlugin/build/tmp/buildSearchableOptions/vcs-git.jar/search/vcs-git.jar.searchableOptions.xml
+2026-04-14 15:56:07,042 [  34523]   INFO - STDOUT - Output written to /Users/liuhaiyun/Desktop/AIChatPlugin/build/tmp/buildSearchableOptions/pycharm-community-customization.jar/search/pycharm-community-customization.jar.searchableOptions.xml
+2026-04-14 15:56:07,042 [  34523]   INFO - STDOUT - Output written to /Users/liuhaiyun/Desktop/AIChatPlugin/build/tmp/buildSearchableOptions/modules.jar/search/modules.jar.searchableOptions.xml
+2026-04-14 15:56:07,042 [  34523]   INFO - STDOUT - Output written to /Users/liuhaiyun/Desktop/AIChatPlugin/build/tmp/buildSearchableOptions/indexing-shared.jar/search/indexing-shared.jar.searchableOptions.xml
+2026-04-14 15:56:07,043 [  34524]   INFO - STDOUT - Output written to /Users/liuhaiyun/Desktop/AIChatPlugin/build/tmp/buildSearchableOptions/featuresTrainer.jar/search/featuresTrainer.jar.searchableOptions.xml
+2026-04-14 15:56:07,043 [  34524]   INFO - STDOUT - Output written to /Users/liuhaiyun/Desktop/AIChatPlugin/build/tmp/buildSearchableOptions/cwm-host.jar/search/cwm-host.jar.searchableOptions.xml
+2026-04-14 15:56:07,044 [  34525]   INFO - STDOUT - Output written to /Users/liuhaiyun/Desktop/AIChatPlugin/build/tmp/buildSearchableOptions/settingsSync.jar/search/settingsSync.jar.searchableOptions.xml
+2026-04-14 15:56:07,044 [  34525]   INFO - STDOUT - Searchable options index builder completed
+2026-04-14 15:56:07,047 [  34528]   INFO - #c.i.u.i.FileBasedIndexImpl - Index dispose started
+2026-04-14 15:56:07,054 [  34535]   INFO - #c.i.w.i.i.GlobalWorkspaceModel - Global model updated to version 2 in 44 ms: Sync global entities with state
+2026-04-14 15:56:07,084 [  34565]   INFO - #c.i.p.s.StubIndexImpl - StubIndexExtension-s were unloaded
+2026-04-14 15:56:07,085 [  34566]   INFO - #c.i.p.s.SerializationManagerImpl - Start shutting down /Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/index/rep.names
+2026-04-14 15:56:07,085 [  34566]   INFO - #c.i.p.s.SerializationManagerImpl - Finished shutting down /Users/liuhaiyun/Desktop/AIChatPlugin/build/idea-sandbox/PC-2024.1/system/index/rep.names
+2026-04-14 15:56:07,089 [  34570]   INFO - #c.i.u.i.FileBasedIndexImpl - Index dispose completed in 42ms.
+2026-04-14 15:56:07,098 [  34579]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS dispose started
+2026-04-14 15:56:07,099 [  34580]   INFO - #c.i.o.v.n.p.FSRecordsImpl - VFS closing
+2026-04-14 15:56:07,109 [  34590]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS dispose completed in 10 ms.
+2026-04-14 15:56:07,141 [  34622]   INFO - #c.i.p.i.b.AppStarter - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------

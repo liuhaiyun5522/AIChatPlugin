@@ -1,0 +1,838 @@
+{
+  "appInfo" : {
+    "build" : "241.14494.241",
+    "buildDate" : "2024-03-28T10:10:00Z[UTC]",
+    "productCode" : "PC",
+    "generated" : "2026-04-14T07:25:21.968436Z",
+    "os" : "macOS 15.5",
+    "runtime" : "JetBrains s.r.o. 17.0.10 17.0.10+8-b1207.12"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 1577058304,
+    "numberOfProcessors" : 8,
+    "maxNumberOfIndexingThreads" : 7,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "DumbIndexing",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "pythonProject",
+    "times" : {
+      "scanningIds" : [ 1, 2 ],
+      "contentLoadingVisibleTime" : 4161472021,
+      "retrievingChangedDuringIndexingFilesTime" : 172042,
+      "separateApplyingIndexesVisibleTime" : 616150968,
+      "updatingStart" : "2026-04-14T07:25:15.235514Z",
+      "updatingEnd" : "2026-04-14T07:25:21.965673Z",
+      "totalWallTimeWithPauses" : 6730217875,
+      "wallTimeOnPause" : 0,
+      "wasInterrupted" : false,
+      "dumbWallTimeWithoutPauses" : 6730217875,
+      "dumbWallTimeWithPauses" : 6730217875,
+      "dumbModeStart" : "2026-04-14T07:25:15.235514Z",
+      "totalWallTimeWithoutPauses" : 6730217875
+    },
+    "fileCount" : {
+      "numberOfChangedDuringIndexingFiles" : 1,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringIndexingStage" : 4975,
+      "numberOfFilesIndexedWithLoadingContent" : 6712,
+      "numberOfNothingToWriteFiles" : 1595
+    },
+    "totalStatsPerFileType" : [ {
+      "fileType" : "PythonStub",
+      "partOfTotalProcessingTime" : {
+        "part" : 13875967290,
+        "total" : 21938154808
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 7316991666,
+        "total" : 13695497810
+      },
+      "totalNumberOfFiles" : 4306,
+      "totalFilesSize" : 10042974,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 10042974,
+        "totalCpuTime" : 13875967290
+      },
+      "biggestContributors" : [ {
+        "providerName" : "Python SDK Python 3.12 (pythonProject) /Users/liuhaiyun/PycharmProjects/pythonProject/.venv/bin/python",
+        "numberOfFiles" : 4306,
+        "totalFilesSize" : 10042974,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 13875967290,
+          "total" : 13875967290
+        }
+      } ]
+    }, {
+      "fileType" : "Python",
+      "partOfTotalProcessingTime" : {
+        "part" : 2675896098,
+        "total" : 21938154808
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 2156469222,
+        "total" : 13695497810
+      },
+      "totalNumberOfFiles" : 1641,
+      "totalFilesSize" : 28191773,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 28191773,
+        "totalCpuTime" : 2675896098
+      },
+      "biggestContributors" : [ {
+        "providerName" : "Python SDK Python 3.12 (pythonProject) /Users/liuhaiyun/PycharmProjects/pythonProject/.venv/bin/python",
+        "numberOfFiles" : 1594,
+        "totalFilesSize" : 27487036,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 2152162219,
+          "total" : 2675896098
+        }
+      }, {
+        "providerName" : "Python SDK Python 3.12 (pythonProject) /Users/liuhaiyun/PycharmProjects/pythonProject/.venv/bin/python",
+        "numberOfFiles" : 47,
+        "totalFilesSize" : 704737,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 523733879,
+          "total" : 2675896098
+        }
+      } ]
+    }, {
+      "fileType" : "PLAIN_TEXT",
+      "partOfTotalProcessingTime" : {
+        "part" : 2442423524,
+        "total" : 21938154808
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 1975794837,
+        "total" : 13695497810
+      },
+      "totalNumberOfFiles" : 456,
+      "totalFilesSize" : 5249247,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 5249247,
+        "totalCpuTime" : 2442423524
+      },
+      "biggestContributors" : [ {
+        "providerName" : "Python SDK Python 3.12 (pythonProject) /Users/liuhaiyun/PycharmProjects/pythonProject/.venv/bin/python",
+        "numberOfFiles" : 456,
+        "totalFilesSize" : 5249247,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 2442423524,
+          "total" : 2442423524
+        }
+      } ]
+    }, {
+      "fileType" : "TOML",
+      "partOfTotalProcessingTime" : {
+        "part" : 1514228344,
+        "total" : 21938154808
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 1372461708,
+        "total" : 13695497810
+      },
+      "totalNumberOfFiles" : 210,
+      "totalFilesSize" : 24434,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 24434,
+        "totalCpuTime" : 1514228344
+      },
+      "biggestContributors" : [ {
+        "providerName" : "Python SDK Python 3.12 (pythonProject) /Users/liuhaiyun/PycharmProjects/pythonProject/.venv/bin/python",
+        "numberOfFiles" : 210,
+        "totalFilesSize" : 24434,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 1514228344,
+          "total" : 1514228344
+        }
+      } ]
+    }, {
+      "fileType" : "XML",
+      "partOfTotalProcessingTime" : {
+        "part" : 612490798,
+        "total" : 21938154808
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 484529544,
+        "total" : 13695497810
+      },
+      "totalNumberOfFiles" : 57,
+      "totalFilesSize" : 14857,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 14857,
+        "totalCpuTime" : 612490798
+      },
+      "biggestContributors" : [ {
+        "providerName" : "Python SDK Python 3.12 (pythonProject) /Users/liuhaiyun/PycharmProjects/pythonProject/.venv/bin/python",
+        "numberOfFiles" : 57,
+        "totalFilesSize" : 14857,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 612490798,
+          "total" : 612490798
+        }
+      } ]
+    }, {
+      "fileType" : "Markdown",
+      "partOfTotalProcessingTime" : {
+        "part" : 233453625,
+        "total" : 21938154808
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 15243292,
+        "total" : 13695497810
+      },
+      "totalNumberOfFiles" : 3,
+      "totalFilesSize" : 11185,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 11185,
+        "totalCpuTime" : 233453625
+      },
+      "biggestContributors" : [ {
+        "providerName" : "Python SDK Python 3.12 (pythonProject) /Users/liuhaiyun/PycharmProjects/pythonProject/.venv/bin/python",
+        "numberOfFiles" : 3,
+        "totalFilesSize" : 11185,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 233453625,
+          "total" : 233453625
+        }
+      } ]
+    }, {
+      "fileType" : "C++",
+      "partOfTotalProcessingTime" : {
+        "part" : 140006626,
+        "total" : 21938154808
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 102087083,
+        "total" : 13695497810
+      },
+      "totalNumberOfFiles" : 3,
+      "totalFilesSize" : 152166,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 152166,
+        "totalCpuTime" : 140006626
+      },
+      "biggestContributors" : [ {
+        "providerName" : "Python SDK Python 3.12 (pythonProject) /Users/liuhaiyun/PycharmProjects/pythonProject/.venv/bin/python",
+        "numberOfFiles" : 3,
+        "totalFilesSize" : 152166,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 140006626,
+          "total" : 140006626
+        }
+      } ]
+    }, {
+      "fileType" : "JSON",
+      "partOfTotalProcessingTime" : {
+        "part" : 139746376,
+        "total" : 21938154808
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 121511876,
+        "total" : 13695497810
+      },
+      "totalNumberOfFiles" : 14,
+      "totalFilesSize" : 430210,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 430210,
+        "totalCpuTime" : 139746376
+      },
+      "biggestContributors" : [ {
+        "providerName" : "Python SDK Python 3.12 (pythonProject) /Users/liuhaiyun/PycharmProjects/pythonProject/.venv/bin/python",
+        "numberOfFiles" : 14,
+        "totalFilesSize" : 430210,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 139746376,
+          "total" : 139746376
+        }
+      } ]
+    }, {
+      "fileType" : "HTML",
+      "partOfTotalProcessingTime" : {
+        "part" : 135234752,
+        "total" : 21938154808
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 33462833,
+        "total" : 13695497810
+      },
+      "totalNumberOfFiles" : 2,
+      "totalFilesSize" : 181791,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 181791,
+        "totalCpuTime" : 135234752
+      },
+      "biggestContributors" : [ {
+        "providerName" : "Python SDK Python 3.12 (pythonProject) /Users/liuhaiyun/PycharmProjects/pythonProject/.venv/bin/python",
+        "numberOfFiles" : 2,
+        "totalFilesSize" : 181791,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 135234752,
+          "total" : 135234752
+        }
+      } ]
+    }, {
+      "fileType" : "textmate",
+      "partOfTotalProcessingTime" : {
+        "part" : 76513878,
+        "total" : 21938154808
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 52263750,
+        "total" : 13695497810
+      },
+      "totalNumberOfFiles" : 10,
+      "totalFilesSize" : 194047,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 194047,
+        "totalCpuTime" : 76513878
+      },
+      "biggestContributors" : [ {
+        "providerName" : "Python SDK Python 3.12 (pythonProject) /Users/liuhaiyun/PycharmProjects/pythonProject/.venv/bin/python",
+        "numberOfFiles" : 10,
+        "totalFilesSize" : 194047,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 76513878,
+          "total" : 76513878
+        }
+      } ]
+    }, {
+      "fileType" : "Shell Script",
+      "partOfTotalProcessingTime" : {
+        "part" : 49124205,
+        "total" : 21938154808
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 23444375,
+        "total" : 13695497810
+      },
+      "totalNumberOfFiles" : 4,
+      "totalFilesSize" : 25467,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 25467,
+        "totalCpuTime" : 49124205
+      },
+      "biggestContributors" : [ {
+        "providerName" : "Python SDK Python 3.12 (pythonProject) /Users/liuhaiyun/PycharmProjects/pythonProject/.venv/bin/python",
+        "numberOfFiles" : 4,
+        "totalFilesSize" : 25467,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 49124205,
+          "total" : 49124205
+        }
+      } ]
+    }, {
+      "fileType" : "DTD",
+      "partOfTotalProcessingTime" : {
+        "part" : 29543500,
+        "total" : 21938154808
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 28986166,
+        "total" : 13695497810
+      },
+      "totalNumberOfFiles" : 1,
+      "totalFilesSize" : 68,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 68,
+        "totalCpuTime" : 29543500
+      },
+      "biggestContributors" : [ {
+        "providerName" : "Python SDK Python 3.12 (pythonProject) /Users/liuhaiyun/PycharmProjects/pythonProject/.venv/bin/python",
+        "numberOfFiles" : 1,
+        "totalFilesSize" : 68,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 29543500,
+          "total" : 29543500
+        }
+      } ]
+    }, {
+      "fileType" : "ReST",
+      "partOfTotalProcessingTime" : {
+        "part" : 9327167,
+        "total" : 21938154808
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 8829250,
+        "total" : 13695497810
+      },
+      "totalNumberOfFiles" : 1,
+      "totalFilesSize" : 9561,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 9561,
+        "totalCpuTime" : 9327167
+      },
+      "biggestContributors" : [ {
+        "providerName" : "Python SDK Python 3.12 (pythonProject) /Users/liuhaiyun/PycharmProjects/pythonProject/.venv/bin/python",
+        "numberOfFiles" : 1,
+        "totalFilesSize" : 9561,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 9327167,
+          "total" : 9327167
+        }
+      } ]
+    }, {
+      "fileType" : "GitIgnore file",
+      "partOfTotalProcessingTime" : {
+        "part" : 2668875,
+        "total" : 21938154808
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 2458500,
+        "total" : 13695497810
+      },
+      "totalNumberOfFiles" : 1,
+      "totalFilesSize" : 47,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 47,
+        "totalCpuTime" : 2668875
+      },
+      "biggestContributors" : [ {
+        "providerName" : "Refreshed files",
+        "numberOfFiles" : 1,
+        "totalFilesSize" : 47,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 2668875,
+          "total" : 2668875
+        }
+      } ]
+    }, {
+      "fileType" : "CSS",
+      "partOfTotalProcessingTime" : {
+        "part" : 1165000,
+        "total" : 21938154808
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 933625,
+        "total" : 13695497810
+      },
+      "totalNumberOfFiles" : 1,
+      "totalFilesSize" : 1325,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 1325,
+        "totalCpuTime" : 1165000
+      },
+      "biggestContributors" : [ {
+        "providerName" : "Python SDK Python 3.12 (pythonProject) /Users/liuhaiyun/PycharmProjects/pythonProject/.venv/bin/python",
+        "numberOfFiles" : 1,
+        "totalFilesSize" : 1325,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 1165000,
+          "total" : 1165000
+        }
+      } ]
+    }, {
+      "fileType" : "AUTO_DETECTED",
+      "partOfTotalProcessingTime" : {
+        "part" : 364750,
+        "total" : 21938154808
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 30083,
+        "total" : 13695497810
+      },
+      "totalNumberOfFiles" : 2,
+      "totalFilesSize" : 0,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 0,
+        "totalCpuTime" : 364750
+      },
+      "biggestContributors" : [ {
+        "providerName" : "Python SDK Python 3.12 (pythonProject) /Users/liuhaiyun/PycharmProjects/pythonProject/.venv/bin/python",
+        "numberOfFiles" : 2,
+        "totalFilesSize" : 0,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 364750,
+          "total" : 364750
+        }
+      } ]
+    } ],
+    "totalStatsPerBaseLanguage" : [ {
+      "language" : "Python",
+      "partOfTotalProcessingTime" : {
+        "part" : 16551863388,
+        "total" : 21938154808
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 15851967032,
+        "total" : 13695497810
+      },
+      "totalNumberOfFiles" : 5947,
+      "totalFilesSize" : 38234747,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 38234747,
+        "totalCpuTime" : 16551863388
+      }
+    }, {
+      "language" : "PythonStub",
+      "partOfTotalProcessingTime" : {
+        "part" : 13875967290,
+        "total" : 21938154808
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 21012489476,
+        "total" : 13695497810
+      },
+      "totalNumberOfFiles" : 4306,
+      "totalFilesSize" : 10042974,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 10042974,
+        "totalCpuTime" : 13875967290
+      }
+    }, {
+      "language" : "TEXT",
+      "partOfTotalProcessingTime" : {
+        "part" : 2442423524,
+        "total" : 21938154808
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 15671292647,
+        "total" : 13695497810
+      },
+      "totalNumberOfFiles" : 456,
+      "totalFilesSize" : 5249247,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 5249247,
+        "totalCpuTime" : 2442423524
+      }
+    }, {
+      "language" : "TOML",
+      "partOfTotalProcessingTime" : {
+        "part" : 1514228344,
+        "total" : 21938154808
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 15067959518,
+        "total" : 13695497810
+      },
+      "totalNumberOfFiles" : 210,
+      "totalFilesSize" : 24434,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 24434,
+        "totalCpuTime" : 1514228344
+      }
+    }, {
+      "language" : "XML",
+      "partOfTotalProcessingTime" : {
+        "part" : 777269050,
+        "total" : 21938154808
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 14180027354,
+        "total" : 13695497810
+      },
+      "totalNumberOfFiles" : 60,
+      "totalFilesSize" : 196716,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 196716,
+        "totalCpuTime" : 777269050
+      }
+    }, {
+      "language" : "Markdown",
+      "partOfTotalProcessingTime" : {
+        "part" : 233453625,
+        "total" : 21938154808
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 13710741102,
+        "total" : 13695497810
+      },
+      "totalNumberOfFiles" : 3,
+      "totalFilesSize" : 11185,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 11185,
+        "totalCpuTime" : 233453625
+      }
+    }, {
+      "language" : "JSON",
+      "partOfTotalProcessingTime" : {
+        "part" : 139746376,
+        "total" : 21938154808
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 13817009686,
+        "total" : 13695497810
+      },
+      "totalNumberOfFiles" : 14,
+      "totalFilesSize" : 430210,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 430210,
+        "totalCpuTime" : 139746376
+      }
+    }, {
+      "language" : "HTML",
+      "partOfTotalProcessingTime" : {
+        "part" : 135234752,
+        "total" : 21938154808
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 13728960643,
+        "total" : 13695497810
+      },
+      "totalNumberOfFiles" : 2,
+      "totalFilesSize" : 181791,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 181791,
+        "totalCpuTime" : 135234752
+      }
+    }, {
+      "language" : "textmate",
+      "partOfTotalProcessingTime" : {
+        "part" : 76513878,
+        "total" : 21938154808
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 13747761560,
+        "total" : 13695497810
+      },
+      "totalNumberOfFiles" : 10,
+      "totalFilesSize" : 194047,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 194047,
+        "totalCpuTime" : 76513878
+      }
+    }, {
+      "language" : "Shell Script",
+      "partOfTotalProcessingTime" : {
+        "part" : 49124205,
+        "total" : 21938154808
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 13718942185,
+        "total" : 13695497810
+      },
+      "totalNumberOfFiles" : 4,
+      "totalFilesSize" : 25467,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 25467,
+        "totalCpuTime" : 49124205
+      }
+    }, {
+      "language" : "DTD",
+      "partOfTotalProcessingTime" : {
+        "part" : 29543500,
+        "total" : 21938154808
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 13724483976,
+        "total" : 13695497810
+      },
+      "totalNumberOfFiles" : 1,
+      "totalFilesSize" : 68,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 68,
+        "totalCpuTime" : 29543500
+      }
+    }, {
+      "language" : "ReST",
+      "partOfTotalProcessingTime" : {
+        "part" : 9327167,
+        "total" : 21938154808
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 13704327060,
+        "total" : 13695497810
+      },
+      "totalNumberOfFiles" : 1,
+      "totalFilesSize" : 9561,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 9561,
+        "totalCpuTime" : 9327167
+      }
+    }, {
+      "language" : "GitIgnore",
+      "partOfTotalProcessingTime" : {
+        "part" : 2668875,
+        "total" : 21938154808
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 13697956310,
+        "total" : 13695497810
+      },
+      "totalNumberOfFiles" : 1,
+      "totalFilesSize" : 47,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 47,
+        "totalCpuTime" : 2668875
+      }
+    }, {
+      "language" : "IgnoreLang",
+      "partOfTotalProcessingTime" : {
+        "part" : 2668875,
+        "total" : 21938154808
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 13697956310,
+        "total" : 13695497810
+      },
+      "totalNumberOfFiles" : 1,
+      "totalFilesSize" : 47,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 47,
+        "totalCpuTime" : 2668875
+      }
+    } ],
+    "totalStatsPerIndexer" : [ {
+      "indexId" : "Trigram.Index",
+      "partOfTotalIndexingTime" : {
+        "part" : 4847966439,
+        "total" : 5750112009
+      },
+      "totalNumberOfFiles" : 5117,
+      "totalNumberOfFilesIndexedByExtensions" : 4975,
+      "totalFilesSize" : 17042069,
+      "indexValueChangerEvaluationSpeed" : {
+        "totalBytes" : 17042069,
+        "totalCpuTime" : 4847966439
+      }
+    }, {
+      "indexId" : "Stubs",
+      "partOfTotalIndexingTime" : {
+        "part" : 649515859,
+        "total" : 5750112009
+      },
+      "totalNumberOfFiles" : 4415,
+      "totalNumberOfFilesIndexedByExtensions" : 4328,
+      "totalFilesSize" : 10955544,
+      "indexValueChangerEvaluationSpeed" : {
+        "totalBytes" : 10955544,
+        "totalCpuTime" : 649515859
+      }
+    }, {
+      "indexId" : "IdIndex",
+      "partOfTotalIndexingTime" : {
+        "part" : 190358002,
+        "total" : 5750112009
+      },
+      "totalNumberOfFiles" : 5115,
+      "totalNumberOfFilesIndexedByExtensions" : 4973,
+      "totalFilesSize" : 17042069,
+      "indexValueChangerEvaluationSpeed" : {
+        "totalBytes" : 17042069,
+        "totalCpuTime" : 190358002
+      }
+    }, {
+      "indexId" : "fileIncludes",
+      "partOfTotalIndexingTime" : {
+        "part" : 38824666,
+        "total" : 5750112009
+      },
+      "totalNumberOfFiles" : 57,
+      "totalNumberOfFilesIndexedByExtensions" : 4,
+      "totalFilesSize" : 14857,
+      "indexValueChangerEvaluationSpeed" : {
+        "totalBytes" : 14857,
+        "totalCpuTime" : 38824666
+      }
+    }, {
+      "indexId" : "html5.custom.attributes.index",
+      "partOfTotalIndexingTime" : {
+        "part" : 13508333,
+        "total" : 5750112009
+      },
+      "totalNumberOfFiles" : 2,
+      "totalNumberOfFilesIndexedByExtensions" : 1,
+      "totalFilesSize" : 181791,
+      "indexValueChangerEvaluationSpeed" : {
+        "totalBytes" : 181791,
+        "totalCpuTime" : 13508333
+      }
+    }, {
+      "indexId" : "DomFileIndex",
+      "partOfTotalIndexingTime" : {
+        "part" : 8055837,
+        "total" : 5750112009
+      },
+      "totalNumberOfFiles" : 57,
+      "totalNumberOfFilesIndexedByExtensions" : 4,
+      "totalFilesSize" : 14857,
+      "indexValueChangerEvaluationSpeed" : {
+        "totalBytes" : 14857,
+        "totalCpuTime" : 8055837
+      }
+    }, {
+      "indexId" : "json.file.root.values",
+      "partOfTotalIndexingTime" : {
+        "part" : 664957,
+        "total" : 5750112009
+      },
+      "totalNumberOfFiles" : 14,
+      "totalNumberOfFilesIndexedByExtensions" : 11,
+      "totalFilesSize" : 430210,
+      "indexValueChangerEvaluationSpeed" : {
+        "totalBytes" : 430210,
+        "totalCpuTime" : 664957
+      }
+    }, {
+      "indexId" : "xmlProperties",
+      "partOfTotalIndexingTime" : {
+        "part" : 615749,
+        "total" : 5750112009
+      },
+      "totalNumberOfFiles" : 56,
+      "totalNumberOfFilesIndexedByExtensions" : 4,
+      "totalFilesSize" : 14704,
+      "indexValueChangerEvaluationSpeed" : {
+        "totalBytes" : 14704,
+        "totalCpuTime" : 615749
+      }
+    }, {
+      "indexId" : "RelaxSymbolIndex",
+      "partOfTotalIndexingTime" : {
+        "part" : 602167,
+        "total" : 5750112009
+      },
+      "totalNumberOfFiles" : 57,
+      "totalNumberOfFilesIndexedByExtensions" : 4,
+      "totalFilesSize" : 14857,
+      "indexValueChangerEvaluationSpeed" : {
+        "totalBytes" : 14857,
+        "totalCpuTime" : 602167
+      }
+    } ],
+    "statisticsOfChangedDuringIndexingFiles" : {
+      "numberOfFiles" : 1,
+      "retrievingTime" : 172042
+    },
+    "fileProviderStatistics" : [ {
+      "providerName" : "Python SDK Python 3.12 (pythonProject) /Users/liuhaiyun/PycharmProjects/pythonProject/.venv/bin/python",
+      "totalNumberOfIndexedFiles" : 5117,
+      "totalNumberOfFilesFullyIndexedByExtensions" : 4975,
+      "totalNumberOfNothingToWriteFiles" : 0,
+      "totalIndexingVisibleTime" : 6007991289,
+      "contentLoadingVisibleTime" : 3519482529,
+      "numberOfTooLargeForIndexingFiles" : 0,
+      "slowIndexedFiles" : [ {
+        "fileName" : "postprocessors.pyi",
+        "processingTime" : 1232369876,
+        "evaluationOfIndexValueChangerTime" : 31411375,
+        "contentLoadingTime" : 22008625
+      } ],
+      "filesFullyIndexedByExtensions" : [ ],
+      "separateApplyingIndexesVisibleTime" : 615819574
+    }, {
+      "providerName" : "Python SDK Python 3.12 (pythonProject) /Users/liuhaiyun/PycharmProjects/pythonProject/.venv/bin/python",
+      "totalNumberOfIndexedFiles" : 1594,
+      "totalNumberOfFilesFullyIndexedByExtensions" : 0,
+      "totalNumberOfNothingToWriteFiles" : 1594,
+      "totalIndexingVisibleTime" : 653589460,
+      "contentLoadingVisibleTime" : 638952226,
+      "numberOfTooLargeForIndexingFiles" : 0,
+      "slowIndexedFiles" : [ ],
+      "filesFullyIndexedByExtensions" : [ ],
+      "separateApplyingIndexesVisibleTime" : 326401
+    }, {
+      "providerName" : "Refreshed files",
+      "totalNumberOfIndexedFiles" : 1,
+      "totalNumberOfFilesFullyIndexedByExtensions" : 0,
+      "totalNumberOfNothingToWriteFiles" : 1,
+      "totalIndexingVisibleTime" : 3297167,
+      "contentLoadingVisibleTime" : 3037266,
+      "numberOfTooLargeForIndexingFiles" : 0,
+      "slowIndexedFiles" : [ ],
+      "filesFullyIndexedByExtensions" : [ ],
+      "separateApplyingIndexesVisibleTime" : 4993
+    } ],
+    "visibleTimeToAllThreadTimeRatio" : 1.235414547327994
+  }
+}

@@ -1,0 +1,6 @@
+<options>
+  <configurable id="fileTemplates" configurable_name="File and Code Templates">
+    <option name="cmakelists" hit="qt.CMakeLists" />
+    <option name="qt" hit="qt.CMakeLists" />
+  </configurable>
+</options>

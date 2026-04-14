@@ -1,0 +1,22 @@
+<idea-plugin>
+    <id>com.ji.aichat</id>
+    <name>AI Chat Assistant</name>
+    <version>1.0.0</version>
+    <vendor email="your@email.com" url="https://github.com/ji">Ji</vendor>
+
+    <description><![CDATA[
+        An AI-powered chat assistant for PyCharm.
+        Ask questions about your code and get instant answers.
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow
+            id="AI Chat"
+            anchor="right"
+            factoryClass="com.ji.aichat.ChatToolWindowFactory"
+            icon="AllIcons.Actions.Find"
+        />
+    </extensions>
+</idea-plugin>

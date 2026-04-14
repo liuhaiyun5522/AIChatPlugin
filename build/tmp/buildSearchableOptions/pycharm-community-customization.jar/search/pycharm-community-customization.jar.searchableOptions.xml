@@ -1,0 +1,114 @@
+<options>
+  <configurable id="preferences.keymap" configurable_name="Keymap">
+    <option name="ai" path="ActionManager" hit="AI Completion" />
+    <option name="completion" path="ActionManager" hit="AI Completion" />
+    <option name="a" path="ActionManager" hit="Create a new project" />
+    <option name="create" path="ActionManager" hit="Create a new project" />
+    <option name="new" path="ActionManager" hit="Create a new project" />
+    <option name="project" path="ActionManager" hit="Create a new project" />
+    <option name="a" path="ActionManager" hit="Create a new project." />
+    <option name="create" path="ActionManager" hit="Create a new project." />
+    <option name="new" path="ActionManager" hit="Create a new project." />
+    <option name="project" path="ActionManager" hit="Create a new project." />
+    <option name="dataframes" path="ActionManager" hit="DataFrames" />
+    <option name="endpoints" path="ActionManager" hit="Endpoints" />
+    <option name="file" path="ActionManager" hit="JavaScript File" />
+    <option name="javascript" path="ActionManager" hit="JavaScript File" />
+    <option name="jupyter" path="ActionManager" hit="Jupyter Notebook" />
+    <option name="notebook" path="ActionManager" hit="Jupyter Notebook" />
+    <option name="new" path="ActionManager" hit="New Project" />
+    <option name="project" path="ActionManager" hit="New Project" />
+    <option name="new" path="ActionManager" hit="New Project..." />
+    <option name="project" path="ActionManager" hit="New Project..." />
+    <option name="plots" path="ActionManager" hit="Plots" />
+    <option name="docker" path="ActionManager" hit="Run in Docker" />
+    <option name="in" path="ActionManager" hit="Run in Docker" />
+    <option name="run" path="ActionManager" hit="Run in Docker" />
+    <option name="file" path="ActionManager" hit="SQL File" />
+    <option name="sql" path="ActionManager" hit="SQL File" />
+    <option name="interpreter" path="ActionManager" hit="Switch Python Interpreter" />
+    <option name="python" path="ActionManager" hit="Switch Python Interpreter" />
+    <option name="switch" path="ActionManager" hit="Switch Python Interpreter" />
+    <option name="file" path="ActionManager" hit="TypeScript File" />
+    <option name="typescript" path="ActionManager" hit="TypeScript File" />
+  </configurable>
+  <configurable id="promo.database" configurable_name="Database">
+    <option name="database" hit="Database" />
+    <option name="get" hit="Get PyCharm Professional" />
+    <option name="professional" hit="Get PyCharm Professional" />
+    <option name="pycharm" hit="Get PyCharm Professional" />
+    <option name="professional" hit="Upgrade to PyCharm Professional" />
+    <option name="pycharm" hit="Upgrade to PyCharm Professional" />
+    <option name="to" hit="Upgrade to PyCharm Professional" />
+    <option name="upgrade" hit="Upgrade to PyCharm Professional" />
+  </configurable>
+  <configurable id="promo.javascript" configurable_name="JavaScript">
+    <option name="get" hit="Get PyCharm Professional" />
+    <option name="professional" hit="Get PyCharm Professional" />
+    <option name="pycharm" hit="Get PyCharm Professional" />
+    <option name="javascript" hit="JavaScript" />
+    <option name="professional" hit="Upgrade to PyCharm Professional" />
+    <option name="pycharm" hit="Upgrade to PyCharm Professional" />
+    <option name="to" hit="Upgrade to PyCharm Professional" />
+    <option name="upgrade" hit="Upgrade to PyCharm Professional" />
+  </configurable>
+  <configurable id="promo.typescript" configurable_name="TypeScript">
+    <option name="get" hit="Get PyCharm Professional" />
+    <option name="professional" hit="Get PyCharm Professional" />
+    <option name="pycharm" hit="Get PyCharm Professional" />
+    <option name="typescript" hit="TypeScript" />
+    <option name="professional" hit="Upgrade to PyCharm Professional" />
+    <option name="pycharm" hit="Upgrade to PyCharm Professional" />
+    <option name="to" hit="Upgrade to PyCharm Professional" />
+    <option name="upgrade" hit="Upgrade to PyCharm Professional" />
+  </configurable>
+  <configurable id="promo.django" configurable_name="Django">
+    <option name="django" hit="Django" />
+    <option name="get" hit="Get PyCharm Professional" />
+    <option name="professional" hit="Get PyCharm Professional" />
+    <option name="pycharm" hit="Get PyCharm Professional" />
+    <option name="professional" hit="Upgrade to PyCharm Professional" />
+    <option name="pycharm" hit="Upgrade to PyCharm Professional" />
+    <option name="to" hit="Upgrade to PyCharm Professional" />
+    <option name="upgrade" hit="Upgrade to PyCharm Professional" />
+  </configurable>
+  <configurable id="promo.remoteSsh" configurable_name="Remote SSH">
+    <option name="get" hit="Get PyCharm Professional" />
+    <option name="professional" hit="Get PyCharm Professional" />
+    <option name="pycharm" hit="Get PyCharm Professional" />
+    <option name="remote" hit="Remote SSH" />
+    <option name="ssh" hit="Remote SSH" />
+    <option name="professional" hit="Upgrade to PyCharm Professional" />
+    <option name="pycharm" hit="Upgrade to PyCharm Professional" />
+    <option name="to" hit="Upgrade to PyCharm Professional" />
+    <option name="upgrade" hit="Upgrade to PyCharm Professional" />
+  </configurable>
+  <configurable id="promo.jupyter" configurable_name="Jupyter">
+    <option name="get" hit="Get PyCharm Professional" />
+    <option name="professional" hit="Get PyCharm Professional" />
+    <option name="pycharm" hit="Get PyCharm Professional" />
+    <option name="jupyter" hit="Jupyter" />
+    <option name="professional" hit="Upgrade to PyCharm Professional" />
+    <option name="pycharm" hit="Upgrade to PyCharm Professional" />
+    <option name="to" hit="Upgrade to PyCharm Professional" />
+    <option name="upgrade" hit="Upgrade to PyCharm Professional" />
+  </configurable>
+  <configurable id="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" configurable_name="Python Interpreter">
+    <option name="add" hit="Add Interpreter" />
+    <option name="interpreter" hit="Add Interpreter" />
+    <option name="interpreter" hit="Python Interpreter" />
+    <option name="python" hit="Python Interpreter" />
+    <option name="interpreter" hit="Python Interpreter:" />
+    <option name="python" hit="Python Interpreter:" />
+    <option name="in" hit="Try the redesigned packaging support in Python Packages tool window." />
+    <option name="packages" hit="Try the redesigned packaging support in Python Packages tool window." />
+    <option name="packaging" hit="Try the redesigned packaging support in Python Packages tool window." />
+    <option name="python" hit="Try the redesigned packaging support in Python Packages tool window." />
+    <option name="redesigned" hit="Try the redesigned packaging support in Python Packages tool window." />
+    <option name="support" hit="Try the redesigned packaging support in Python Packages tool window." />
+    <option name="the" hit="Try the redesigned packaging support in Python Packages tool window." />
+    <option name="tool" hit="Try the redesigned packaging support in Python Packages tool window." />
+    <option name="try" hit="Try the redesigned packaging support in Python Packages tool window." />
+    <option name="window" hit="Try the redesigned packaging support in Python Packages tool window." />
+  </configurable>
+</options>

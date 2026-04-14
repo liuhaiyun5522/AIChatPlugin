@@ -1,0 +1,9 @@
+<options>
+  <configurable id="IntelliLang.Configuration" configurable_name="Language Injections">
+    <option name="injections" hit="Language Injections" />
+    <option name="language" hit="Language Injections" />
+    <option name="configured" hit="no injections configured" />
+    <option name="injections" hit="no injections configured" />
+    <option name="no" hit="no injections configured" />
+  </configurable>
+</options>

@@ -1,0 +1,394 @@
+ummy
+connectionpython-configcheck_finditer
+check_taskcheck_tk_compatcheck_choicescheck_filterscheck_widgetscheck_validatorscheck_greenletcheck_base_descriptorscheck_nested_descriptorscheck_connectcheck_extensions
+check_postcheck_protocolscheck_relativedelta_curses_panel	_datetime
+_lsprof_md5_lzma_xxinterpchannels
+_struct	_queue
+_codecs_hk_testinternalcapi_ctypes_test_testimportmultiple_testclinic_hashlib_multiprocessing_sha1	_crypt_contextvars_uuid
+_opcode_multibytecodec
+_codecs_jp_testsinglephase_asyncio_bz2
+_codecs_cn
+_codecs_kr_statistics_tkinter_elementtree_sha2
+_pickle_posixshmem
+_bisect_testbuffer_posixsubprocess_sqlite3
+_blake2
+_curses_testmultiphase
+_socket_json_scproxy	_heapq_dbm_codecs_iso2022_sha3
+_codecs_tw
+_ctypes
+_random_ssl_csv_decimalNullTpDocType!_test_structmembersType_NewAPIMethodDescriptorNopGet!HeapCTypeSubclassWithFinalizer	awaitTypeinstancemethodHeapCTypeSetattrerrorMethodDescriptorBase
+testBuf!_test_structmembersType_OldAPIObjExtraDataHeapDocCType
+GenericGenericAliasHeapGcCTypeHeapCTypeMetaclassCustomNewHeapCTypeMetaclassNullNewHeapCTypeWithDict2HeapCTypeWithNegativeDictHeapCTypeWithBufferHeapCTypeWithDictContainerNoGCHeapCCollectionMethodDescriptorDerivedHeapCTypeWithWeakref2HeapCTypeSubclassHeapCTypeMetaclassMethodDescriptor2LimitedVectorCallClass
+matmulTypeHeapCTypeWithManagedWeakrefipowTypeRecursingInfinitelyError	_testcapi	MethClassMethInstanceHeapCTypeWithWeakrefHeapCTypeWithManagedDict	MyList
+MethStaticxxlimited_35
+audioopmmapnis	syslogunicodedataarray	xxlimitedbinasciiresourcefcntl_xxtestfuzz	selectgrp	_zoneinfomath_xxsubinterpretersreadlinecmath
+termios	xxsubtypezlib	errorsmodel
+pyexpatbase_commandmain_parserstatus_codesmainprogress_barsspinnersreq_commandconstructorsreq_uninstallreq_install
+req_setreqreq_file
+subversionversioncontrol	mercurial	bazaarvcsgit	collectorpackage_finder
+sourcesindexinject_securetransport_log	unpackingglibc
+appdirswheel
+virtualenv	models
+filesystemdirect_url_helpers
+logging
+subprocessencodingdatetimedeprecationsetuptools_build	hashes	compategg_linkmiscutils	packaging_jaraco_text	filetypesentrypointsurlscompatibility_tagstemp_dirindexinstallation_reportsearch_scope
+direct_url	modelsformat_controlselection_prefstarget_pythonlink	candidate	schemewheeldownload
+lazy_wheelcache
+networkutils
+session	xmlrpcauth
+completionindexcachecheckhelp
+inspectshow	freezeconfigurationwheeldownloadlist	uninstall	search
+installdebugcommandshash_jsonbasemetadatapkg_resources_envs	_dists	importlib
+_compat
+_distutilsbase	locations
+_sysconfig	freezecheck
+operations
+preparebuild_trackerwheel_legacymetadata_legacybuildwheel_editablemetadatametadata_editablewheeleditable_legacy
+installwheel
+resolutionbaseresolver	legacyfound_candidatesprovider
+candidates
+resolvelibreporter
+factoryrequirementsresolverbasebase	installedsdistdistributionswheel
+_parserre_casefix	_compiler
+_constantsgnudumbndbmdbm	domreg
+minidom
+pulldomdom
+minicompat
+NodeFilter
+xmlbuilderexpatbuilder
+handlersaxsaxutils	xmlreader_exceptionsexpatreaderetreeElementPathElementTreecElementTreeElementIncludeexpat
+parsersxml	parserhtmlentities	client	server
+cookieshttp	cookiejartool
+decoder
+encoder
+scannerjson
+leakerstest_ctypestest_selftypesmtpd
+supportasynchatasyncoretestcase	os_helper
+ast_helper
+pty_helperinterpretersimport_helperscript_helpersocket_helper_hypothesis_stubs_helpers
+strategieshashlib_helperlogging_helperbytecode_helperwarnings_helperthreading_helperhypothesis_helpermake_ssl_certsgc_inspectionbogus_code_objrecursive_callunderlying_dictinfinite_loop_remutation_inside_cyclegctrace_at_recursion_limitutiltest_gdb	test_misc
+gdb_sampletest_backtracetest_cfunctiontest_pretty_printtest_cfunction_fulltest_ttk__main__
+test_styletest_widgetstest_extensions	reperf	test_capi__main__test_memtest_runtest_settest_sys	test_dict	test_list	test_long	test_misc
+test_bytes
+test_floattest_codecscheck_configtest_complextest_getargstest_unicodetest_abstracttest_immortaltest_watcherstest_bytearraytest_exceptionstest_eval_code_extest_structmembers	test_json__main__	test_dump	test_enum	test_fail	test_tool
+test_float
+test_pass1
+test_pass2
+test_pass3test_decodetest_indenttest_defaulttest_unicodetest_speedupstest_recursiontest_scanstringtest_separatorstest_encode_basestring_asciigclineinstance
+call_stackmanifestmetadata	resourcesext
+msgpackfallback
+exceptions
+connectionpoolmanager
+exceptionsconnectionpoolresponsefilepost_version	fields_collections
+urllib3
+requestssl_match_hostnamessltransport
+connectionresponsewaiturlssl_proxyutil
+request
+timeoutqueuesocks
+contribntlmpoolretry	appengine_appengine_environ	pyopensslsecuretransport_securetransport	low_levelpackagesbindings	backportsweakref_finalizemakefilecoloramaansiwin32
+wintermsixansitowin32initialise_testwinterm_test
+initialiseisatty_testtestsutils	ansi_testansitowin32_testmodeline	filterregexoptlexer	plugin	formatter	sphinxext
+consoletokenutilpygmentsstyle
+cmdline
+scanner	unistring__main__	lexers	python	styles_mapping
+filters_mappinghtmllatexrtfpangomarkup	bbcodeimgsvgterminal256
+formattersterminalotherpackages
+structuresstatus_codeshooks
+exceptionsgroffhelpirc	compatapiutils_internal_utilscertsrequests__version__	modelsadapterssessions
+cookiesauthafterwait	_utils_asynciotenacityretrybefore_sleepstop	beforenap
+tornadoweb
+markers	packaging
+versionrequirementsutils
+_manylinux
+_musllinux	__about__tags
+actions
+resultsutil	pyparsing
+exceptions_structures
+specifiers
+unicode
+testingcore	common
+helpers
+diagram
+test_email__main__
+test_email
+test_utilstest_parsertest_policytest_messagetorture_testtest_generatortest_inversiontest_pickleabletest_asian_codecstest__encoded_wordstest_contentmanagertest_headerregistrytest_defect_handlingtest__header_value_parser
+test_gc
+test_io
+test_os
+test_pydoc	pydoc_mod
+test_pydocpydocfodder
+test_re
+test_tools
+structs__main__	test_i18ntest_freezetest_sundrytest_makefiletest_reindent
+test_uutest__main__autotestpgomaintsansetuputils	filter	logger	result	single	worker
+cmdline
+refleak
+resultslibregrtestruntestssave_env	findtests	win_utils
+testresultrun_workersprofileere_testsregrtestsslteststest_abctest_asttest_bdbtest_bz2test_cgitest_cmdsetuptest_cppexttest_csvtest_ctypes__main__	test_anon	test_cast	test_find	test_init	test_libc	test_repr
+test_bytes
+test_errno
+test_sizes
+test_win32test_arraystest_cfuncstest_valuestest_bufferstest_delattrtest_funcptrtest_loadingtest_numberstest_objectstest_pep3118test_slicingtest_stringstest_unicodetest_byteswaptest_keeprefstest_macholibtest_picklingtest_pointerstest_wintypestest_bitfieldstest_callbackstest_functionstest_internalstest_refcountstest_stringptrtest_frombuffertest_incompletetest_parameterstest_prototypestest_python_apitest_structurestest_checkretvaltest_as_parametertest_memfunctionstest_random_thingstest_struct_fieldstest_returnfuncptrstest_varsize_structtest_array_in_pointertest_simplesubclassestest_unaligned_structurestest_dbmtest_distest_eoftest_grp
+package	submodule
+submodule1
+submodule2package3	submodulepackage4	submodulex
+unwritabledouble_constutilsubpackage2usechild	parent
+subpkg2utilbasic	basic2	source
+bindingbinding2indirect	rebinding
+rebinding2
+subpackagefrom_cycle1from_cycle2test_import__main__test_int
+final_a
+final_btest_modulebad_getattrbad_getattr2bad_getattr3good_getattrtest_nistest_pdbtest_pkgtest_powtest_ptytest_pwdtest_saxtest_settest_ssltest_systest_tcltest_tixtest_ttytest_ucntest_wmi
+resolvelib	providers	reporters	compatfilewrappercollections_abc
+heuristics
+adaptercachecachecontrol
+controller
+wrapper_cmd	compat	resolversredis_cache	serialize	caches
+file_cache
+versionplatformdirs
+androidmacos
+windowsapimklabelsx_user_definedxmltestsunix__main__	labelstestswebencodingspyproject_hooks
+_compat_impl_in_process_in_processcache	pyproject
+exceptionswheel_buildermaintestdata_module_inside_zipconfiguration	_internal	build_envself_outdated_checkautocompletion	fork_waitutiltest_regrtest_btest_regrtest_atest_regrtest_c	relimport	seq_tests	test_aifcechoecho2echo3utilstest_asyncio__main__test_ssl
+functional
+test_locks
+test_taskstest_eventstest_pep492test_queuestest_servertest_contexttest_futurestest_runnerstest_streamstest_threadstest_waitfortest_futures2test_sendfiletest_sslprototest_timeoutstest_protocolstest_subprocesstest_taskgroupstest_transportstest_base_eventstest_unix_eventstest_sock_lowleveltest_windows_utilstest_buffered_prototest_windows_eventstest_proactor_eventstest_selector_eventstest_eager_task_factory	test_bool	test_call	test_code	test_copy	test_dicttest_doctesttest_doctestdecorator_modtest_doctest2doctest_linenosample_doctestdoctest_aliasessample_doctest_no_doctestssample_doctest_no_docstrings	test_enum	test_file	test_glob	test_gzip	test_hash	test_hmac	test_html	test_idletest_inspecttest_inspectinspect_fodderinspect_fodder2inspect_stock_annotations!inspect_stringized_annotations# inspect_stringized_annotations_2	test_iterbom
+myfixesfix_last	fix_first
+fix_parrotfix_explicitfix_preorder	bad_orderno_fixer_clsparrot_example
+cmdoptionspkg_resourcescrlffalse_encodingpy2_test_grammarpy3_test_grammardifferent_encodinginfinite_recursion
+supporttest_lib2to3__main__	test_main	test_utiltest_fixerstest_parsertest_pytreetest_refactortest_all_fixerspytree_idempotency	test_list	test_long	test_lzma	test_math	test_mmap	test_poll	test_repl	test_site	test_sort	test_spwdtest_sqlite3__main__test_cli	test_dump
+test_dbapi
+test_hooks
+test_typestest_backuptest_factorytest_regressiontest_transactionstest_userfunctions	test_stat	test_time
+supporttest_tkinter__main__	test_font	test_misc	test_texttest_imagestest_loadtktest_widgetswidget_teststest_variablestest_messageboxtest_colorchoosertest_simpledialogtest_geometry_managerstest_tomllib__main__	test_data	test_misc
+burntsushi
+test_error	test_uuid	test_venv	test_wave	test_with_path_support	test_path
+_functools
+_itertools_test_paramswrite-alphareptest_complexitytest_zipfile__main__	test_core	test_zlib	testcodectokenizedata
+bad_codingbad_coding2coding20731badsyntax_3131
+audiotests
+bisect_cmd
+dis_module
+list_tests
+lock_tests
+mp_preload
+pythoninfo
+test_array
+test_audit
+test_binop
+test_bufio
+test_bytes
+test_cgitb
+test_class
+test_cmath
+test_crypt
+test_deque
+test_descr
+test_eintr
+test_embed
+test_epoll
+test_errno
+test_fcntl
+test_float
+test_flufl
+test_fork1
+test_frame
+test_heapq
+test_index
+test_ioctl
+test_netrc
+test_patma
+test_pipes
+test_popen
+test_posix
+test_print
+test_queue
+test_raise
+test_range
+test_runpy
+test_sched
+test_scope
+test_shlex
+test_slice
+test_sunau
+test_super
+test_trace
+test_tuple
+test_types
+test_unarydummy
+supporttestmock__main__testmocktestwith	testasync	testpatchtesthelperstestcallabletestsealabletestsentineltestmagicmethods
+supporttest_unittest__main__	test_case
+test_break
+test_suitetest_loadertest_resulttest_runnertest_setupstest_programtest_skipping_test_warningstest_discoverytest_assertionstest_async_casetest_functiontestcase
+test_wait3
+test_wait4
+stacklevelimport_warningpackage_helpertest_warnings__main__update_test_datatest_zoneinfo__main___supporttest_zoneinfotest_zoneinfo_property
+testmodtracedmodulestypinganndata
+ann_moduleann_module2ann_module3ann_module4ann_module5ann_module6ann_module7ann_module8ann_module9ann_module695_typed_dict_helpermod_generics_cache_test_eintraudit-testsmock_socketssl_serversqcatqgrep	fd_statusinput_readersigchild_ignoretest_atexittest_base64test_bigmemtest_bisecttest_buffertest_clinictest_codecstest_codeoptest_cursestest_dtracetest_fileiotest_formattest_frozentest_ftplibtest_getopttest_globaltest_imghdrdataabc	frozen__main__test_findertest_loader	source__main__test_findertest_path_hooktest_file_loadertest_source_encodingtest_case_sensitivity
+builtin__main__test_findertest_loader
+import___main__test_api	test_pathtest_cachingtest_helperstest_fromlisttest_packagestest_meta_pathtest___loader__test___package__test_relative_importscfimportpool_in_threadsutil_pathstubs	extension__main__test_findertest_loadertest_path_hooktest_case_sensitivity	data01subdirectoryonetwo	data02portion1portion2	data03util_path	zipdata01	zipdata02	resources	test_open	test_path	test_read
+test_filestest_customtest_readerupdate-zipstest_contentstest_resourcetest_compatibilty_filestest_importlib__main___contextfixturestest_abctest_apitest_zip	test_lazy	test_main	test_spec	test_util
+test_locksonetwoonetwothreeonetwoonefoo	a_testtest_windowstest_pkg_importtest_metadata_apitest_namespace_pkgstest_threaded_importthreaded_import_hangerstest_kqueuetest_localetest_msilibtest_ntpathtest_pickletest_poplibtest_pprinttest_pstatstest_pyclbrtest_quopritest_randomtest_selecttest_shelvetest_shutiltest_signaltest_sndhdrtest_sockettest_stringtest_strtodtest_structtest_sundrytest_syntaxtest_syslogtest_threadtest_timeittest_turtletest_typingtest_unpacktest_urllibtest_winapitest_winregtest_xdrlibtest_xmlrpctest_zipapp_test_atexitcurses_testsStringIO	cStringIO	behave
+alembiccopy	structtabnanny
+mailcapuuid
+difflib	poplib	telnetlib
+_py_abc	selectorspickletoolsnetrcsre_compile
+decimal_osx_support	linecache
+compilealldataclassestypes_aix_support
+weakref
+stringprep	_strptime	ipaddress
+tarfileosstat
+webbrowser	typingtextwrap
+gettextconfigparserabc_pyiotokenizecontextvarscolorsyslzmassl	sre_parse
+keyword	pprint	posixpath	mimetypescProfilepydoc	ftplib	threadingantigravity	socket	sysconfigrunpyrlcompleterheapqiouuqueue	localesre_constants	shutiltrace
+hashliboptparse
+mailbox
+inspectcsv	fileinput	codecs	imghdr_weakrefsetsunaucode
+filecmpoperator	fractionsdis_sitebuiltins
+contextlibgzip
+_pylongtracemallocbdb	turtleshlex	tracebacksched_pydatetime
+pkgutilpipes_compat_pickle
+pathlibtty
+numbers _sysconfigdata__darwin_darwin	signal	pstats	string
+getpass
+_pydecimal_collections_abc
+reprlibtokenplatformgraphlib
+statisticsglob	structsymtable
+smtplib	sndhdr
+nturl2path
+imaplibchunkcalendarargparseenum	getoptsite	base64	zipimportgenericpathpdb	quopri
+copyreg
+subprocess_threading_local	zipappcmdaifc
+fnmatch
+profilesocketserver	ntpathhmac	xdrlib	pyclbr
+nntplibtempfileencoded_modulesmodule_koi8_rmodule_iso_8859_1mp_fork_bombpickletesterpyclbr_inputstring_teststest___all__test__localetest__opcodetest_audiooptest_builtintest_comparetest_compiletest_complextest_contexttest_copyregtest_dbm_gnutest_decimaltest_devpolltest_difflibtest_dynamictest_extcalltest_filecmptest_fnmatchtest_fstringtest_genexpstest_getpasstest_getpathtest_gettexttest_grammartest_hashlibtest_httplibtest_imaplibtest_iterlentest_keywordtest_lltracetest_loggingtest_longexptest_mailboxtest_mailcaptest_marshaltest_minidomtest_nntplibtest_opcachetest_opcodestest_openptytest_osx_envtest_pathlibtest_pkgutiltest_profiletest_pulldomtest_pyexpattest_reprlibtest_richcmptest_secretstest_smtplibtest_smtpnettest_supporttest_tarfiletest_termiostest_timeouttest_unicodetest_unparsetest_urllib2test_weakreftest_weaksettest_wsgireftime_hashlibmapping_teststest_argparsetest_asyncgentest_binasciitest_calendartest_cmd_linetest_colorsystest_containstest_cprofiletest_crasherstest_dataclassesdataclass_module_1dataclass_module_2dataclass_textannodataclass_module_1_strdataclass_module_2_strtest_datetimetest_dbm_dumbtest_dbm_ndbmtest_descrtuttest_future_stmttest_futurefuture_test1future_test2badsyntax_future3badsyntax_future4badsyntax_future5badsyntax_future6badsyntax_future7badsyntax_future8badsyntax_future9test_future_flagsbadsyntax_future10test_future_single_importtest_future_multiple_imports test_future_multiple_featurestest_graphlibtest_launchertest_memoryiotest_operatortest_optparsetest_perfmapstest_platformtest_plistlibtest_propertytest_readlinetest_regrtesttest_resourcetest_setcompstest_strftimetest_strptimetest_symtabletest_tabnannytest_tempfiletest_textwraptest_tokenizetest_urlparsetest_userdicttest_userlisttest_winsoundarchiver_testsdatetimetestertest_augassigntest_dictcompstest_dictviewstest_docxmlrpctest_ensurepiptest_enumeratetest_fileinputtest_fileutilstest_fractionstest_funcattrstest_functoolstest_ipaddresstest_itertoolstest_largefiletest_linecachetest_listcompstest_metaclasstest_mimetypestest_peepholertest_posixpathtest_selectorstest_startfiletest_structseqtest_sysconfigtest_telnetlibtest_threadingtest_tracebacktest_unpack_extest_urllibnettest_utf8_modetest_xml_etreetest_xxlimitedtest_zipfile64test_zipimportmemory_watchdogtest_compilealltest_contextlibtest_coroutinestest_decoratorstest_exceptionstest_file_eintrtest_generatorstest_htmlparsertest_isinstancetest_memoryviewtest_monitoringtest_peg_generator__main__
+test_pegentest_c_parsertest_first_setstest_grammar_validatortest_py_compiletest_statisticstest_stringpreptest_subprocesstest_type_cachetest_typecheckstest_urllib2nettest_userstringtest_utf8sourcetest_webbrowsertest_xmlrpc_nettest_xxtestfuzztest_yield_fromtest_asdl_parsertest_code_moduletest_collectionstest_defaultdicttest_except_startest_genericpathtest_httpserverstest_int_literaltest_ossaudiodevtest_pickletoolstest_rlcompletertest_robotparsertest_tracemalloctest_type_paramstest_unicodedatatest_xml_etree_ctf_inherit_checkbadsyntax_pep3120test__osx_supporttest_bigaddrspacetest_charmapcodectest_codecmaps_cntest_codecmaps_hktest_codecmaps_jptest_codecmaps_krtest_codecmaps_twtest_configparsertest_dict_versiontest_faulthandlertest_finalizationtest_genericaliastest_genericclasstest_http_cookiestest_interpreterstest_modulefindertest_ordered_dicttest_picklebuffertest_socketservertest_subclassinittest_sys_settracetest_ttk_textonlytest_type_aliasestest_unicode_filetest_univnewlinestest_winconsoleioplistlibdatetimetest_baseexceptiontest_math_propertytest_numeric_towertest_pep646_syntaxtest_perf_profilertest_script_helpertest_threadsignalstest_type_commentstest_codeccallbackstest_generator_stoptest_http_cookiejartest_keywordonlyargtest_multibytecodectest_sys_setprofilewin_console_handlertest_cmd_line_scriptutiltest_concurrent_futuresexecutor	test_init	test_waittest_futuretest_deadlocktest_shutdowntest_thread_pooltest_as_completedtest_process_pooltest_exception_grouptest_source_encodingtest_string_literalstest_threading_localtest_urllib_response_test_embed_structseq_test_multiprocessingsignalinterproctestertest_abstract_numberstest_compiler_codegentest_contextlib_asynctest_threadedtempfiletest_type_annotationstest_urllib2_localnet_test_embed_set_configmultibytecodec_supporttest__xxinterpchannelstest_c_locale_coerciontest_codecencodings_cntest_codecencodings_hktest_codecencodings_jptest_codecencodings_krtest_codecencodings_twtest_compiler_assembletest_multiprocessing_fork	test_misctest_managertest_threadstest_processestest_named_expressionstest_stable_abi_ctypestest_zipimport_supporttest__xxsubinterpreterstest_multiprocessing_spawn	test_misctest_managertest_threadstest_processestest_xml_dom_minicompattest_exception_hierarchytest_positional_only_argtest_unicode_identifierstest_exception_variations_test_venv_multiprocessingtest_dynamicclassattributetest_codecencodings_iso2022test_unicode_file_functions"test_multiprocessing_forkserver	test_misctest_managertest_threadstest_processes%"test_multiprocessing_main_handlingwarningscgi_compressionptyvenv__main__basetextaudioimage
+messagemime	multipartapplicationnonmultipartutils	errors	header	parser	policy
+charset
+messageemailencoders	generator	iterators
+_parseaddr
+base64mime
+feedparser
+quoprimime_policybasewave_encoded_wordscontentmanagerheaderregistry_header_value_parserastbz2_aixutildylddylibmacholib	frameworkmodulefinder	pickle	bisect_markupbase
+_endian	ctypeswintypesasciipanel
+has_key
+textpad	curseserrorparse
+request	urllibresponserobotparser	client	server	xmlrpcloglockstasks	events	mixins	queues	trsock
+futures
+runners
+streams
+threads
+asyncio__main__sslprototimeouts	constants	protocols	staggered
+base_tasks
+coroutines
+exceptions
+subprocess
+taskgroups
+transportsbase_eventsunix_eventsbase_futureswindows_utilsformat_helperswindows_eventsbase_subprocessproactor_eventsselector_eventscopyrpcrungrephelpidletreeundoutilidlequery
+__future__	shelve	config	editor	formathtest
+mock_tk	idle_testtemplatetest_rpctest_run	mock_idle	test_grep	test_help	test_text	test_tree	test_undo	test_utilthis	randomexample_noext
+test_querytest_configtest_editortest_formattest_iomenutest_macosxtest_outwintest_searchtest_windowtest_browsertest_calltiptest_historytest_pyparsetest_pyshelltest_replacetest_sidebartest_tooltiptest_warningtest_zzdummytest_debuggertest_debugobjtest_editmenutest_filelisttest_mainmenutest_squeezertest_textviewtest_calltip_wtest_colorizertest_delegatortest_multicalltest_runscripttest_statusbartest_autoexpandtest_config_keytest_debugger_rtest_debugobj_rtest_help_abouttest_parenmatchtest_percolatortest_redirectortest_searchbasetest_zoomheighttest_codecontexttest_hyperparsertest_pathbrowsertest_stackviewertest_autocompletetest_configdialogtest_scrolledlisttest_searchenginetest_autocomplete_wtkinter_testing_utils	iomenu	macosx	outwin	search	window
+browser
+calltip
+history
+pyparse
+pyshell
+replace
+sidebar
+tooltip
+zzdummy
+idlelib__main__debuggerdebugobjfilelistmainmenusqueezertextview	calltip_w	colorizer	delegator	dynoption	multicall	runscript	statusbar
+autoexpand
+config_key
+debugger_r
+debugobj_r
+help_about
+parenmatch
+percolator
+redirector
+searchbase
+zoomheightcodecontexthyperparserpathbrowserstackviewerautocomplete	functoolscgitb	codeopconfigdialogscrolledlistsearchengineautocomplete_w	fix_ne
+fix_map
+fix_zip	opcodefixesfix_dictfix_execfix_longfix_nextfix_repr	fix_apply	fix_input	fix_paren	fix_print	fix_raise	fix_throw	fix_types
+fix_buffer
+fix_except
+fix_filter
+fix_future
+fix_idioms
+fix_import
+fix_intern
+fix_reduce
+fix_reload
+fix_urllib
+fix_xrangefix_assertsfix_getcwdufix_has_keyfix_importsfix_nonzerofix_renamesfix_sys_excfix_unicodefix_execfilefix_exitfuncfix_imports2fix_operatorfix_ws_commafix_funcattrsfix_itertoolsfix_metaclassfix_raw_inputfix_basestringfix_isinstancefix_xreadlinesfix_methodattrsfix_numliteralsfix_set_literalfix_tuple_paramsfix_standarderrorfix_itertools_importsconvpgenparsetoken	driver
+grammarpgen2literalstokenizemain	pygram	pytree
+patcomp
+lib2to3__main__refactor	btm_utils
+fixer_base
+fixer_utilbtm_matcher	__hello__crypt	config
+logginghandlersdump
+py_compile	dbapi2
+sqlite3__main__dndtixttkfont	dialog
+tkinter__main__	constants
+filedialog
+messageboxcolorchoosercommondialogscrolledtextsimpledialog_re	_types
+_parser
+tomllibutiltypes
+headers
+wsgirefhandlersvalidatesimple_serverglob_path
+zipfile__main___logcasemainmockutilsuite	loader	result	runner
+signalsunittest__main__
+async_case
+_common
+_tzpathzoneinfo	_zoneinfohzgbkoem
+secretsbig5idnambcsasciicp037cp273cp424cp437cp500cp720cp737cp775cp850cp852cp855cp856cp857cp858cp860cp861cp862cp863cp864cp865cp866cp869cp874cp875cp932cp949cp950johabutf_7utf_8	cp1006	cp1026	cp1125	cp1140	cp1250	cp1251	cp1252	cp1253	cp1254	cp1255	cp1256	cp1257	cp1258	euc_jp	euc_kr	gb2312	koi8_r	koi8_t	koi8_u	kz1048	palmos	rot_13	utf_16	utf_32
+aliases
+charmap
+gb18030
+latin_1
+ptcp154
+tis_620	encodingspunycodeuu_codec	big5hkscs	bz2_codec	hex_codec	hp_roman8	iso8859_1	iso8859_2	iso8859_3	iso8859_4	iso8859_5	iso8859_6	iso8859_7	iso8859_8	iso8859_9	mac_farsi	mac_greek	mac_roman	shift_jis	undefined	utf_16_be	utf_16_le	utf_32_be	utf_32_le	utf_8_sig
+iso2022_jp
+iso2022_kr
+iso8859_10
+iso8859_11
+iso8859_13
+iso8859_14
+iso8859_15
+iso8859_16
+mac_arabic
+mac_latin2
+zlib_codecmac_icelandmac_turkishbase64_codeceuc_jis_2004euc_jisx0213iso2022_jp_1iso2022_jp_2iso2022_jp_3mac_croatianmac_cyrillicmac_romanianquopri_codeciso2022_jp_extshift_jis_2004shift_jisx0213unicode_escapeiso2022_jp_2004raw_unicode_escape	timeit	ensurepip__main__
+_uninstallabc_abcutil_meta_textmetadata	_adapters
+_functools
+_itertools_collectionsabc	simple
+_common
+_legacy
+readers	resources	_adapters
+_itertools	simple
+readers	importlib	machinery
+_bootstrap_bootstrap_externalspam
+__phello___base	thread
+process
+futures
+concurrent
+doctest	topics
+pydoc_datanimtreechaosclockpaintpeace	forest
+penrose
+rosette
+yinyang
+turtledemo__main__
+bytedesign
+colormixerlindenmayerround_dancetwo_canvasesfractalcurvesminimal_hanoiplanet_and_moonsorting_animateabccollectionspyerrorpathnosetoolsnumpy
+multiarraycore	djangodbquery	modelscoremailformsets	modelsformsviews
+genericformsbase	pytest
+_pytestmark
+structures
+_functoolsgcpwd_ioposix	atexit	itertools	_tokenize
+_thread	_warnings_weakrefsys_sre	_symtable_ast_imp_statfaulthandler_tracemalloc_collectionstime	_operator
+_signal
+_locale
+_codecs
+_typingerrnobuiltins_abc
+_string
+marshal
